@@ -1,0 +1,3435 @@
+2017-02-09-19.22.50.007554+000 I431988370E679        LEVEL: Warning
+PID     : 21775                TID : 140195424888576 PROC : db2sysc 0
+INSTANCE: db2inst1             NODE : 000            DB   : MYDATABASE
+APPHDL  : 0-365                APPID: *LOCAL.db2inst1.170209192249
+AUTHID  : PANC                 HOSTNAME: remote.server.host.name
+EDUID   : 71                   EDUNAME: db2agent (MYDATABASE) 0
+FUNCTION: DB2 UDB, database utilities, sqluvtld_route_in, probe:922
+DATA #1 : LOADID, PD_TYPE_LOADID, 47 bytes
+LOADID: 71.2017-02-09-19.22.49.916676.0 (-1;-1)
+DATA #2 : String, 82 bytes
+Starting LOAD operation (Q) (5) (I) [DIABETES_V3_2.COMM_OUTPATIENT_SERVICES_T2DM].
+
+2017-02-09-19.22.50.190433+000 I431989050E571        LEVEL: Warning
+PID     : 21775                TID : 140195424888576 PROC : db2sysc 0
+INSTANCE: db2inst1             NODE : 000            DB   : MYDATABASE
+APPHDL  : 0-365                APPID: *LOCAL.db2inst1.170209192249
+AUTHID  : PANC                 HOSTNAME: remote.server.host.name
+EDUID   : 71                   EDUNAME: db2agent (MYDATABASE) 0
+FUNCTION: DB2 UDB, database utilities, DIAG_NOTE, probe:0
+DATA #1 : String, 75 bytes
+LOADID: 71.2017-02-09-19.22.49.916676.0 (2;146)
+CDE LOAD insert ranges 1, 3
+
+2017-02-09-19.22.50.202560+000 I431989622E597        LEVEL: Warning
+PID     : 21775                TID : 140195424888576 PROC : db2sysc 0
+INSTANCE: db2inst1             NODE : 000            DB   : MYDATABASE
+APPHDL  : 0-365                APPID: *LOCAL.db2inst1.170209192249
+AUTHID  : PANC                 HOSTNAME: remote.server.host.name
+EDUID   : 71                   EDUNAME: db2agent (MYDATABASE) 0
+FUNCTION: DB2 UDB, database utilities, DIAG_NOTE, probe:0
+DATA #1 : String, 100 bytes
+LOADID: 71.2017-02-09-19.22.49.916676.0 (2;146)
+CDE LOAD Analyze Phase sample frequency 100, 1000000
+
+2017-02-09-19.22.50.202883+000 I431990220E588        LEVEL: Warning
+PID     : 21775                TID : 140195424888576 PROC : db2sysc 0
+INSTANCE: db2inst1             NODE : 000            DB   : MYDATABASE
+APPHDL  : 0-365                APPID: *LOCAL.db2inst1.170209192249
+AUTHID  : PANC                 HOSTNAME: remote.server.host.name
+EDUID   : 71                   EDUNAME: db2agent (MYDATABASE) 0
+FUNCTION: DB2 UDB, database utilities, DIAG_NOTE, probe:0
+DATA #1 : String, 92 bytes
+LOADID: 71.2017-02-09-19.22.49.916676.0 (2;146)
+CDE LOAD Analyze Phase max size MB 131072, 0
+
+2017-02-09-19.22.51.930231+000 I431990809E565        LEVEL: Warning
+PID     : 21775                TID : 140155457365760 PROC : db2sysc 0
+INSTANCE: db2inst1             NODE : 000            DB   : MYDATABASE
+APPHDL  : 0-365                APPID: *LOCAL.db2inst1.170209192249
+AUTHID  : PANC                 HOSTNAME: remote.server.host.name
+EDUID   : 90                   EDUNAME: db2lcfm0 0
+FUNCTION: DB2 UDB, database utilities, DIAG_NOTE, probe:0
+DATA #1 : String, 78 bytes
+LOADID: 71.2017-02-09-19.22.49.916676.0 (2;146)
+Load CPU parallelism is: 26, 0
+
+2017-02-09-19.22.51.960611+000 I431991375E798        LEVEL: Info
+PID     : 21775                TID : 140195424888576 PROC : db2sysc 0
+INSTANCE: db2inst1             NODE : 000            DB   : MYDATABASE
+APPHDL  : 0-365                APPID: *LOCAL.db2inst1.170209192249
+AUTHID  : PANC                 HOSTNAME: remote.server.host.name
+EDUID   : 71                   EDUNAME: db2agent (MYDATABASE) 0
+FUNCTION: DB2 UDB, database utilities, sqluCalcCDELoadMemory, probe:1634
+DATA #1 : LOADID, PD_TYPE_LOADID, 47 bytes
+LOADID: 71.2017-02-09-19.22.49.916676.0 (2;146)
+DATA #2 : String, 198 bytes
+CDE LOAD (15 cpu, 13 tuple fmt, 14 column fmt, 4 bm, 174 table cg, 345 synopsis cg) Memory (MB): LOAD 511 available, 64 minimum, 35 writer, 356 tuple, 511 total. HISTOGRAM 7288 available, 3 minimum.
+
+2017-02-09-19.22.51.962346+000 I431992174E580        LEVEL: Warning
+PID     : 21775                TID : 140195424888576 PROC : db2sysc 0
+INSTANCE: db2inst1             NODE : 000            DB   : MYDATABASE
+APPHDL  : 0-365                APPID: *LOCAL.db2inst1.170209192249
+AUTHID  : PANC                 HOSTNAME: remote.server.host.name
+EDUID   : 71                   EDUNAME: db2agent (MYDATABASE) 0
+FUNCTION: DB2 UDB, database utilities, DIAG_NOTE, probe:0
+DATA #1 : String, 84 bytes
+LOADID: 71.2017-02-09-19.22.49.916676.0 (2;146)
+CDE Actual tuple buffer size 0, 7200
+
+2017-02-09-19.22.52.068091+000 I431992755E687        LEVEL: Info
+PID     : 21775                TID : 140195424888576 PROC : db2sysc 0
+INSTANCE: db2inst1             NODE : 000            DB   : MYDATABASE
+APPHDL  : 0-365                APPID: *LOCAL.db2inst1.170209192249
+AUTHID  : PANC                 HOSTNAME: remote.server.host.name
+EDUID   : 71                   EDUNAME: db2agent (MYDATABASE) 0
+FUNCTION: DB2 UDB, database utilities, sqluAllocTBufs, probe:2571
+DATA #1 : LOADID, PD_TYPE_LOADID, 47 bytes
+LOADID: 71.2017-02-09-19.22.49.916676.0 (2;146)
+DATA #2 : String, 95 bytes
+LOAD Buffer Allocation: number 364 65 711, sizes 68 64 (5611) 132 (KB), split watermarks 4 355.
+
+2017-02-09-19.22.52.071653+000 I431993443E605        LEVEL: Info
+PID     : 21775                TID : 140155461560064 PROC : db2sysc 0
+INSTANCE: db2inst1             NODE : 000            DB   : MYDATABASE
+APPHDL  : 0-365                APPID: *LOCAL.db2inst1.170209192249
+AUTHID  : PANC                 HOSTNAME: remote.server.host.name
+EDUID   : 89                   EDUNAME: db2lmr 0
+FUNCTION: DB2 UDB, database utilities, sqluMCInitRestoreMC, probe:2
+DATA #1 : <preformatted>
+CDE LOAD (phase 1, staging size 0 MB) opening  select * from commercial.outpatient_services where enrolid in ( s...
+
+2017-02-09-19.22.52.398698+000 I431994049E601        LEVEL: Warning
+PID     : 21775                TID : 140155516086016 PROC : db2sysc 0
+INSTANCE: db2inst1             NODE : 000            DB   : MYDATABASE
+APPHDL  : 0-365                APPID: *LOCAL.db2inst1.170209192249
+AUTHID  : PANC                 HOSTNAME: remote.server.host.name
+EDUID   : 76                   EDUNAME: db2ltfm0 0
+FUNCTION: DB2 UDB, database utilities, sqlulPrintPhaseMsg, probe:315
+DATA #1 : String, 103 bytes
+LOADID: 71.2017-02-09-19.22.49.916676.0 (2;146)
+Starting ANALYZE phase at 02/09/2017 19:22:52.072421.
+
+2017-02-09-19.23.04.874995+000 I431994651E590        LEVEL: Warning
+PID     : 21775                TID : 140155457365760 PROC : db2sysc 0
+INSTANCE: db2inst1             NODE : 000            DB   : MYDATABASE
+APPHDL  : 0-365                APPID: *LOCAL.db2inst1.170209192249
+AUTHID  : PANC                 HOSTNAME: remote.server.host.name
+PID     : 21775                TID : 140155457365760 PROC : db2sysc 0
+INSTANCE: db2inst1             NODE : 000            DB   : MYDATABASE
+APPHDL  : 0-365                APPID: *LOCAL.db2inst1.170209192249
+AUTHID  : PANC                 HOSTNAME: remote.server.host.name
+EDUID   : 90                   EDUNAME: db2lcfm0 0
+FUNCTION: DB2 UDB, database utilities, DIAG_NOTE, probe:0
+DATA #1 : String, 102 bytes
+LOADID: 71.2017-02-09-19.22.49.916676.0 (2;146)
+CDE LOAD Analyze Phase sample frequency adjusted 50, 0
+
+2017-02-09-19.23.26.047429+000 I431995242E590        LEVEL: Warning
+PID     : 21775                TID : 140155457365760 PROC : db2sysc 0
+INSTANCE: db2inst1             NODE : 000            DB   : MYDATABASE
+APPHDL  : 0-365                APPID: *LOCAL.db2inst1.170209192249
+AUTHID  : PANC                 HOSTNAME: remote.server.host.name
+EDUID   : 90                   EDUNAME: db2lcfm0 0
+FUNCTION: DB2 UDB, database utilities, DIAG_NOTE, probe:0
+DATA #1 : String, 102 bytes
+LOADID: 71.2017-02-09-19.22.49.916676.0 (2;146)
+CDE LOAD Analyze Phase sample frequency adjusted 25, 0
+
+2017-02-09-19.24.09.840923+000 I431995833E590        LEVEL: Warning
+PID     : 21775                TID : 140155457365760 PROC : db2sysc 0
+INSTANCE: db2inst1             NODE : 000            DB   : MYDATABASE
+APPHDL  : 0-365                APPID: *LOCAL.db2inst1.170209192249
+AUTHID  : PANC                 HOSTNAME: remote.server.host.name
+EDUID   : 90                   EDUNAME: db2lcfm0 0
+FUNCTION: DB2 UDB, database utilities, DIAG_NOTE, probe:0
+DATA #1 : String, 102 bytes
+LOADID: 71.2017-02-09-19.22.49.916676.0 (2;146)
+CDE LOAD Analyze Phase sample frequency adjusted 13, 0
+
+2017-02-09-20.34.34.625325+000 I431996424E602        LEVEL: Warning
+PID     : 21775                TID : 140195424888576 PROC : db2sysc 0
+INSTANCE: db2inst1             NODE : 000            DB   : MYDATABASE
+APPHDL  : 0-365                APPID: *LOCAL.db2inst1.170209192249
+AUTHID  : PANC                 HOSTNAME: remote.server.host.name
+EDUID   : 71                   EDUNAME: db2agent (MYDATABASE) 0
+FUNCTION: DB2 UDB, database utilities, DIAG_NOTE, probe:0
+DATA #1 : String, 105 bytes
+LOADID: 71.2017-02-09-19.22.49.916676.0 (2;146)
+CDE LOAD Analyze Phase threshold reached 137438958039, 13
+
+2017-02-09-20.34.37.662131+000 I431997027E605        LEVEL: Info
+PID     : 21775                TID : 140155461560064 PROC : db2sysc 0
+INSTANCE: db2inst1             NODE : 000            DB   : MYDATABASE
+APPHDL  : 0-365                APPID: *LOCAL.db2inst1.170209192249
+AUTHID  : PANC                 HOSTNAME: remote.server.host.name
+EDUID   : 89                   EDUNAME: db2lmr 0
+FUNCTION: DB2 UDB, database utilities, sqluMCInitRestoreMC, probe:2
+DATA #1 : <preformatted>
+CDE LOAD (phase 2, staging size 0 MB) opening  select * from commercial.outpatient_services where enrolid in ( s...
+
+2017-02-09-20.34.37.864176+000 I431997633E610        LEVEL: Warning
+PID     : 21775                TID : 140155457365760 PROC : db2sysc 0
+INSTANCE: db2inst1             NODE : 000            DB   : MYDATABASE
+APPHDL  : 0-365                APPID: *LOCAL.db2inst1.170209192249
+AUTHID  : PANC                 HOSTNAME: remote.server.host.name
+EDUID   : 90                   EDUNAME: db2lcfm0 0
+FUNCTION: DB2 UDB, database utilities, sqlulPrintPhaseMsg, probe:2075
+DATA #1 : String, 111 bytes
+LOADID: 71.2017-02-09-19.22.49.916676.0 (2;146)
+Starting CDE dictionary  phase at 02/09/2017 20:34:37.864142.
+
+2017-02-09-20.34.46.569342+000 I431998244E576        LEVEL: Warning
+PID     : 21775                TID : 140155457365760 PROC : db2sysc 0
+INSTANCE: db2inst1             NODE : 000            DB   : MYDATABASE
+APPHDL  : 0-365                APPID: *LOCAL.db2inst1.170209192249
+AUTHID  : PANC                 HOSTNAME: remote.server.host.name
+EDUID   : 90                   EDUNAME: db2lcfm0 0
+FUNCTION: DB2 UDB, database utilities, DIAG_NOTE, probe:0
+DATA #1 : String, 89 bytes
+LOADID: 71.2017-02-09-19.22.49.916676.0 (2;146)
+CDE Dictionary size (bytes) =  2403731, 0
+
+2017-02-09-20.34.46.572958+000 I431998821E1047       LEVEL: Info
+PID     : 21775                TID : 140155457365760 PROC : db2sysc 0
+INSTANCE: db2inst1             NODE : 000            DB   : MYDATABASE
+APPHDL  : 0-365                APPID: *LOCAL.db2inst1.170209192249
+AUTHID  : PANC                 HOSTNAME: remote.server.host.name
+EDUID   : 90                   EDUNAME: db2lcfm0 0
+FUNCTION: DB2 UDB, CDE Data, HistogramWithEmbeddedValues::dumpDiagnosticMessages, probe:3730
+DATA #1 : String, 283 bytes
+Final histogram : 0, SEQNUM, 4, 46657332, 524288, 1, 0, 465608360, 465608360, 0, 465608360, 465608360, 0, 1107328712, 1628959072, 407239768, 0, 0, 34, 8.5, 512, 4, 698837, 45958495, 0, 0, 524288, 65536, 524288, 12117689, 0.0432663, 1, 5, 0.2, 24, 24, 11066442, true, true, 198056024
+DATA #2 : Function name in Library, 0 bytes
+Object not dumped: Address: 0x0000000000000000 Size: 0 Reason: Address is NULL
+DATA #3 : File name, 91 bytes
+/view/db2_v111_linuxamd64_s1606081100/vbs/engn/cde/data/HistogramWithEmbeddedValuesImpl.hpp
+
+2017-02-09-20.34.46.573301+000 I431999869E978        LEVEL: Info
+PID     : 21775                TID : 140155457365760 PROC : db2sysc 0
+INSTANCE: db2inst1             NODE : 000            DB   : MYDATABASE
+APPHDL  : 0-365                APPID: *LOCAL.db2inst1.170209192249
+AUTHID  : PANC                 HOSTNAME: remote.server.host.name
+EDUID   : 90                   EDUNAME: db2lcfm0 0
+FUNCTION: DB2 UDB, CDE Data, HistogramWithPointerMap::dumpDiagnosticMessages, probe:4415
+DATA #1 : String, 222 bytes
+Final histogram : 1, VERSION, 0, 46657332, 3, 0, 0, 5664, 5008, 656, 5008, 5008, 0, 1107328712, 0, 0, 0, 0, 0, 0, 512, 4, 46657332, 0, 0, 0, 524288, 65536, 3, 541, 0.00554529, 0, 5, 0, 200, 200, 0, false, true, true, 4968
+DATA #2 : Function name in Library, 0 bytes
+Object not dumped: Address: 0x0000000000000000 Size: 0 Reason: Address is NULL
+DATA #3 : File name, 87 bytes
+/view/db2_v111_linuxamd64_s1606081100/vbs/engn/cde/data/HistogramWithPointerMapImpl.hpp
+
+2017-02-09-20.34.46.573620+000 I432000848E1009       LEVEL: Info
+PID     : 21775                TID : 140155457365760 PROC : db2sysc 0
+INSTANCE: db2inst1             NODE : 000            DB   : MYDATABASE
+APPHDL  : 0-365                APPID: *LOCAL.db2inst1.170209192249
+AUTHID  : PANC                 HOSTNAME: remote.server.host.name
+EDUID   : 90                   EDUNAME: db2lcfm0 0
+FUNCTION: DB2 UDB, CDE Data, HistogramWithPointerMap::dumpDiagnosticMessages, probe:4415
+DATA #1 : String, 253 bytes
+Final histogram : 2, DX1, 0, 46769475, 28512, 0, 0, 6848808, 6591744, 257064, 6591744, 6591744, 0, 1107328712, 0, 0, 0, 0, 0, 0, 512, 4, 46657332, 0, 0, 112143, 524288, 65536, 28512, 42043, 0.678163, 0, 5, 0, 200, 200, 40150, false, true, true, 6359984
+DATA #2 : Function name in Library, 0 bytes
+Object not dumped: Address: 0x0000000000000000 Size: 0 Reason: Address is NULL
+DATA #3 : File name, 87 bytes
+/view/db2_v111_linuxamd64_s1606081100/vbs/engn/cde/data/HistogramWithPointerMapImpl.hpp
+
+2017-02-09-20.34.46.573950+000 I432001858E1011       LEVEL: Info
+PID     : 21775                TID : 140155457365760 PROC : db2sysc 0
+INSTANCE: db2inst1             NODE : 000            DB   : MYDATABASE
+APPHDL  : 0-365                APPID: *LOCAL.db2inst1.170209192249
+AUTHID  : PANC                 HOSTNAME: remote.server.host.name
+EDUID   : 90                   EDUNAME: db2lcfm0 0
+FUNCTION: DB2 UDB, CDE Data, HistogramWithPointerMap::dumpDiagnosticMessages, probe:4415
+DATA #1 : String, 255 bytes
+Final histogram : 3, DX2, 0, 67642965, 24366, 0, 0, 5953128, 5728832, 224296, 5728832, 5728832, 0, 1107328712, 0, 0, 0, 0, 0, 0, 512, 4, 46657332, 0, 0, 20985633, 524288, 65536, 24366, 42043, 0.579549, 0, 5, 0, 200, 200, 40150, false, true, true, 5530784
+DATA #2 : Function name in Library, 0 bytes
+Object not dumped: Address: 0x0000000000000000 Size: 0 Reason: Address is NULL
+DATA #3 : File name, 87 bytes
+/view/db2_v111_linuxamd64_s1606081100/vbs/engn/cde/data/HistogramWithPointerMapImpl.hpp
+
+2017-02-09-20.34.46.574265+000 I432002870E1013       LEVEL: Info
+PID     : 21775                TID : 140155457365760 PROC : db2sysc 0
+INSTANCE: db2inst1             NODE : 000            DB   : MYDATABASE
+APPHDL  : 0-365                APPID: *LOCAL.db2inst1.170209192249
+AUTHID  : PANC                 HOSTNAME: remote.server.host.name
+EDUID   : 90                   EDUNAME: db2lcfm0 0
+FUNCTION: DB2 UDB, CDE Data, HistogramWithPointerMap::dumpDiagnosticMessages, probe:4415
+DATA #1 : String, 257 bytes
+Final histogram : 4, PROC1, 0, 50092513, 12875, 0, 0, 4125952, 3000776, 1125176, 3000776, 3000776, 0, 1107328712, 0, 0, 0, 0, 0, 0, 512, 4, 46657332, 0, 0, 3435181, 524288, 65536, 12875, 20753, 0.620392, 0, 5, 0, 200, 200, 19392, false, true, true, 2896200
+DATA #2 : Function name in Library, 0 bytes
+Object not dumped: Address: 0x0000000000000000 Size: 0 Reason: Address is NULL
+DATA #3 : File name, 87 bytes
+/view/db2_v111_linuxamd64_s1606081100/vbs/engn/cde/data/HistogramWithPointerMapImpl.hpp
+
+2017-02-09-20.34.46.574577+000 I432003884E982        LEVEL: Info
+PID     : 21775                TID : 140155457365760 PROC : db2sysc 0
+INSTANCE: db2inst1             NODE : 000            DB   : MYDATABASE
+APPHDL  : 0-365                APPID: *LOCAL.db2inst1.170209192249
+AUTHID  : PANC                 HOSTNAME: remote.server.host.name
+EDUID   : 90                   EDUNAME: db2lcfm0 0
+FUNCTION: DB2 UDB, CDE Data, HistogramWithPointerMap::dumpDiagnosticMessages, probe:4415
+DATA #1 : String, 226 bytes
+Final histogram : 5, PROCTYP, 0, 50092546, 4, 0, 0, 5216, 5216, 0, 5216, 5216, 0, 1107328712, 0, 0, 0, 0, 0, 0, 512, 4, 46657332, 0, 0, 3435214, 524288, 65536, 4, 541, 0.00739372, 0, 5, 0, 200, 200, 0, false, true, true, 5168
+DATA #2 : Function name in Library, 0 bytes
+Object not dumped: Address: 0x0000000000000000 Size: 0 Reason: Address is NULL
+DATA #3 : File name, 87 bytes
+/view/db2_v111_linuxamd64_s1606081100/vbs/engn/cde/data/HistogramWithPointerMapImpl.hpp
+
+2017-02-09-20.34.46.574908+000 I432004867E1032       LEVEL: Info
+PID     : 21775                TID : 140155457365760 PROC : db2sysc 0
+INSTANCE: db2inst1             NODE : 000            DB   : MYDATABASE
+APPHDL  : 0-365                APPID: *LOCAL.db2inst1.170209192249
+AUTHID  : PANC                 HOSTNAME: remote.server.host.name
+EDUID   : 90                   EDUNAME: db2lcfm0 0
+FUNCTION: DB2 UDB, CDE Data, HistogramWithEmbeddedValues::dumpDiagnosticMessages, probe:3730
+DATA #1 : String, 268 bytes
+Final histogram : 6, EFAMID, 0, 46657332, 524288, 1, 0, 198977336, 198438768, 538568, 198438768, 198438768, 0, 1107328712, 0, 0, 0, 0, 0, 0, 512, 4, 24211155, 22446177, 0, 0, 524288, 65536, 524288, 5967347, 0.0878595, 1, 5, 0.2, 24, 24, 5789980, true, true, 106641592
+DATA #2 : Function name in Library, 0 bytes
+Object not dumped: Address: 0x0000000000000000 Size: 0 Reason: Address is NULL
+DATA #3 : File name, 91 bytes
+/view/db2_v111_linuxamd64_s1606081100/vbs/engn/cde/data/HistogramWithEmbeddedValuesImpl.hpp
+
+2017-02-09-20.34.46.575230+000 I432005900E1033       LEVEL: Info
+PID     : 21775                TID : 140155457365760 PROC : db2sysc 0
+INSTANCE: db2inst1             NODE : 000            DB   : MYDATABASE
+APPHDL  : 0-365                APPID: *LOCAL.db2inst1.170209192249
+AUTHID  : PANC                 HOSTNAME: remote.server.host.name
+EDUID   : 90                   EDUNAME: db2lcfm0 0
+FUNCTION: DB2 UDB, CDE Data, HistogramWithEmbeddedValues::dumpDiagnosticMessages, probe:3730
+DATA #1 : String, 269 bytes
+Final histogram : 7, ENROLID, 0, 46657332, 524288, 1, 0, 205345608, 204807040, 538568, 204807040, 204807040, 0, 1107328712, 0, 0, 0, 0, 0, 0, 512, 4, 23120318, 23537014, 0, 0, 524288, 65536, 524288, 5967347, 0.0878595, 1, 5, 0.2, 24, 24, 5789980, true, true, 106641592
+DATA #2 : Function name in Library, 0 bytes
+Object not dumped: Address: 0x0000000000000000 Size: 0 Reason: Address is NULL
+DATA #3 : File name, 91 bytes
+/view/db2_v111_linuxamd64_s1606081100/vbs/engn/cde/data/HistogramWithEmbeddedValuesImpl.hpp
+
+2017-02-09-20.34.46.575543+000 I432006934E1001       LEVEL: Info
+PID     : 21775                TID : 140155457365760 PROC : db2sysc 0
+INSTANCE: db2inst1             NODE : 000            DB   : MYDATABASE
+APPHDL  : 0-365                APPID: *LOCAL.db2inst1.170209192249
+AUTHID  : PANC                 HOSTNAME: remote.server.host.name
+EDUID   : 90                   EDUNAME: db2lcfm0 0
+FUNCTION: DB2 UDB, CDE Data, HistogramWithPointerMap::dumpDiagnosticMessages, probe:4415
+DATA #1 : String, 245 bytes
+Final histogram : 8, REVCODE, 0, 81252466, 601, 0, 0, 166784, 138320, 28464, 138320, 138320, 0, 1107328712, 0, 0, 0, 0, 0, 0, 512, 4, 46657332, 0, 0, 34595134, 524288, 65536, 601, 1109, 0.54193, 0, 5, 0, 200, 200, 546, false, true, true, 133480
+DATA #2 : Function name in Library, 0 bytes
+Object not dumped: Address: 0x0000000000000000 Size: 0 Reason: Address is NULL
+DATA #3 : File name, 87 bytes
+/view/db2_v111_linuxamd64_s1606081100/vbs/engn/cde/data/HistogramWithPointerMapImpl.hpp
+
+2017-02-09-20.34.46.575856+000 I432007936E993        LEVEL: Info
+PID     : 21775                TID : 140155457365760 PROC : db2sysc 0
+INSTANCE: db2inst1             NODE : 000            DB   : MYDATABASE
+APPHDL  : 0-365                APPID: *LOCAL.db2inst1.170209192249
+AUTHID  : PANC                 HOSTNAME: remote.server.host.name
+EDUID   : 90                   EDUNAME: db2lcfm0 0
+FUNCTION: DB2 UDB, CDE Data, HistogramWithEmbeddedValues::dumpDiagnosticMessages, probe:3730
+DATA #1 : String, 229 bytes
+Final histogram : 9, SVCDATE, 0, 46657332, 1826, 0, 0, 105764, 90564, 15200, 90564, 90564, 0, 1107328712, 0, 0, 0, 0, 0, 0, 512, 4, 46657332, 0, 0, 0, 524288, 65536, 1826, 2357, 0.774714, 0, 5, 0, 24, 24, 1660, true, true, 76000
+DATA #2 : Function name in Library, 0 bytes
+Object not dumped: Address: 0x0000000000000000 Size: 0 Reason: Address is NULL
+DATA #3 : File name, 91 bytes
+/view/db2_v111_linuxamd64_s1606081100/vbs/engn/cde/data/HistogramWithEmbeddedValuesImpl.hpp
+
+2017-02-09-20.34.46.576170+000 I432008930E977        LEVEL: Info
+PID     : 21775                TID : 140155457365760 PROC : db2sysc 0
+INSTANCE: db2inst1             NODE : 000            DB   : MYDATABASE
+APPHDL  : 0-365                APPID: *LOCAL.db2inst1.170209192249
+AUTHID  : PANC                 HOSTNAME: remote.server.host.name
+EDUID   : 90                   EDUNAME: db2lcfm0 0
+FUNCTION: DB2 UDB, CDE Data, HistogramWithEmbeddedValues::dumpDiagnosticMessages, probe:3730
+DATA #1 : String, 213 bytes
+Final histogram : 10, DOBYR, 0, 46657332, 52, 0, 0, 6580, 6052, 528, 6052, 6052, 0, 1107328712, 0, 0, 0, 0, 0, 0, 512, 4, 46657332, 0, 0, 0, 524288, 65536, 52, 541, 0.0961183, 0, 5, 0, 24, 24, 0, true, true, 5616
+DATA #2 : Function name in Library, 0 bytes
+Object not dumped: Address: 0x0000000000000000 Size: 0 Reason: Address is NULL
+DATA #3 : File name, 91 bytes
+/view/db2_v111_linuxamd64_s1606081100/vbs/engn/cde/data/HistogramWithEmbeddedValuesImpl.hpp
+
+2017-02-09-20.34.46.576487+000 I432009908E975        LEVEL: Info
+PID     : 21775                TID : 140155457365760 PROC : db2sysc 0
+INSTANCE: db2inst1             NODE : 000            DB   : MYDATABASE
+APPHDL  : 0-365                APPID: *LOCAL.db2inst1.170209192249
+AUTHID  : PANC                 HOSTNAME: remote.server.host.name
+EDUID   : 90                   EDUNAME: db2lcfm0 0
+FUNCTION: DB2 UDB, CDE Data, HistogramWithEmbeddedValues::dumpDiagnosticMessages, probe:3730
+DATA #1 : String, 211 bytes
+Final histogram : 11, YEAR, 0, 46657332, 5, 0, 0, 4692, 4548, 144, 4548, 4548, 0, 1107328712, 0, 0, 0, 0, 0, 0, 512, 4, 46657332, 0, 0, 0, 524288, 65536, 5, 541, 0.00924214, 0, 5, 0, 24, 24, 0, true, true, 4488
+DATA #2 : Function name in Library, 0 bytes
+Object not dumped: Address: 0x0000000000000000 Size: 0 Reason: Address is NULL
+DATA #3 : File name, 91 bytes
+/view/db2_v111_linuxamd64_s1606081100/vbs/engn/cde/data/HistogramWithEmbeddedValuesImpl.hpp
+
+2017-02-09-20.34.46.576798+000 I432010884E975        LEVEL: Info
+PID     : 21775                TID : 140155457365760 PROC : db2sysc 0
+INSTANCE: db2inst1             NODE : 000            DB   : MYDATABASE
+APPHDL  : 0-365                APPID: *LOCAL.db2inst1.170209192249
+AUTHID  : PANC                 HOSTNAME: remote.server.host.name
+EDUID   : 90                   EDUNAME: db2lcfm0 0
+FUNCTION: DB2 UDB, CDE Data, HistogramWithEmbeddedValues::dumpDiagnosticMessages, probe:3730
+DATA #1 : String, 211 bytes
+Final histogram : 12, AGE, 0, 46657332, 52, 0, 0, 6580, 6052, 528, 6052, 6052, 0, 1107328712, 0, 0, 0, 0, 0, 0, 512, 4, 46657332, 0, 0, 0, 524288, 65536, 52, 541, 0.0961183, 0, 5, 0, 24, 24, 0, true, true, 5616
+DATA #2 : Function name in Library, 0 bytes
+Object not dumped: Address: 0x0000000000000000 Size: 0 Reason: Address is NULL
+DATA #3 : File name, 91 bytes
+/view/db2_v111_linuxamd64_s1606081100/vbs/engn/cde/data/HistogramWithEmbeddedValuesImpl.hpp
+
+2017-02-09-20.34.46.577110+000 I432011860E982        LEVEL: Info
+PID     : 21775                TID : 140155457365760 PROC : db2sysc 0
+INSTANCE: db2inst1             NODE : 000            DB   : MYDATABASE
+APPHDL  : 0-365                APPID: *LOCAL.db2inst1.170209192249
+AUTHID  : PANC                 HOSTNAME: remote.server.host.name
+EDUID   : 90                   EDUNAME: db2lcfm0 0
+FUNCTION: DB2 UDB, CDE Data, HistogramWithPointerMap::dumpDiagnosticMessages, probe:4415
+DATA #1 : String, 226 bytes
+Final histogram : 13, CAP_SVC, 0, 47081845, 2, 0, 0, 4800, 4800, 0, 4800, 4800, 0, 1107328712, 0, 0, 0, 0, 0, 0, 512, 4, 46657332, 0, 0, 424513, 524288, 65536, 2, 541, 0.00369686, 0, 5, 0, 200, 200, 0, false, true, true, 4768
+DATA #2 : Function name in Library, 0 bytes
+Object not dumped: Address: 0x0000000000000000 Size: 0 Reason: Address is NULL
+DATA #3 : File name, 87 bytes
+/view/db2_v111_linuxamd64_s1606081100/vbs/engn/cde/data/HistogramWithPointerMapImpl.hpp
+
+2017-02-09-20.34.46.577423+000 I432012843E1005       LEVEL: Info
+PID     : 21775                TID : 140155457365760 PROC : db2sysc 0
+INSTANCE: db2inst1             NODE : 000            DB   : MYDATABASE
+APPHDL  : 0-365                APPID: *LOCAL.db2inst1.170209192249
+AUTHID  : PANC                 HOSTNAME: remote.server.host.name
+EDUID   : 90                   EDUNAME: db2lcfm0 0
+FUNCTION: DB2 UDB, CDE Data, HistogramWithEmbeddedValues::dumpDiagnosticMessages, probe:3730
+DATA #1 : String, 241 bytes
+Final histogram : 14, COB, 0, 46657332, 103414, 0, 0, 6904208, 6032624, 871584, 6032624, 6032624, 0, 1107328712, 0, 0, 0, 0, 0, 0, 512, 4, 46657332, 0, 0, 0, 524288, 65536, 103414, 172933, 0.598, 0, 5, 0, 24, 24, 167432, true, true, 5204896
+DATA #2 : Function name in Library, 0 bytes
+Object not dumped: Address: 0x0000000000000000 Size: 0 Reason: Address is NULL
+DATA #3 : File name, 91 bytes
+/view/db2_v111_linuxamd64_s1606081100/vbs/engn/cde/data/HistogramWithEmbeddedValuesImpl.hpp
+
+2017-02-09-20.34.46.577740+000 I432013849E1007       LEVEL: Info
+PID     : 21775                TID : 140155457365760 PROC : db2sysc 0
+INSTANCE: db2inst1             NODE : 000            DB   : MYDATABASE
+APPHDL  : 0-365                APPID: *LOCAL.db2inst1.170209192249
+AUTHID  : PANC                 HOSTNAME: remote.server.host.name
+EDUID   : 90                   EDUNAME: db2lcfm0 0
+FUNCTION: DB2 UDB, CDE Data, HistogramWithEmbeddedValues::dumpDiagnosticMessages, probe:3730
+DATA #1 : String, 243 bytes
+Final histogram : 15, COINS, 0, 46657332, 87205, 0, 0, 6327024, 5513840, 813184, 5513840, 5513840, 0, 1107328712, 0, 0, 0, 0, 0, 0, 512, 4, 46657332, 0, 0, 0, 524288, 65536, 87205, 172933, 0.50427, 0, 5, 0, 24, 24, 167432, true, true, 4815880
+DATA #2 : Function name in Library, 0 bytes
+Object not dumped: Address: 0x0000000000000000 Size: 0 Reason: Address is NULL
+DATA #3 : File name, 91 bytes
+/view/db2_v111_linuxamd64_s1606081100/vbs/engn/cde/data/HistogramWithEmbeddedValuesImpl.hpp
+
+2017-02-09-20.34.46.578050+000 I432014857E1006       LEVEL: Info
+PID     : 21775                TID : 140155457365760 PROC : db2sysc 0
+INSTANCE: db2inst1             NODE : 000            DB   : MYDATABASE
+APPHDL  : 0-365                APPID: *LOCAL.db2inst1.170209192249
+AUTHID  : PANC                 HOSTNAME: remote.server.host.name
+EDUID   : 90                   EDUNAME: db2lcfm0 0
+FUNCTION: DB2 UDB, CDE Data, HistogramWithEmbeddedValues::dumpDiagnosticMessages, probe:3730
+DATA #1 : String, 242 bytes
+Final histogram : 16, COPAY, 0, 46657332, 24562, 0, 0, 1698136, 1443568, 254568, 1443568, 1443568, 0, 1107328712, 0, 0, 0, 0, 0, 0, 512, 4, 46657332, 0, 0, 0, 524288, 65536, 24562, 42043, 0.584211, 0, 5, 0, 24, 24, 40150, true, true, 1247072
+DATA #2 : Function name in Library, 0 bytes
+Object not dumped: Address: 0x0000000000000000 Size: 0 Reason: Address is NULL
+DATA #3 : File name, 91 bytes
+/view/db2_v111_linuxamd64_s1606081100/vbs/engn/cde/data/HistogramWithEmbeddedValuesImpl.hpp
+
+2017-02-09-20.34.46.578362+000 I432015864E1009       LEVEL: Info
+PID     : 21775                TID : 140155457365760 PROC : db2sysc 0
+INSTANCE: db2inst1             NODE : 000            DB   : MYDATABASE
+APPHDL  : 0-365                APPID: *LOCAL.db2inst1.170209192249
+AUTHID  : PANC                 HOSTNAME: remote.server.host.name
+EDUID   : 90                   EDUNAME: db2lcfm0 0
+FUNCTION: DB2 UDB, CDE Data, HistogramWithEmbeddedValues::dumpDiagnosticMessages, probe:3730
+DATA #1 : String, 245 bytes
+Final histogram : 17, DEDUCT, 0, 46657332, 87982, 0, 0, 6173832, 5538704, 635128, 5538704, 5538704, 0, 1107328712, 0, 0, 0, 0, 0, 0, 512, 4, 46657332, 0, 0, 0, 524288, 65536, 87982, 172933, 0.508763, 0, 5, 0, 24, 24, 167432, true, true, 4834528
+DATA #2 : Function name in Library, 0 bytes
+Object not dumped: Address: 0x0000000000000000 Size: 0 Reason: Address is NULL
+DATA #3 : File name, 91 bytes
+/view/db2_v111_linuxamd64_s1606081100/vbs/engn/cde/data/HistogramWithEmbeddedValuesImpl.hpp
+
+2017-02-09-20.34.46.578693+000 I432016874E1012       LEVEL: Info
+PID     : 21775                TID : 140155457365760 PROC : db2sysc 0
+INSTANCE: db2inst1             NODE : 000            DB   : MYDATABASE
+APPHDL  : 0-365                APPID: *LOCAL.db2inst1.170209192249
+AUTHID  : PANC                 HOSTNAME: remote.server.host.name
+EDUID   : 90                   EDUNAME: db2lcfm0 0
+FUNCTION: DB2 UDB, CDE Data, HistogramWithPointerMap::dumpDiagnosticMessages, probe:4415
+DATA #1 : String, 256 bytes
+Final histogram : 18, DX3, 0, 76015243, 21724, 0, 0, 5372680, 5178944, 193736, 5178944, 5178944, 0, 1107328712, 0, 0, 0, 0, 0, 0, 512, 4, 46657332, 0, 0, 29357911, 524288, 65536, 21724, 42043, 0.516709, 0, 5, 0, 200, 200, 40150, false, true, true, 5002384
+DATA #2 : Function name in Library, 0 bytes
+Object not dumped: Address: 0x0000000000000000 Size: 0 Reason: Address is NULL
+DATA #3 : File name, 87 bytes
+/view/db2_v111_linuxamd64_s1606081100/vbs/engn/cde/data/HistogramWithPointerMapImpl.hpp
+
+2017-02-09-20.34.46.579019+000 I432017887E1012       LEVEL: Info
+PID     : 21775                TID : 140155457365760 PROC : db2sysc 0
+INSTANCE: db2inst1             NODE : 000            DB   : MYDATABASE
+APPHDL  : 0-365                APPID: *LOCAL.db2inst1.170209192249
+AUTHID  : PANC                 HOSTNAME: remote.server.host.name
+EDUID   : 90                   EDUNAME: db2lcfm0 0
+FUNCTION: DB2 UDB, CDE Data, HistogramWithPointerMap::dumpDiagnosticMessages, probe:4415
+DATA #1 : String, 256 bytes
+Final histogram : 19, DX4, 0, 84410263, 17724, 0, 0, 4166176, 4010024, 156152, 4010024, 4010024, 0, 1107328712, 0, 0, 0, 0, 0, 0, 512, 4, 46657332, 0, 0, 37752931, 524288, 65536, 17724, 20753, 0.854045, 0, 5, 0, 200, 200, 19392, false, true, true, 3866000
+DATA #2 : Function name in Library, 0 bytes
+Object not dumped: Address: 0x0000000000000000 Size: 0 Reason: Address is NULL
+DATA #3 : File name, 87 bytes
+/view/db2_v111_linuxamd64_s1606081100/vbs/engn/cde/data/HistogramWithPointerMapImpl.hpp
+
+2017-02-09-20.34.46.579333+000 I432018900E979        LEVEL: Info
+PID     : 21775                TID : 140155457365760 PROC : db2sysc 0
+INSTANCE: db2inst1             NODE : 000            DB   : MYDATABASE
+APPHDL  : 0-365                APPID: *LOCAL.db2inst1.170209192249
+AUTHID  : PANC                 HOSTNAME: remote.server.host.name
+EDUID   : 90                   EDUNAME: db2lcfm0 0
+FUNCTION: DB2 UDB, CDE Data, HistogramWithPointerMap::dumpDiagnosticMessages, probe:4415
+DATA #1 : String, 223 bytes
+Final histogram : 20, DXVER, 0, 46681254, 3, 0, 0, 5008, 5008, 0, 5008, 5008, 0, 1107328712, 0, 0, 0, 0, 0, 0, 512, 4, 46657332, 0, 0, 23922, 524288, 65536, 3, 541, 0.00554529, 0, 5, 0, 200, 200, 0, false, true, true, 4968
+DATA #2 : Function name in Library, 0 bytes
+Object not dumped: Address: 0x0000000000000000 Size: 0 Reason: Address is NULL
+DATA #3 : File name, 87 bytes
+/view/db2_v111_linuxamd64_s1606081100/vbs/engn/cde/data/HistogramWithPointerMapImpl.hpp
+
+2017-02-09-20.34.46.579647+000 I432019880E1052       LEVEL: Info
+PID     : 21775                TID : 140155457365760 PROC : db2sysc 0
+INSTANCE: db2inst1             NODE : 000            DB   : MYDATABASE
+APPHDL  : 0-365                APPID: *LOCAL.db2inst1.170209192249
+AUTHID  : PANC                 HOSTNAME: remote.server.host.name
+EDUID   : 90                   EDUNAME: db2lcfm0 0
+FUNCTION: DB2 UDB, CDE Data, HistogramWithEmbeddedValues::dumpDiagnosticMessages, probe:3730
+DATA #1 : String, 288 bytes
+Final histogram : 21, FACHDID, 1, 80607803, 524288, 1, 0, 123085560, 123085560, 0, 123085560, 123085560, 0, 1107328712, 407239768, 407239768, 0, 0, 24, 24, 512, 4, 35307412, 11349920, 0, 33950471, 524288, 65536, 524288, 2938679, 0.178409, 1, 5, 0.2, 24, 24, 2160406, true, true, 53375656
+DATA #2 : Function name in Library, 0 bytes
+Object not dumped: Address: 0x0000000000000000 Size: 0 Reason: Address is NULL
+DATA #3 : File name, 91 bytes
+/view/db2_v111_linuxamd64_s1606081100/vbs/engn/cde/data/HistogramWithEmbeddedValuesImpl.hpp
+
+2017-02-09-20.34.46.579958+000 I432020933E977        LEVEL: Info
+PID     : 21775                TID : 140155457365760 PROC : db2sysc 0
+INSTANCE: db2inst1             NODE : 000            DB   : MYDATABASE
+APPHDL  : 0-365                APPID: *LOCAL.db2inst1.170209192249
+AUTHID  : PANC                 HOSTNAME: remote.server.host.name
+EDUID   : 90                   EDUNAME: db2lcfm0 0
+FUNCTION: DB2 UDB, CDE Data, HistogramWithPointerMap::dumpDiagnosticMessages, probe:4415
+DATA #1 : String, 221 bytes
+Final histogram : 22, FACPROF, 0, 46657332, 2, 0, 0, 4800, 4800, 0, 4800, 4800, 0, 1107328712, 0, 0, 0, 0, 0, 0, 512, 4, 46657332, 0, 0, 0, 524288, 65536, 2, 541, 0.00369686, 0, 5, 0, 200, 200, 0, false, true, true, 4768
+DATA #2 : Function name in Library, 0 bytes
+, 46657332, 0, 0, 0, 524288, 65536, 2, 541, 0.00369686, 0, 5, 0, 200, 200, 0, false, true, true, 4768
+DATA #2 : Function name in Library, 0 bytes
+Object not dumped: Address: 0x0000000000000000 Size: 0 Reason: Address is NULL
+DATA #3 : File name, 87 bytes
+/view/db2_v111_linuxamd64_s1606081100/vbs/engn/cde/data/HistogramWithPointerMapImpl.hpp
+
+2017-02-09-20.34.46.580276+000 I432021911E984        LEVEL: Info
+PID     : 21775                TID : 140155457365760 PROC : db2sysc 0
+INSTANCE: db2inst1             NODE : 000            DB   : MYDATABASE
+APPHDL  : 0-365                APPID: *LOCAL.db2inst1.170209192249
+AUTHID  : PANC                 HOSTNAME: remote.server.host.name
+EDUID   : 90                   EDUNAME: db2lcfm0 0
+FUNCTION: DB2 UDB, CDE Data, HistogramWithPointerMap::dumpDiagnosticMessages, probe:4415
+DATA #1 : String, 228 bytes
+Final histogram : 23, MHSACOVG, 0, 47780305, 2, 0, 0, 4800, 4800, 0, 4800, 4800, 0, 1107328712, 0, 0, 0, 0, 0, 0, 512, 4, 46657332, 0, 0, 1122973, 524288, 65536, 2, 541, 0.00369686, 0, 5, 0, 200, 200, 0, false, true, true, 4768
+DATA #2 : Function name in Library, 0 bytes
+Object not dumped: Address: 0x0000000000000000 Size: 0 Reason: Address is NULL
+DATA #3 : File name, 87 bytes
+/view/db2_v111_linuxamd64_s1606081100/vbs/engn/cde/data/HistogramWithPointerMapImpl.hpp
+
+2017-02-09-20.34.46.580588+000 I432022896E1016       LEVEL: Info
+PID     : 21775                TID : 140155457365760 PROC : db2sysc 0
+INSTANCE: db2inst1             NODE : 000            DB   : MYDATABASE
+APPHDL  : 0-365                APPID: *LOCAL.db2inst1.170209192249
+AUTHID  : PANC                 HOSTNAME: remote.server.host.name
+EDUID   : 90                   EDUNAME: db2lcfm0 0
+FUNCTION: DB2 UDB, CDE Data, HistogramWithEmbeddedValues::dumpDiagnosticMessages, probe:3730
+DATA #1 : String, 252 bytes
+Final histogram : 24, NETPAY, 0, 46657332, 378681, 0, 0, 24027688, 23352880, 674808, 23352880, 23352880, 0, 1107328712, 0, 0, 0, 0, 0, 0, 512, 4, 46657332, 0, 0, 0, 524288, 65536, 378681, 712697, 0.531335, 0, 5, 0, 24, 24, 691436, true, true, 20321448
+DATA #2 : Function name in Library, 0 bytes
+Object not dumped: Address: 0x0000000000000000 Size: 0 Reason: Address is NULL
+DATA #3 : File name, 91 bytes
+/view/db2_v111_linuxamd64_s1606081100/vbs/engn/cde/data/HistogramWithEmbeddedValuesImpl.hpp
+
+2017-02-09-20.34.46.580899+000 I432023913E984        LEVEL: Info
+PID     : 21775                TID : 140155457365760 PROC : db2sysc 0
+INSTANCE: db2inst1             NODE : 000            DB   : MYDATABASE
+APPHDL  : 0-365                APPID: *LOCAL.db2inst1.170209192249
+AUTHID  : PANC                 HOSTNAME: remote.server.host.name
+EDUID   : 90                   EDUNAME: db2lcfm0 0
+FUNCTION: DB2 UDB, CDE Data, HistogramWithPointerMap::dumpDiagnosticMessages, probe:4415
+DATA #1 : String, 228 bytes
+Final histogram : 25, NTWKPROV, 0, 50656554, 2, 0, 0, 4800, 4800, 0, 4800, 4800, 0, 1107328712, 0, 0, 0, 0, 0, 0, 512, 4, 46657332, 0, 0, 3999222, 524288, 65536, 2, 541, 0.00369686, 0, 5, 0, 200, 200, 0, false, true, true, 4768
+DATA #2 : Function name in Library, 0 bytes
+Object not dumped: Address: 0x0000000000000000 Size: 0 Reason: Address is NULL
+DATA #3 : File name, 87 bytes
+/view/db2_v111_linuxamd64_s1606081100/vbs/engn/cde/data/HistogramWithPointerMapImpl.hpp
+
+2017-02-09-20.34.46.581209+000 I432024898E984        LEVEL: Info
+PID     : 21775                TID : 140155457365760 PROC : db2sysc 0
+INSTANCE: db2inst1             NODE : 000            DB   : MYDATABASE
+APPHDL  : 0-365                APPID: *LOCAL.db2inst1.170209192249
+AUTHID  : PANC                 HOSTNAME: remote.server.host.name
+EDUID   : 90                   EDUNAME: db2lcfm0 0
+FUNCTION: DB2 UDB, CDE Data, HistogramWithPointerMap::dumpDiagnosticMessages, probe:4415
+DATA #1 : String, 228 bytes
+Final histogram : 26, PAIDNTWK, 0, 48316629, 2, 0, 0, 4800, 4800, 0, 4800, 4800, 0, 1107328712, 0, 0, 0, 0, 0, 0, 512, 4, 46657332, 0, 0, 1659297, 524288, 65536, 2, 541, 0.00369686, 0, 5, 0, 200, 200, 0, false, true, true, 4768
+DATA #2 : Function name in Library, 0 bytes
+Object not dumped: Address: 0x0000000000000000 Size: 0 Reason: Address is NULL
+DATA #3 : File name, 87 bytes
+/view/db2_v111_linuxamd64_s1606081100/vbs/engn/cde/data/HistogramWithPointerMapImpl.hpp
+
+2017-02-09-20.34.46.581527+000 I432025883E1013       LEVEL: Info
+PID     : 21775                TID : 140155457365760 PROC : db2sysc 0
+INSTANCE: db2inst1             NODE : 000            DB   : MYDATABASE
+APPHDL  : 0-365                APPID: *LOCAL.db2inst1.170209192249
+AUTHID  : PANC                 HOSTNAME: remote.server.host.name
+EDUID   : 90                   EDUNAME: db2lcfm0 0
+FUNCTION: DB2 UDB, CDE Data, HistogramWithEmbeddedValues::dumpDiagnosticMessages, probe:3730
+DATA #1 : String, 249 bytes
+Final histogram : 27, PAY, 0, 46657332, 383154, 0, 0, 24172056, 23496032, 676024, 23496032, 23496032, 0, 1107328712, 0, 0, 0, 0, 0, 0, 512, 4, 46657332, 0, 0, 0, 524288, 65536, 383154, 712697, 0.537611, 0, 5, 0, 24, 24, 691436, true, true, 20428800
+DATA #2 : Function name in Library, 0 bytes
+Object not dumped: Address: 0x0000000000000000 Size: 0 Reason: Address is NULL
+DATA #3 : File name, 91 bytes
+/view/db2_v111_linuxamd64_s1606081100/vbs/engn/cde/data/HistogramWithEmbeddedValuesImpl.hpp
+
+2017-02-09-20.34.46.581839+000 I432026897E995        LEVEL: Info
+PID     : 21775                TID : 140155457365760 PROC : db2sysc 0
+INSTANCE: db2inst1             NODE : 000            DB   : MYDATABASE
+APPHDL  : 0-365                APPID: *LOCAL.db2inst1.170209192249
+AUTHID  : PANC                 HOSTNAME: remote.server.host.name
+EDUID   : 90                   EDUNAME: db2lcfm0 0
+FUNCTION: DB2 UDB, CDE Data, HistogramWithEmbeddedValues::dumpDiagnosticMessages, probe:3730
+DATA #1 : String, 231 bytes
+Final histogram : 28, PDDATE, 0, 46691515, 2015, 0, 0, 113556, 96612, 16944, 96612, 96612, 0, 1107328712, 0, 0, 0, 0, 0, 0, 512, 4, 46657332, 0, 0, 34183, 524288, 65536, 2015, 2357, 0.8549, 0, 5, 0, 24, 24, 1660, true, true, 80536
+DATA #2 : Function name in Library, 0 bytes
+Object not dumped: Address: 0x0000000000000000 Size: 0 Reason: Address is NULL
+DATA #3 : File name, 91 bytes
+/view/db2_v111_linuxamd64_s1606081100/vbs/engn/cde/data/HistogramWithEmbeddedValuesImpl.hpp
+
+2017-02-09-20.34.46.582152+000 I432027893E983        LEVEL: Info
+PID     : 21775                TID : 140155457365760 PROC : db2sysc 0
+INSTANCE: db2inst1             NODE : 000            DB   : MYDATABASE
+APPHDL  : 0-365                APPID: *LOCAL.db2inst1.170209192249
+AUTHID  : PANC                 HOSTNAME: remote.server.host.name
+EDUID   : 90                   EDUNAME: db2lcfm0 0
+FUNCTION: DB2 UDB, CDE Data, HistogramWithEmbeddedValues::dumpDiagnosticMessages, probe:3730
+DATA #1 : String, 219 bytes
+Final histogram : 29, PLANTYP, 0, 48231012, 8, 0, 0, 4868, 4644, 224, 4644, 4644, 0, 1107328712, 0, 0, 0, 0, 0, 0, 512, 4, 46657332, 0, 0, 1573680, 524288, 65536, 8, 541, 0.0147874, 0, 5, 0, 24, 24, 0, true, true, 4560
+DATA #2 : Function name in Library, 0 bytes
+Object not dumped: Address: 0x0000000000000000 Size: 0 Reason: Address is NULL
+DATA #3 : File name, 91 bytes
+/view/db2_v111_linuxamd64_s1606081100/vbs/engn/cde/data/HistogramWithEmbeddedValuesImpl.hpp
+
+2017-02-09-20.34.46.582462+000 I432028877E991        LEVEL: Info
+PID     : 21775                TID : 140155457365760 PROC : db2sysc 0
+INSTANCE: db2inst1             NODE : 000            DB   : MYDATABASE
+APPHDL  : 0-365                APPID: *LOCAL.db2inst1.170209192249
+AUTHID  : PANC                 HOSTNAME: remote.server.host.name
+EDUID   : 90                   EDUNAME: db2lcfm0 0
+FUNCTION: DB2 UDB, CDE Data, HistogramWithEmbeddedValues::dumpDiagnosticMessages, probe:3730
+DATA #1 : String, 227 bytes
+Final histogram : 30, PROCGRP, 0, 50091005, 182, 0, 0, 11892, 10212, 1680, 10212, 10212, 0, 1107328712, 0, 0, 0, 0, 0, 0, 512, 4, 46657332, 0, 0, 3433673, 524288, 65536, 182, 541, 0.336414, 0, 5, 0, 24, 24, 0, true, true, 8736
+DATA #2 : Function name in Library, 0 bytes
+Object not dumped: Address: 0x0000000000000000 Size: 0 Reason: Address is NULL
+DATA #3 : File name, 91 bytes
+/view/db2_v111_linuxamd64_s1606081100/vbs/engn/cde/data/HistogramWithEmbeddedValuesImpl.hpp
+
+2017-02-09-20.34.46.582800+000 I432029869E1003       LEVEL: Info
+PID     : 21775                TID : 140155457365760 PROC : db2sysc 0
+INSTANCE: db2inst1             NODE : 000            DB   : MYDATABASE
+APPHDL  : 0-365                APPID: *LOCAL.db2inst1.170209192249
+AUTHID  : PANC                 HOSTNAME: remote.server.host.name
+EDUID   : 90                   EDUNAME: db2lcfm0 0
+FUNCTION: DB2 UDB, CDE Data, HistogramWithPointerMap::dumpDiagnosticMessages, probe:4415
+DATA #1 : String, 247 bytes
+Final histogram : 31, PROCMOD, 0, 85602904, 612, 0, 0, 153056, 140608, 12448, 140608, 140608, 0, 1107328712, 0, 0, 0, 0, 0, 0, 512, 4, 46657332, 0, 0, 38945572, 524288, 65536, 612, 1109, 0.551849, 0, 5, 0, 200, 200, 546, false, true, true, 135680
+DATA #2 : Function name in Library, 0 bytes
+Object not dumped: Address: 0x0000000000000000 Size: 0 Reason: Address is NULL
+DATA #3 : File name, 87 bytes
+/view/db2_v111_linuxamd64_s1606081100/vbs/engn/cde/data/HistogramWithPointerMapImpl.hpp
+
+2017-02-09-20.34.46.583116+000 I432030873E1023       LEVEL: Info
+PID     : 21775                TID : 140155457365760 PROC : db2sysc 0
+INSTANCE: db2inst1             NODE : 000            DB   : MYDATABASE
+APPHDL  : 0-365                APPID: *LOCAL.db2inst1.170209192249
+AUTHID  : PANC                 HOSTNAME: remote.server.host.name
+EDUID   : 90                   EDUNAME: db2lcfm0 0
+FUNCTION: DB2 UDB, CDE Data, HistogramWithEmbeddedValues::dumpDiagnosticMessages, probe:3730
+DATA #1 : String, 259 bytes
+Final histogram : 32, PROVID, 0, 77706147, 417985, 0, 0, 25149568, 24610840, 538728, 24610840, 24610840, 0, 1107328712, 0, 0, 0, 0, 0, 0, 512, 4, 46657332, 0, 0, 31048815, 524288, 65536, 417985, 712697, 0.586483, 0, 5, 0, 24, 24, 691436, true, true, 21264744
+DATA #2 : Function name in Library, 0 bytes
+Object not dumped: Address: 0x0000000000000000 Size: 0 Reason: Address is NULL
+DATA #3 : File name, 91 bytes
+/view/db2_v111_linuxamd64_s1606081100/vbs/engn/cde/data/HistogramWithEmbeddedValuesImpl.hpp
+
+2017-02-09-20.34.46.583428+000 I432031897E980        LEVEL: Info
+PID     : 21775                TID : 140155457365760 PROC : db2sysc 0
+INSTANCE: db2inst1             NODE : 000            DB   : MYDATABASE
+APPHDL  : 0-365                APPID: *LOCAL.db2inst1.170209192249
+AUTHID  : PANC                 HOSTNAME: remote.server.host.name
+EDUID   : 90                   EDUNAME: db2lcfm0 0
+FUNCTION: DB2 UDB, CDE Data, HistogramWithEmbeddedValues::dumpDiagnosticMessages, probe:3730
+DATA #1 : String, 216 bytes
+Final histogram : 33, QTY, 0, 46657332, 119, 0, 0, 9284, 8196, 1088, 9284, 8196, 1088, 1107328712, 0, 0, 0, 0, 0, 0, 512, 4, 46657332, 0, 0, 0, 524288, 65536, 119, 541, 0.219963, 0, 5, 0, 24, 24, 0, true, true, 7224
+DATA #2 : Function name in Library, 0 bytes
+Object not dumped: Address: 0x0000000000000000 Size: 0 Reason: Address is NULL
+DATA #3 : File name, 91 bytes
+/view/db2_v111_linuxamd64_s1606081100/vbs/engn/cde/data/HistogramWithEmbeddedValuesImpl.hpp
+
+2017-02-09-20.34.46.583739+000 I432032878E988        LEVEL: Info
+PID     : 21775                TID : 140155457365760 PROC : db2sysc 0
+INSTANCE: db2inst1             NODE : 000            DB   : MYDATABASE
+APPHDL  : 0-365                APPID: *LOCAL.db2inst1.170209192249
+AUTHID  : PANC                 HOSTNAME: remote.server.host.name
+EDUID   : 90                   EDUNAME: db2lcfm0 0
+FUNCTION: DB2 UDB, CDE Data, HistogramWithPointerMap::dumpDiagnosticMessages, probe:4415
+DATA #1 : String, 232 bytes
+Final histogram : 34, SVCSCAT, 0, 46657332, 452, 0, 0, 129856, 98448, 31408, 98448, 98448, 0, 1107328712, 0, 0, 0, 0, 0, 0, 512, 4, 46657332, 0, 0, 0, 524288, 65536, 452, 541, 0.83549, 0, 5, 0, 200, 200, 0, false, true, true, 94768
+DATA #2 : Function name in Library, 0 bytes
+Object not dumped: Address: 0x0000000000000000 Size: 0 Reason: Address is NULL
+DATA #3 : File name, 87 bytes
+/view/db2_v111_linuxamd64_s1606081100/vbs/engn/cde/data/HistogramWithPointerMapImpl.hpp
+
+2017-02-09-20.34.46.584056+000 I432033867E994        LEVEL: Info
+PID     : 21775                TID : 140155457365760 PROC : db2sysc 0
+INSTANCE: db2inst1             NODE : 000            DB   : MYDATABASE
+APPHDL  : 0-365                APPID: *LOCAL.db2inst1.170209192249
+AUTHID  : PANC                 HOSTNAME: remote.server.host.name
+EDUID   : 90                   EDUNAME: db2lcfm0 0
+FUNCTION: DB2 UDB, CDE Data, HistogramWithEmbeddedValues::dumpDiagnosticMessages, probe:3730
+DATA #1 : String, 230 bytes
+Final histogram : 35, TSVCDAT, 0, 46657332, 1884, 0, 0, 109364, 92420, 16944, 92420, 92420, 0, 1107328712, 0, 0, 0, 0, 0, 0, 512, 4, 46657332, 0, 0, 0, 524288, 65536, 1884, 2357, 0.799321, 0, 5, 0, 24, 24, 1660, true, true, 77392
+DATA #2 : Function name in Library, 0 bytes
+Object not dumped: Address: 0x0000000000000000 Size: 0 Reason: Address is NULL
+DATA #3 : File name, 91 bytes
+/view/db2_v111_linuxamd64_s1606081100/vbs/engn/cde/data/HistogramWithEmbeddedValuesImpl.hpp
+
+2017-02-09-20.34.46.584368+000 I432034862E977        LEVEL: Info
+PID     : 21775                TID : 140155457365760 PROC : db2sysc 0
+INSTANCE: db2inst1             NODE : 000            DB   : MYDATABASE
+APPHDL  : 0-365                APPID: *LOCAL.db2inst1.170209192249
+AUTHID  : PANC                 HOSTNAME: remote.server.host.name
+EDUID   : 90                   EDUNAME: db2lcfm0 0
+FUNCTION: DB2 UDB, CDE Data, HistogramWithPointerMap::dumpDiagnosticMessages, probe:4415
+DATA #1 : String, 221 bytes
+Final histogram : 36, MDC, 0, 46657332, 25, 0, 0, 10448, 9584, 864, 9584, 9584, 0, 1107328712, 0, 0, 0, 0, 0, 0, 512, 4, 46657332, 0, 0, 0, 524288, 65536, 25, 541, 0.0462107, 0, 5, 0, 200, 200, 0, false, true, true, 9368
+DATA #2 : Function name in Library, 0 bytes
+Object not dumped: Address: 0x0000000000000000 Size: 0 Reason: Address is NULL
+DATA #3 : File name, 87 bytes
+/view/db2_v111_linuxamd64_s1606081100/vbs/engn/cde/data/HistogramWithPointerMapImpl.hpp
+
+2017-02-09-20.34.46.584679+000 I432035840E976        LEVEL: Info
+PID     : 21775                TID : 140155457365760 PROC : db2sysc 0
+INSTANCE: db2inst1             NODE : 000            DB   : MYDATABASE
+APPHDL  : 0-365                APPID: *LOCAL.db2inst1.170209192249
+AUTHID  : PANC                 HOSTNAME: remote.server.host.name
+EDUID   : 90                   EDUNAME: db2lcfm0 0
+FUNCTION: DB2 UDB, CDE Data, HistogramWithPointerMap::dumpDiagnosticMessages, probe:4415
+DATA #1 : String, 220 bytes
+Final histogram : 37, REGION, 0, 46657332, 5, 0, 0, 5424, 5424, 0, 5424, 5424, 0, 1107328712, 0, 0, 0, 0, 0, 0, 512, 4, 46657332, 0, 0, 0, 524288, 65536, 5, 541, 0.00924214, 0, 5, 0, 200, 200, 0, false, true, true, 5368
+DATA #2 : Function name in Library, 0 bytes
+Object not dumped: Address: 0x0000000000000000 Size: 0 Reason: Address is NULL
+DATA #3 : File name, 87 bytes
+/view/db2_v111_linuxamd64_s1606081100/vbs/engn/cde/data/HistogramWithPointerMapImpl.hpp
+
+2017-02-09-20.34.46.584989+000 I432036817E987        LEVEL: Info
+PID     : 21775                TID : 140155457365760 PROC : db2sysc 0
+INSTANCE: db2inst1             NODE : 000            DB   : MYDATABASE
+APPHDL  : 0-365                APPID: *LOCAL.db2inst1.170209192249
+INSTANCE: db2inst1             NODE : 000            DB   : MYDATABASE
+APPHDL  : 0-365                APPID: *LOCAL.db2inst1.170209192249
+AUTHID  : PANC                 HOSTNAME: remote.server.host.name
+EDUID   : 90                   EDUNAME: db2lcfm0 0
+FUNCTION: DB2 UDB, CDE Data, HistogramWithEmbeddedValues::dumpDiagnosticMessages, probe:3730
+DATA #1 : String, 223 bytes
+Final histogram : 38, MSA, 0, 47565865, 431, 0, 0, 21832, 18184, 3648, 18184, 18184, 0, 1107328712, 0, 0, 0, 0, 0, 0, 512, 4, 46657332, 0, 0, 908533, 524288, 65536, 431, 541, 0.796673, 0, 5, 0, 24, 24, 0, true, true, 14712
+DATA #2 : Function name in Library, 0 bytes
+Object not dumped: Address: 0x0000000000000000 Size: 0 Reason: Address is NULL
+DATA #3 : File name, 91 bytes
+/view/db2_v111_linuxamd64_s1606081100/vbs/engn/cde/data/HistogramWithEmbeddedValuesImpl.hpp
+
+2017-02-09-20.34.46.585299+000 I432037805E981        LEVEL: Info
+PID     : 21775                TID : 140155457365760 PROC : db2sysc 0
+INSTANCE: db2inst1             NODE : 000            DB   : MYDATABASE
+APPHDL  : 0-365                APPID: *LOCAL.db2inst1.170209192249
+AUTHID  : PANC                 HOSTNAME: remote.server.host.name
+EDUID   : 90                   EDUNAME: db2lcfm0 0
+FUNCTION: DB2 UDB, CDE Data, HistogramWithEmbeddedValues::dumpDiagnosticMessages, probe:3730
+DATA #1 : String, 217 bytes
+Final histogram : 39, STDPLAC, 0, 46657496, 44, 0, 0, 6308, 5796, 512, 5796, 5796, 0, 1107328712, 0, 0, 0, 0, 0, 0, 512, 4, 46657332, 0, 0, 164, 524288, 65536, 44, 541, 0.0813309, 0, 5, 0, 24, 24, 0, true, true, 5424
+DATA #2 : Function name in Library, 0 bytes
+Object not dumped: Address: 0x0000000000000000 Size: 0 Reason: Address is NULL
+DATA #3 : File name, 91 bytes
+/view/db2_v111_linuxamd64_s1606081100/vbs/engn/cde/data/HistogramWithEmbeddedValuesImpl.hpp
+
+2017-02-09-20.34.46.585615+000 I432038787E987        LEVEL: Info
+PID     : 21775                TID : 140155457365760 PROC : db2sysc 0
+INSTANCE: db2inst1             NODE : 000            DB   : MYDATABASE
+APPHDL  : 0-365                APPID: *LOCAL.db2inst1.170209192249
+AUTHID  : PANC                 HOSTNAME: remote.server.host.name
+EDUID   : 90                   EDUNAME: db2lcfm0 0
+FUNCTION: DB2 UDB, CDE Data, HistogramWithEmbeddedValues::dumpDiagnosticMessages, probe:3730
+DATA #1 : String, 223 bytes
+Final histogram : 40, STDPROV, 0, 48312160, 131, 0, 0, 9908, 8580, 1328, 8580, 8580, 0, 1107328712, 0, 0, 0, 0, 0, 0, 512, 4, 46657332, 0, 0, 1654828, 524288, 65536, 131, 541, 0.242144, 0, 5, 0, 24, 24, 0, true, true, 7512
+DATA #2 : Function name in Library, 0 bytes
+Object not dumped: Address: 0x0000000000000000 Size: 0 Reason: Address is NULL
+DATA #3 : File name, 91 bytes
+/view/db2_v111_linuxamd64_s1606081100/vbs/engn/cde/data/HistogramWithEmbeddedValuesImpl.hpp
+
+2017-02-09-20.34.46.585927+000 I432039775E977        LEVEL: Info
+PID     : 21775                TID : 140155457365760 PROC : db2sysc 0
+INSTANCE: db2inst1             NODE : 000            DB   : MYDATABASE
+APPHDL  : 0-365                APPID: *LOCAL.db2inst1.170209192249
+AUTHID  : PANC                 HOSTNAME: remote.server.host.name
+EDUID   : 90                   EDUNAME: db2lcfm0 0
+FUNCTION: DB2 UDB, CDE Data, HistogramWithEmbeddedValues::dumpDiagnosticMessages, probe:3730
+DATA #1 : String, 213 bytes
+Final histogram : 41, DATATYP, 0, 46657332, 2, 0, 0, 4540, 4452, 88, 4452, 4452, 0, 1107328712, 0, 0, 0, 0, 0, 0, 512, 4, 46657332, 0, 0, 0, 524288, 65536, 2, 541, 0.00369686, 0, 5, 0, 24, 24, 0, true, true, 4416
+DATA #2 : Function name in Library, 0 bytes
+Object not dumped: Address: 0x0000000000000000 Size: 0 Reason: Address is NULL
+DATA #3 : File name, 91 bytes
+/view/db2_v111_linuxamd64_s1606081100/vbs/engn/cde/data/HistogramWithEmbeddedValuesImpl.hpp
+
+2017-02-09-20.34.46.586238+000 I432040753E993        LEVEL: Info
+PID     : 21775                TID : 140155457365760 PROC : db2sysc 0
+INSTANCE: db2inst1             NODE : 000            DB   : MYDATABASE
+APPHDL  : 0-365                APPID: *LOCAL.db2inst1.170209192249
+AUTHID  : PANC                 HOSTNAME: remote.server.host.name
+EDUID   : 90                   EDUNAME: db2lcfm0 0
+FUNCTION: DB2 UDB, CDE Data, HistogramWithEmbeddedValues::dumpDiagnosticMessages, probe:3730
+DATA #1 : String, 229 bytes
+Final histogram : 42, PLANKEY, 0, 89820184, 521, 0, 0, 25556, 21060, 4496, 21060, 21060, 0, 1107328712, 0, 0, 0, 0, 0, 0, 512, 4, 46657332, 0, 0, 43162852, 524288, 65536, 521, 541, 0.963031, 0, 5, 0, 24, 24, 0, true, true, 16872
+DATA #2 : Function name in Library, 0 bytes
+Object not dumped: Address: 0x0000000000000000 Size: 0 Reason: Address is NULL
+DATA #3 : File name, 91 bytes
+/view/db2_v111_linuxamd64_s1606081100/vbs/engn/cde/data/HistogramWithEmbeddedValuesImpl.hpp
+
+2017-02-09-20.34.46.586547+000 I432041747E982        LEVEL: Info
+PID     : 21775                TID : 140155457365760 PROC : db2sysc 0
+INSTANCE: db2inst1             NODE : 000            DB   : MYDATABASE
+APPHDL  : 0-365                APPID: *LOCAL.db2inst1.170209192249
+AUTHID  : PANC                 HOSTNAME: remote.server.host.name
+EDUID   : 90                   EDUNAME: db2lcfm0 0
+FUNCTION: DB2 UDB, CDE Data, HistogramWithEmbeddedValues::dumpDiagnosticMessages, probe:3730
+DATA #1 : String, 218 bytes
+Final histogram : 43, WGTKEY, 0, 47581953, 72, 0, 0, 7380, 6692, 688, 6692, 6692, 0, 1107328712, 0, 0, 0, 0, 0, 0, 512, 4, 46657332, 0, 0, 924621, 524288, 65536, 72, 541, 0.133087, 0, 5, 0, 24, 24, 0, true, true, 6096
+DATA #2 : Function name in Library, 0 bytes
+Object not dumped: Address: 0x0000000000000000 Size: 0 Reason: Address is NULL
+DATA #3 : File name, 91 bytes
+/view/db2_v111_linuxamd64_s1606081100/vbs/engn/cde/data/HistogramWithEmbeddedValuesImpl.hpp
+
+2017-02-09-20.34.46.586884+000 I432042730E976        LEVEL: Info
+PID     : 21775                TID : 140155457365760 PROC : db2sysc 0
+INSTANCE: db2inst1             NODE : 000            DB   : MYDATABASE
+APPHDL  : 0-365                APPID: *LOCAL.db2inst1.170209192249
+AUTHID  : PANC                 HOSTNAME: remote.server.host.name
+EDUID   : 90                   EDUNAME: db2lcfm0 0
+FUNCTION: DB2 UDB, CDE Data, HistogramWithPointerMap::dumpDiagnosticMessages, probe:4415
+DATA #1 : String, 220 bytes
+Final histogram : 44, AGEGRP, 0, 46657332, 5, 0, 0, 5424, 5424, 0, 5424, 5424, 0, 1107328712, 0, 0, 0, 0, 0, 0, 512, 4, 46657332, 0, 0, 0, 524288, 65536, 5, 541, 0.00924214, 0, 5, 0, 200, 200, 0, false, true, true, 5368
+DATA #2 : Function name in Library, 0 bytes
+Object not dumped: Address: 0x0000000000000000 Size: 0 Reason: Address is NULL
+DATA #3 : File name, 87 bytes
+/view/db2_v111_linuxamd64_s1606081100/vbs/engn/cde/data/HistogramWithPointerMapImpl.hpp
+
+2017-02-09-20.34.46.587199+000 I432043707E976        LEVEL: Info
+PID     : 21775                TID : 140155457365760 PROC : db2sysc 0
+INSTANCE: db2inst1             NODE : 000            DB   : MYDATABASE
+APPHDL  : 0-365                APPID: *LOCAL.db2inst1.170209192249
+AUTHID  : PANC                 HOSTNAME: remote.server.host.name
+EDUID   : 90                   EDUNAME: db2lcfm0 0
+FUNCTION: DB2 UDB, CDE Data, HistogramWithPointerMap::dumpDiagnosticMessages, probe:4415
+DATA #1 : String, 220 bytes
+Final histogram : 45, EECLASS, 0, 46657332, 9, 0, 0, 6256, 6256, 0, 6256, 6256, 0, 1107328712, 0, 0, 0, 0, 0, 0, 512, 4, 46657332, 0, 0, 0, 524288, 65536, 9, 541, 0.0166359, 0, 5, 0, 200, 200, 0, false, true, true, 6168
+DATA #2 : Function name in Library, 0 bytes
+Object not dumped: Address: 0x0000000000000000 Size: 0 Reason: Address is NULL
+DATA #3 : File name, 87 bytes
+/view/db2_v111_linuxamd64_s1606081100/vbs/engn/cde/data/HistogramWithPointerMapImpl.hpp
+
+2017-02-09-20.34.46.587509+000 I432044684E976        LEVEL: Info
+PID     : 21775                TID : 140155457365760 PROC : db2sysc 0
+INSTANCE: db2inst1             NODE : 000            DB   : MYDATABASE
+APPHDL  : 0-365                APPID: *LOCAL.db2inst1.170209192249
+AUTHID  : PANC                 HOSTNAME: remote.server.host.name
+EDUID   : 90                   EDUNAME: db2lcfm0 0
+FUNCTION: DB2 UDB, CDE Data, HistogramWithPointerMap::dumpDiagnosticMessages, probe:4415
+DATA #1 : String, 220 bytes
+Final histogram : 46, EESTATU, 0, 46657332, 9, 0, 0, 6256, 6256, 0, 6256, 6256, 0, 1107328712, 0, 0, 0, 0, 0, 0, 512, 4, 46657332, 0, 0, 0, 524288, 65536, 9, 541, 0.0166359, 0, 5, 0, 200, 200, 0, false, true, true, 6168
+DATA #2 : Function name in Library, 0 bytes
+Object not dumped: Address: 0x0000000000000000 Size: 0 Reason: Address is NULL
+DATA #3 : File name, 87 bytes
+/view/db2_v111_linuxamd64_s1606081100/vbs/engn/cde/data/HistogramWithPointerMapImpl.hpp
+
+2017-02-09-20.34.46.587819+000 I432045661E986        LEVEL: Info
+PID     : 21775                TID : 140155457365760 PROC : db2sysc 0
+INSTANCE: db2inst1             NODE : 000            DB   : MYDATABASE
+APPHDL  : 0-365                APPID: *LOCAL.db2inst1.170209192249
+AUTHID  : PANC                 HOSTNAME: remote.server.host.name
+EDUID   : 90                   EDUNAME: db2lcfm0 0
+FUNCTION: DB2 UDB, CDE Data, HistogramWithPointerMap::dumpDiagnosticMessages, probe:4415
+DATA #1 : String, 230 bytes
+Final histogram : 47, EGEOLOC, 0, 46657332, 53, 0, 0, 17504, 15408, 2096, 15408, 15408, 0, 1107328712, 0, 0, 0, 0, 0, 0, 512, 4, 46657332, 0, 0, 0, 524288, 65536, 53, 541, 0.0979667, 0, 5, 0, 200, 200, 0, false, true, true, 14968
+DATA #2 : Function name in Library, 0 bytes
+Object not dumped: Address: 0x0000000000000000 Size: 0 Reason: Address is NULL
+DATA #3 : File name, 87 bytes
+/view/db2_v111_linuxamd64_s1606081100/vbs/engn/cde/data/HistogramWithPointerMapImpl.hpp
+
+2017-02-09-20.34.46.588135+000 I432046648E977        LEVEL: Info
+PID     : 21775                TID : 140155457365760 PROC : db2sysc 0
+INSTANCE: db2inst1             NODE : 000            DB   : MYDATABASE
+APPHDL  : 0-365                APPID: *LOCAL.db2inst1.170209192249
+AUTHID  : PANC                 HOSTNAME: remote.server.host.name
+EDUID   : 90                   EDUNAME: db2lcfm0 0
+FUNCTION: DB2 UDB, CDE Data, HistogramWithPointerMap::dumpDiagnosticMessages, probe:4415
+DATA #1 : String, 221 bytes
+Final histogram : 48, EIDFLAG, 0, 46657332, 2, 0, 0, 4800, 4800, 0, 4800, 4800, 0, 1107328712, 0, 0, 0, 0, 0, 0, 512, 4, 46657332, 0, 0, 0, 524288, 65536, 2, 541, 0.00369686, 0, 5, 0, 200, 200, 0, false, true, true, 4768
+DATA #2 : Function name in Library, 0 bytes
+Object not dumped: Address: 0x0000000000000000 Size: 0 Reason: Address is NULL
+DATA #3 : File name, 87 bytes
+/view/db2_v111_linuxamd64_s1606081100/vbs/engn/cde/data/HistogramWithPointerMapImpl.hpp
+
+2017-02-09-20.34.46.588446+000 I432047626E976        LEVEL: Info
+PID     : 21775                TID : 140155457365760 PROC : db2sysc 0
+INSTANCE: db2inst1             NODE : 000            DB   : MYDATABASE
+APPHDL  : 0-365                APPID: *LOCAL.db2inst1.170209192249
+AUTHID  : PANC                 HOSTNAME: remote.server.host.name
+EDUID   : 90                   EDUNAME: db2lcfm0 0
+FUNCTION: DB2 UDB, CDE Data, HistogramWithPointerMap::dumpDiagnosticMessages, probe:4415
+DATA #1 : String, 220 bytes
+Final histogram : 49, EMPREL, 0, 46657332, 3, 0, 0, 5008, 5008, 0, 5008, 5008, 0, 1107328712, 0, 0, 0, 0, 0, 0, 512, 4, 46657332, 0, 0, 0, 524288, 65536, 3, 541, 0.00554529, 0, 5, 0, 200, 200, 0, false, true, true, 4968
+DATA #2 : Function name in Library, 0 bytes
+Object not dumped: Address: 0x0000000000000000 Size: 0 Reason: Address is NULL
+DATA #3 : File name, 87 bytes
+/view/db2_v111_linuxamd64_s1606081100/vbs/engn/cde/data/HistogramWithPointerMapImpl.hpp
+
+2017-02-09-20.34.46.588757+000 I432048603E977        LEVEL: Info
+PID     : 21775                TID : 140155457365760 PROC : db2sysc 0
+INSTANCE: db2inst1             NODE : 000            DB   : MYDATABASE
+APPHDL  : 0-365                APPID: *LOCAL.db2inst1.170209192249
+AUTHID  : PANC                 HOSTNAME: remote.server.host.name
+EDUID   : 90                   EDUNAME: db2lcfm0 0
+FUNCTION: DB2 UDB, CDE Data, HistogramWithPointerMap::dumpDiagnosticMessages, probe:4415
+DATA #1 : String, 221 bytes
+Final histogram : 50, ENRFLAG, 0, 46657332, 1, 0, 0, 4592, 4592, 0, 4592, 4592, 0, 1107328712, 0, 0, 0, 0, 0, 0, 512, 4, 46657332, 0, 0, 0, 524288, 65536, 1, 541, 0.00184843, 0, 5, 0, 200, 200, 0, false, true, true, 4568
+DATA #2 : Function name in Library, 0 bytes
+Object not dumped: Address: 0x0000000000000000 Size: 0 Reason: Address is NULL
+DATA #3 : File name, 87 bytes
+/view/db2_v111_linuxamd64_s1606081100/vbs/engn/cde/data/HistogramWithPointerMapImpl.hpp
+
+2017-02-09-20.34.46.589067+000 I432049581E977        LEVEL: Info
+PID     : 21775                TID : 140155457365760 PROC : db2sysc 0
+INSTANCE: db2inst1             NODE : 000            DB   : MYDATABASE
+APPHDL  : 0-365                APPID: *LOCAL.db2inst1.170209192249
+AUTHID  : PANC                 HOSTNAME: remote.server.host.name
+EDUID   : 90                   EDUNAME: db2lcfm0 0
+FUNCTION: DB2 UDB, CDE Data, HistogramWithPointerMap::dumpDiagnosticMessages, probe:4415
+DATA #1 : String, 221 bytes
+Final histogram : 51, PHYFLAG, 0, 46657332, 2, 0, 0, 4800, 4800, 0, 4800, 4800, 0, 1107328712, 0, 0, 0, 0, 0, 0, 512, 4, 46657332, 0, 0, 0, 524288, 65536, 2, 541, 0.00369686, 0, 5, 0, 200, 200, 0, false, true, true, 4768
+DATA #2 : Function name in Library, 0 bytes
+Object not dumped: Address: 0x0000000000000000 Size: 0 Reason: Address is NULL
+DATA #3 : File name, 87 bytes
+/view/db2_v111_linuxamd64_s1606081100/vbs/engn/cde/data/HistogramWithPointerMapImpl.hpp
+
+2017-02-09-20.34.46.589385+000 I432050559E972        LEVEL: Info
+PID     : 21775                TID : 140155457365760 PROC : db2sysc 0
+INSTANCE: db2inst1             NODE : 000            DB   : MYDATABASE
+APPHDL  : 0-365                APPID: *LOCAL.db2inst1.170209192249
+APPHDL  : 0-365                APPID: *LOCAL.db2inst1.170209192249
+AUTHID  : PANC                 HOSTNAME: remote.server.host.name
+EDUID   : 90                   EDUNAME: db2lcfm0 0
+FUNCTION: DB2 UDB, CDE Data, HistogramWithPointerMap::dumpDiagnosticMessages, probe:4415
+DATA #1 : String, 216 bytes
+Final histogram : 52, RX, 0, 46657332, 2, 0, 0, 4800, 4800, 0, 4800, 4800, 0, 1107328712, 0, 0, 0, 0, 0, 0, 512, 4, 46657332, 0, 0, 0, 524288, 65536, 2, 541, 0.00369686, 0, 5, 0, 200, 200, 0, false, true, true, 4768
+DATA #2 : Function name in Library, 0 bytes
+Object not dumped: Address: 0x0000000000000000 Size: 0 Reason: Address is NULL
+DATA #3 : File name, 87 bytes
+/view/db2_v111_linuxamd64_s1606081100/vbs/engn/cde/data/HistogramWithPointerMapImpl.hpp
+
+2017-02-09-20.34.46.589697+000 I432051532E973        LEVEL: Info
+PID     : 21775                TID : 140155457365760 PROC : db2sysc 0
+INSTANCE: db2inst1             NODE : 000            DB   : MYDATABASE
+APPHDL  : 0-365                APPID: *LOCAL.db2inst1.170209192249
+AUTHID  : PANC                 HOSTNAME: remote.server.host.name
+EDUID   : 90                   EDUNAME: db2lcfm0 0
+FUNCTION: DB2 UDB, CDE Data, HistogramWithPointerMap::dumpDiagnosticMessages, probe:4415
+DATA #1 : String, 217 bytes
+Final histogram : 53, SEX, 0, 46657332, 2, 0, 0, 4800, 4800, 0, 4800, 4800, 0, 1107328712, 0, 0, 0, 0, 0, 0, 512, 4, 46657332, 0, 0, 0, 524288, 65536, 2, 541, 0.00369686, 0, 5, 0, 200, 200, 0, false, true, true, 4768
+DATA #2 : Function name in Library, 0 bytes
+Object not dumped: Address: 0x0000000000000000 Size: 0 Reason: Address is NULL
+DATA #3 : File name, 87 bytes
+/view/db2_v111_linuxamd64_s1606081100/vbs/engn/cde/data/HistogramWithPointerMapImpl.hpp
+
+2017-02-09-20.34.46.590007+000 I432052506E978        LEVEL: Info
+PID     : 21775                TID : 140155457365760 PROC : db2sysc 0
+INSTANCE: db2inst1             NODE : 000            DB   : MYDATABASE
+APPHDL  : 0-365                APPID: *LOCAL.db2inst1.170209192249
+AUTHID  : PANC                 HOSTNAME: remote.server.host.name
+EDUID   : 90                   EDUNAME: db2lcfm0 0
+FUNCTION: DB2 UDB, CDE Data, HistogramWithPointerMap::dumpDiagnosticMessages, probe:4415
+DATA #1 : String, 222 bytes
+Final histogram : 54, HLTHPLAN, 0, 46657332, 2, 0, 0, 4800, 4800, 0, 4800, 4800, 0, 1107328712, 0, 0, 0, 0, 0, 0, 512, 4, 46657332, 0, 0, 0, 524288, 65536, 2, 541, 0.00369686, 0, 5, 0, 200, 200, 0, false, true, true, 4768
+DATA #2 : Function name in Library, 0 bytes
+Object not dumped: Address: 0x0000000000000000 Size: 0 Reason: Address is NULL
+DATA #3 : File name, 87 bytes
+/view/db2_v111_linuxamd64_s1606081100/vbs/engn/cde/data/HistogramWithPointerMapImpl.hpp
+
+2017-02-09-20.34.46.590316+000 I432053485E985        LEVEL: Info
+PID     : 21775                TID : 140155457365760 PROC : db2sysc 0
+INSTANCE: db2inst1             NODE : 000            DB   : MYDATABASE
+APPHDL  : 0-365                APPID: *LOCAL.db2inst1.170209192249
+AUTHID  : PANC                 HOSTNAME: remote.server.host.name
+EDUID   : 90                   EDUNAME: db2lcfm0 0
+FUNCTION: DB2 UDB, CDE Data, HistogramWithPointerMap::dumpDiagnosticMessages, probe:4415
+DATA #1 : String, 229 bytes
+Final histogram : 55, INDSTRY, 0, 69641906, 10, 0, 0, 6464, 6464, 0, 6464, 6464, 0, 1107328712, 0, 0, 0, 0, 0, 0, 512, 4, 46657332, 0, 0, 22984574, 524288, 65536, 10, 541, 0.0184843, 0, 5, 0, 200, 200, 0, false, true, true, 6368
+DATA #2 : Function name in Library, 0 bytes
+Object not dumped: Address: 0x0000000000000000 Size: 0 Reason: Address is NULL
+DATA #3 : File name, 87 bytes
+/view/db2_v111_linuxamd64_s1606081100/vbs/engn/cde/data/HistogramWithPointerMapImpl.hpp
+
+2017-02-09-20.34.46.664316+000 I432054471E611        LEVEL: Warning
+PID     : 21775                TID : 140155457365760 PROC : db2sysc 0
+INSTANCE: db2inst1             NODE : 000            DB   : MYDATABASE
+APPHDL  : 0-365                APPID: *LOCAL.db2inst1.170209192249
+AUTHID  : PANC                 HOSTNAME: remote.server.host.name
+EDUID   : 90                   EDUNAME: db2lcfm0 0
+FUNCTION: DB2 UDB, database utilities, sqlulPrintPhaseMsg, probe:2075
+DATA #1 : String, 112 bytes
+LOADID: 71.2017-02-09-19.22.49.916676.0 (2;146)
+Completed CDE dictionary  phase at 02/09/2017 20:34:46.664269.
+
+2017-02-09-20.34.46.664382+000 I432055083E602        LEVEL: Warning
+PID     : 21775                TID : 140155516086016 PROC : db2sysc 0
+INSTANCE: db2inst1             NODE : 000            DB   : MYDATABASE
+APPHDL  : 0-365                APPID: *LOCAL.db2inst1.170209192249
+AUTHID  : PANC                 HOSTNAME: remote.server.host.name
+EDUID   : 76                   EDUNAME: db2ltfm0 0
+FUNCTION: DB2 UDB, database utilities, sqlulPrintPhaseMsg, probe:315
+DATA #1 : String, 104 bytes
+LOADID: 71.2017-02-09-19.22.49.916676.0 (2;146)
+Completed ANALYZE phase at 02/09/2017 20:34:46.664280.
+
+2017-02-09-20.34.46.728527+000 I432055686E648        LEVEL: Warning
+PID     : 21775                TID : 140155516086016 PROC : db2sysc 0
+INSTANCE: db2inst1             NODE : 000            DB   : MYDATABASE
+APPHDL  : 0-365                APPID: *LOCAL.db2inst1.170209192249
+AUTHID  : PANC                 HOSTNAME: remote.server.host.name
+EDUID   : 76                   EDUNAME: db2ltfm0 0
+FUNCTION: DB2 UDB, database utilities, sqlulPrintPhaseMsg, probe:315
+DATA #1 : String, 150 bytes
+LOADID: 71.2017-02-09-19.22.49.916676.0 (2;146)
+Starting LOAD phase at 02/09/2017 20:34:46.665758. Table DIABETES_V3_2.COMM_OUTPATIENT_SERVICES_T2DM
+
+2017-02-09-21.10.36.662747+000 I432056335E356        LEVEL: Event
+PID     : 21848                TID : 140574446913280 PROC : db2acd 0
+INSTANCE: db2inst1             NODE : 000
+HOSTNAME: remote.server.host.name
+FUNCTION: DB2 UDB, Health Monitor, db2HmonEvalReorg, probe:10
+START   : Automatic reorg evaluation has started on database MYDATABASE
+
+2017-02-09-21.30.10.298714+000 I432056692E612        LEVEL: Error
+PID     : 21775                TID : 140195424888576 PROC : db2sysc 0
+INSTANCE: db2inst1             NODE : 000            DB   : MYDATABASE
+APPHDL  : 0-365                APPID: *LOCAL.db2inst1.170209192249
+AUTHID  : PANC                 HOSTNAME: remote.server.host.name
+EDUID   : 71                   EDUNAME: db2agent (MYDATABASE) 0
+FUNCTION: DB2 UDB, database utilities, sqluReportErrToDiag, probe:0
+DATA #1 : String, 107 bytes
+LOADID: 71.2017-02-09-19.22.49.916676.0 (2;146)
+ , -952, (nil), Detected in file:sqlulxld_fetch.C, Line:272
+
+2017-02-09-21.30.10.299062+000 I432057305E626        LEVEL: Error
+PID     : 21775                TID : 140195424888576 PROC : db2sysc 0
+INSTANCE: db2inst1             NODE : 000            DB   : MYDATABASE
+APPHDL  : 0-365                APPID: *LOCAL.db2inst1.170209192249
+AUTHID  : PANC                 HOSTNAME: remote.server.host.name
+EDUID   : 71                   EDUNAME: db2agent (MYDATABASE) 0
+FUNCTION: DB2 UDB, database utilities, sqluReportErrToDiag, probe:0
+DATA #1 : String, 121 bytes
+LOADID: 71.2017-02-09-19.22.49.916676.0 (2;146)
+ , -952, 0xffffffff8012006d, Detected in file:sqlulxld_fetch.C, Line:1222
+
+2017-02-09-21.30.10.299330+000 I432057932E620        LEVEL: Error
+PID     : 21775                TID : 140195424888576 PROC : db2sysc 0
+INSTANCE: db2inst1             NODE : 000            DB   : MYDATABASE
+APPHDL  : 0-365                APPID: *LOCAL.db2inst1.170209192249
+AUTHID  : PANC                 HOSTNAME: remote.server.host.name
+EDUID   : 71                   EDUNAME: db2agent (MYDATABASE) 0
+FUNCTION: DB2 UDB, database utilities, sqluReportErrToDiag, probe:0
+DATA #1 : String, 115 bytes
+LOADID: 71.2017-02-09-19.22.49.916676.0 (2;146)
+ , -2145779603, (nil), Detected in file:sqlulxld_fetch.C, Line:1939
+
+2017-02-09-21.30.10.299583+000 I432058553E620        LEVEL: Error
+PID     : 21775                TID : 140195424888576 PROC : db2sysc 0
+INSTANCE: db2inst1             NODE : 000            DB   : MYDATABASE
+APPHDL  : 0-365                APPID: *LOCAL.db2inst1.170209192249
+AUTHID  : PANC                 HOSTNAME: remote.server.host.name
+EDUID   : 71                   EDUNAME: db2agent (MYDATABASE) 0
+FUNCTION: DB2 UDB, database utilities, sqluReportErrToDiag, probe:0
+DATA #1 : String, 115 bytes
+LOADID: 71.2017-02-09-19.22.49.916676.0 (2;146)
+ , -2145779603, (nil), Detected in file:sqlulxld_fetch.C, Line:2042
+
+2017-02-09-21.30.10.299865+000 I432059174E613        LEVEL: Error
+PID     : 21775                TID : 140195424888576 PROC : db2sysc 0
+INSTANCE: db2inst1             NODE : 000            DB   : MYDATABASE
+APPHDL  : 0-365                APPID: *LOCAL.db2inst1.170209192249
+AUTHID  : PANC                 HOSTNAME: remote.server.host.name
+EDUID   : 71                   EDUNAME: db2agent (MYDATABASE) 0
+FUNCTION: DB2 UDB, database utilities, sqluReportErrToDiag, probe:0
+DATA #1 : String, 108 bytes
+LOADID: 71.2017-02-09-19.22.49.916676.0 (2;146)
+ , -2145779603, (nil), Detected in file:sqluvld.C, Line:4257
+
+2017-02-09-21.30.10.300218+000 I432059788E618        LEVEL: Error
+PID     : 21775                TID : 140155503503104 PROC : db2sysc 0
+INSTANCE: db2inst1             NODE : 000            DB   : MYDATABASE
+APPHDL  : 0-365                APPID: *LOCAL.db2inst1.170209192249
+AUTHID  : PANC                 HOSTNAME: remote.server.host.name
+EDUID   : 79                   EDUNAME: db2ltfm3 0
+FUNCTION: DB2 UDB, database utilities, sqluReportErrToDiag, probe:0
+DATA #1 : String, 122 bytes
+LOADID: 71.2017-02-09-19.22.49.916676.0 (2;146)
+buff err , -2112552874, (nil), Detected in file:sqlulxld_parse.C, Line:322
+
+2017-02-09-21.30.10.300522+000 I432060407E605        LEVEL: Error
+PID     : 21775                TID : 140155503503104 PROC : db2sysc 0
+INSTANCE: db2inst1             NODE : 000            DB   : MYDATABASE
+APPHDL  : 0-365                APPID: *LOCAL.db2inst1.170209192249
+AUTHID  : PANC                 HOSTNAME: remote.server.host.name
+EDUID   : 79                   EDUNAME: db2ltfm3 0
+FUNCTION: DB2 UDB, database utilities, sqluReportErrToDiag, probe:0
+DATA #1 : String, 109 bytes
+LOADID: 71.2017-02-09-19.22.49.916676.0 (2;146)
+ , -3005, (nil), Detected in file:sqlulxld_parse.C, Line:5594
+
+2017-02-09-21.30.10.300745+000 I432061013E611        LEVEL: Error
+PID     : 21775                TID : 140155503503104 PROC : db2sysc 0
+INSTANCE: db2inst1             NODE : 000            DB   : MYDATABASE
+APPHDL  : 0-365                APPID: *LOCAL.db2inst1.170209192249
+AUTHID  : PANC                 HOSTNAME: remote.server.host.name
+EDUID   : 79                   EDUNAME: db2ltfm3 0
+FUNCTION: DB2 UDB, database utilities, sqluReportErrToDiag, probe:0
+DATA #1 : String, 115 bytes
+LOADID: 71.2017-02-09-19.22.49.916676.0 (2;146)
+ , -2112552959, (nil), Detected in file:sqlulxld_parse.C, Line:5358
+
+2017-02-09-21.30.10.300962+000 I432061625E611        LEVEL: Error
+PID     : 21775                TID : 140155503503104 PROC : db2sysc 0
+INSTANCE: db2inst1             NODE : 000            DB   : MYDATABASE
+APPHDL  : 0-365                APPID: *LOCAL.db2inst1.170209192249
+AUTHID  : PANC                 HOSTNAME: remote.server.host.name
+AUTHID  : PANC                 HOSTNAME: remote.server.host.name
+EDUID   : 79                   EDUNAME: db2ltfm3 0
+FUNCTION: DB2 UDB, database utilities, sqluReportErrToDiag, probe:0
+DATA #1 : String, 115 bytes
+LOADID: 71.2017-02-09-19.22.49.916676.0 (2;146)
+ , -2112552959, (nil), Detected in file:sqlulxld_parse.C, Line:5358
+
+2017-02-09-21.30.10.300962+000 I432061625E611        LEVEL: Error
+PID     : 21775                TID : 140155503503104 PROC : db2sysc 0
+INSTANCE: db2inst1             NODE : 000            DB   : MYDATABASE
+APPHDL  : 0-365                APPID: *LOCAL.db2inst1.170209192249
+AUTHID  : PANC                 HOSTNAME: remote.server.host.name
+EDUID   : 79                   EDUNAME: db2ltfm3 0
+FUNCTION: DB2 UDB, database utilities, sqluReportErrToDiag, probe:0
+DATA #1 : String, 115 bytes
+LOADID: 71.2017-02-09-19.22.49.916676.0 (2;146)
+ , -2112552959, (nil), Detected in file:sqlulxld_parse.C, Line:3249
+
+2017-02-09-21.30.10.301176+000 I432062237E610        LEVEL: Error
+PID     : 21775                TID : 140155503503104 PROC : db2sysc 0
+INSTANCE: db2inst1             NODE : 000            DB   : MYDATABASE
+APPHDL  : 0-365                APPID: *LOCAL.db2inst1.170209192249
+AUTHID  : PANC                 HOSTNAME: remote.server.host.name
+EDUID   : 79                   EDUNAME: db2ltfm3 0
+FUNCTION: DB2 UDB, database utilities, sqluReportErrToDiag, probe:0
+DATA #1 : String, 114 bytes
+LOADID: 71.2017-02-09-19.22.49.916676.0 (2;146)
+ , -2112552959, (nil), Detected in file:sqlulxld_parse.C, Line:788
+
+2017-02-09-21.30.10.300267+000 I432062848E619        LEVEL: Error
+PID     : 21775                TID : 140155465754368 PROC : db2sysc 0
+INSTANCE: db2inst1             NODE : 000            DB   : MYDATABASE
+APPHDL  : 0-365                APPID: *LOCAL.db2inst1.170209192249
+AUTHID  : PANC                 HOSTNAME: remote.server.host.name
+EDUID   : 88                   EDUNAME: db2ltfm12 0
+FUNCTION: DB2 UDB, database utilities, sqluReportErrToDiag, probe:0
+DATA #1 : String, 122 bytes
+LOADID: 71.2017-02-09-19.22.49.916676.0 (2;146)
+buff err , -2112552874, (nil), Detected in file:sqlulxld_parse.C, Line:322
+
+2017-02-09-21.30.10.301665+000 I432063468E606        LEVEL: Error
+PID     : 21775                TID : 140155465754368 PROC : db2sysc 0
+INSTANCE: db2inst1             NODE : 000            DB   : MYDATABASE
+APPHDL  : 0-365                APPID: *LOCAL.db2inst1.170209192249
+AUTHID  : PANC                 HOSTNAME: remote.server.host.name
+EDUID   : 88                   EDUNAME: db2ltfm12 0
+FUNCTION: DB2 UDB, database utilities, sqluReportErrToDiag, probe:0
+DATA #1 : String, 109 bytes
+LOADID: 71.2017-02-09-19.22.49.916676.0 (2;146)
+ , -3005, (nil), Detected in file:sqlulxld_parse.C, Line:5594
+
+2017-02-09-21.30.10.301892+000 I432064075E612        LEVEL: Error
+PID     : 21775                TID : 140155465754368 PROC : db2sysc 0
+INSTANCE: db2inst1             NODE : 000            DB   : MYDATABASE
+APPHDL  : 0-365                APPID: *LOCAL.db2inst1.170209192249
+AUTHID  : PANC                 HOSTNAME: remote.server.host.name
+EDUID   : 88                   EDUNAME: db2ltfm12 0
+FUNCTION: DB2 UDB, database utilities, sqluReportErrToDiag, probe:0
+DATA #1 : String, 115 bytes
+LOADID: 71.2017-02-09-19.22.49.916676.0 (2;146)
+ , -2112552959, (nil), Detected in file:sqlulxld_parse.C, Line:5358
+
+2017-02-09-21.30.10.302109+000 I432064688E612        LEVEL: Error
+PID     : 21775                TID : 140155465754368 PROC : db2sysc 0
+INSTANCE: db2inst1             NODE : 000            DB   : MYDATABASE
+APPHDL  : 0-365                APPID: *LOCAL.db2inst1.170209192249
+AUTHID  : PANC                 HOSTNAME: remote.server.host.name
+EDUID   : 88                   EDUNAME: db2ltfm12 0
+FUNCTION: DB2 UDB, database utilities, sqluReportErrToDiag, probe:0
+DATA #1 : String, 115 bytes
+LOADID: 71.2017-02-09-19.22.49.916676.0 (2;146)
+ , -2112552959, (nil), Detected in file:sqlulxld_parse.C, Line:3249
+
+2017-02-09-21.30.10.302325+000 I432065301E611        LEVEL: Error
+PID     : 21775                TID : 140155465754368 PROC : db2sysc 0
+INSTANCE: db2inst1             NODE : 000            DB   : MYDATABASE
+APPHDL  : 0-365                APPID: *LOCAL.db2inst1.170209192249
+AUTHID  : PANC                 HOSTNAME: remote.server.host.name
+EDUID   : 88                   EDUNAME: db2ltfm12 0
+FUNCTION: DB2 UDB, database utilities, sqluReportErrToDiag, probe:0
+DATA #1 : String, 114 bytes
+LOADID: 71.2017-02-09-19.22.49.916676.0 (2;146)
+ , -2112552959, (nil), Detected in file:sqlulxld_parse.C, Line:788
+
+2017-02-09-21.30.10.300211+000 I432065913E618        LEVEL: Error
+PID     : 21775                TID : 140155511891712 PROC : db2sysc 0
+INSTANCE: db2inst1             NODE : 000            DB   : MYDATABASE
+APPHDL  : 0-365                APPID: *LOCAL.db2inst1.170209192249
+AUTHID  : PANC                 HOSTNAME: remote.server.host.name
+EDUID   : 77                   EDUNAME: db2ltfm1 0
+FUNCTION: DB2 UDB, database utilities, sqluReportErrToDiag, probe:0
+DATA #1 : String, 122 bytes
+LOADID: 71.2017-02-09-19.22.49.916676.0 (2;146)
+buff err , -2112552874, (nil), Detected in file:sqlulxld_parse.C, Line:322
+
+2017-02-09-21.30.10.300219+000 I432066532E618        LEVEL: Error
+PID     : 21775                TID : 140155507697408 PROC : db2sysc 0
+INSTANCE: db2inst1             NODE : 000            DB   : MYDATABASE
+APPHDL  : 0-365                APPID: *LOCAL.db2inst1.170209192249
+AUTHID  : PANC                 HOSTNAME: remote.server.host.name
+EDUID   : 78                   EDUNAME: db2ltfm2 0
+FUNCTION: DB2 UDB, database utilities, sqluReportErrToDiag, probe:0
+DATA #1 : String, 122 bytes
+LOADID: 71.2017-02-09-19.22.49.916676.0 (2;146)
+buff err , -2112552874, (nil), Detected in file:sqlulxld_parse.C, Line:322
+
+2017-02-09-21.30.10.303109+000 I432067151E605        LEVEL: Error
+PID     : 21775                TID : 140155507697408 PROC : db2sysc 0
+INSTANCE: db2inst1             NODE : 000            DB   : MYDATABASE
+APPHDL  : 0-365                APPID: *LOCAL.db2inst1.170209192249
+AUTHID  : PANC                 HOSTNAME: remote.server.host.name
+EDUID   : 78                   EDUNAME: db2ltfm2 0
+FUNCTION: DB2 UDB, database utilities, sqluReportErrToDiag, probe:0
+DATA #1 : String, 109 bytes
+LOADID: 71.2017-02-09-19.22.49.916676.0 (2;146)
+ , -3005, (nil), Detected in file:sqlulxld_parse.C, Line:5594
+
+2017-02-09-21.30.10.303339+000 I432067757E611        LEVEL: Error
+PID     : 21775                TID : 140155507697408 PROC : db2sysc 0
+INSTANCE: db2inst1             NODE : 000            DB   : MYDATABASE
+APPHDL  : 0-365                APPID: *LOCAL.db2inst1.170209192249
+AUTHID  : PANC                 HOSTNAME: remote.server.host.name
+EDUID   : 78                   EDUNAME: db2ltfm2 0
+FUNCTION: DB2 UDB, database utilities, sqluReportErrToDiag, probe:0
+DATA #1 : String, 115 bytes
+LOADID: 71.2017-02-09-19.22.49.916676.0 (2;146)
+ , -2112552959, (nil), Detected in file:sqlulxld_parse.C, Line:5358
+
+2017-02-09-21.30.10.303556+000 I432068369E611        LEVEL: Error
+PID     : 21775                TID : 140155507697408 PROC : db2sysc 0
+INSTANCE: db2inst1             NODE : 000            DB   : MYDATABASE
+APPHDL  : 0-365                APPID: *LOCAL.db2inst1.170209192249
+AUTHID  : PANC                 HOSTNAME: remote.server.host.name
+EDUID   : 78                   EDUNAME: db2ltfm2 0
+FUNCTION: DB2 UDB, database utilities, sqluReportErrToDiag, probe:0
+DATA #1 : String, 115 bytes
+LOADID: 71.2017-02-09-19.22.49.916676.0 (2;146)
+ , -2112552959, (nil), Detected in file:sqlulxld_parse.C, Line:3249
+
+2017-02-09-21.30.10.300272+000 I432068981E618        LEVEL: Error
+PID     : 21775                TID : 140155478337280 PROC : db2sysc 0
+INSTANCE: db2inst1             NODE : 000            DB   : MYDATABASE
+APPHDL  : 0-365                APPID: *LOCAL.db2inst1.170209192249
+AUTHID  : PANC                 HOSTNAME: remote.server.host.name
+EDUID   : 85                   EDUNAME: db2ltfm9 0
+FUNCTION: DB2 UDB, database utilities, sqluReportErrToDiag, probe:0
+DATA #1 : String, 122 bytes
+LOADID: 71.2017-02-09-19.22.49.916676.0 (2;146)
+buff err , -2112552874, (nil), Detected in file:sqlulxld_parse.C, Line:322
+
+2017-02-09-21.30.10.304088+000 I432069600E605        LEVEL: Error
+PID     : 21775                TID : 140155478337280 PROC : db2sysc 0
+INSTANCE: db2inst1             NODE : 000            DB   : MYDATABASE
+APPHDL  : 0-365                APPID: *LOCAL.db2inst1.170209192249
+AUTHID  : PANC                 HOSTNAME: remote.server.host.name
+EDUID   : 85                   EDUNAME: db2ltfm9 0
+FUNCTION: DB2 UDB, database utilities, sqluReportErrToDiag, probe:0
+DATA #1 : String, 109 bytes
+LOADID: 71.2017-02-09-19.22.49.916676.0 (2;146)
+ , -3005, (nil), Detected in file:sqlulxld_parse.C, Line:5594
+
+2017-02-09-21.30.10.300259+000 I432070206E618        LEVEL: Error
+PID     : 21775                TID : 140155486725888 PROC : db2sysc 0
+INSTANCE: db2inst1             NODE : 000            DB   : MYDATABASE
+APPHDL  : 0-365                APPID: *LOCAL.db2inst1.170209192249
+AUTHID  : PANC                 HOSTNAME: remote.server.host.name
+EDUID   : 83                   EDUNAME: db2ltfm7 0
+FUNCTION: DB2 UDB, database utilities, sqluReportErrToDiag, probe:0
+DATA #1 : String, 122 bytes
+LOADID: 71.2017-02-09-19.22.49.916676.0 (2;146)
+buff err , -2112552874, (nil), Detected in file:sqlulxld_parse.C, Line:322
+
+2017-02-09-21.30.10.304579+000 I432070825E605        LEVEL: Error
+PID     : 21775                TID : 140155486725888 PROC : db2sysc 0
+INSTANCE: db2inst1             NODE : 000            DB   : MYDATABASE
+APPHDL  : 0-365                APPID: *LOCAL.db2inst1.170209192249
+AUTHID  : PANC                 HOSTNAME: remote.server.host.name
+EDUID   : 83                   EDUNAME: db2ltfm7 0
+FUNCTION: DB2 UDB, database utilities, sqluReportErrToDiag, probe:0
+DATA #1 : String, 109 bytes
+LOADID: 71.2017-02-09-19.22.49.916676.0 (2;146)
+ , -3005, (nil), Detected in file:sqlulxld_parse.C, Line:5594
+
+2017-02-09-21.30.10.302559+000 I432071431E693        LEVEL: Error
+PID     : 21775                TID : 140155465754368 PROC : db2sysc 0
+INSTANCE: db2inst1             NODE : 000            DB   : MYDATABASE
+APPHDL  : 0-365                APPID: *LOCAL.db2inst1.170209192249
+AUTHID  : PANC                 HOSTNAME: remote.server.host.name
+EDUID   : 88                   EDUNAME: db2ltfm12 0
+FUNCTION: DB2 UDB, database utilities, sqluLoadEDUDriver, probe:2878
+MESSAGE : ZRC=0x8015006D=-2146107283=SQLU_CA_BUILT
+          "SQLCA has already been built"
+DATA #1 : LOADID, PD_TYPE_LOADID, 47 bytes
+LOADID: 71.2017-02-09-19.22.49.916676.0 (2;146)
+DATA #2 : File name, 10 bytes
+sqluedus.C
+
+2017-02-09-21.30.10.305187+000 I432072125E747        LEVEL: Error
+PID     : 21775                TID : 140155465754368 PROC : db2sysc 0
+INSTANCE: db2inst1             NODE : 000            DB   : MYDATABASE
+APPHDL  : 0-365                APPID: *LOCAL.db2inst1.170209192249
+AUTHID  : PANC                 HOSTNAME: remote.server.host.name
+EDUID   : 88                   EDUNAME: db2ltfm12 0
+FUNCTION: DB2 UDB, database utilities, sqluCFormatter::iCleanUp, probe:1963
+MESSAGE : ZRC=0x8015006D=-2146107283=SQLU_CA_BUILT
+          "SQLCA has already been built"
+DATA #1 : LOADID, PD_TYPE_LOADID, 47 bytes
+LOADID: 71.2017-02-09-19.22.49.916676.0 (2;146)
+DATA #2 : File name, 10 bytes
+sqluldat.C
+DATA #3 : ZRC, PD_TYPE_ZRC, 4 bytes
+0x8015006D
+
+2017-02-09-21.30.10.305590+000 I432072873E624        LEVEL: Error
+PID     : 21775                TID : 140155465754368 PROC : db2sysc 0
+INSTANCE: db2inst1             NODE : 000
+HOSTNAME: remote.server.host.name
+EDUID   : 88                   EDUNAME: db2ltfm12 0
+FUNCTION: DB2 UDB, database utilities, sqluCFormatter::iCleanUp, probe:1982
+MESSAGE : ZRC=0x8015006D=-2146107283=SQLU_CA_BUILT
+          "SQLCA has already been built"
+DATA #1 : LOADID, PD_TYPE_LOADID, 47 bytes
+LOADID: 71.2017-02-09-19.22.49.916676.0 (2;146)
+DATA #2 : File name, 10 bytes
+sqluldat.C
+DATA #3 : ZRC, PD_TYPE_ZRC, 4 bytes
+0x8015006D
+
+2017-02-09-21.30.10.305859+000 I432073498E624        LEVEL: Error
+PID     : 21775                TID : 140155465754368 PROC : db2sysc 0
+INSTANCE: db2inst1             NODE : 000
+HOSTNAME: remote.server.host.name
+EDUID   : 88                   EDUNAME: db2ltfm12 0
+FUNCTION: DB2 UDB, database utilities, sqluCFormatter::iCleanUp, probe:1985
+MESSAGE : ZRC=0x8015006D=-2146107283=SQLU_CA_BUILT
+          "SQLCA has already been built"
+DATA #1 : LOADID, PD_TYPE_LOADID, 47 bytes
+LOADID: 71.2017-02-09-19.22.49.916676.0 (2;146)
+DATA #2 : File name, 10 bytes
+sqluldat.C
+DATA #3 : ZRC, PD_TYPE_ZRC, 4 bytes
+0x8015006D
+
+2017-02-09-21.30.10.300290+000 I432074123E619        LEVEL: Error
+PID     : 21775                TID : 140155469948672 PROC : db2sysc 0
+INSTANCE: db2inst1             NODE : 000            DB   : MYDATABASE
+APPHDL  : 0-365                APPID: *LOCAL.db2inst1.170209192249
+AUTHID  : PANC                 HOSTNAME: remote.server.host.name
+EDUID   : 87                   EDUNAME: db2ltfm11 0
+FUNCTION: DB2 UDB, database utilities, sqluReportErrToDiag, probe:0
+DATA #1 : String, 122 bytes
+LOADID: 71.2017-02-09-19.22.49.916676.0 (2;146)
+buff err , -2112552874, (nil), Detected in file:sqlulxld_parse.C, Line:322
+
+2017-02-09-21.30.10.306366+000 I432074743E606        LEVEL: Error
+PID     : 21775                TID : 140155469948672 PROC : db2sysc 0
+INSTANCE: db2inst1             NODE : 000            DB   : MYDATABASE
+APPHDL  : 0-365                APPID: *LOCAL.db2inst1.170209192249
+AUTHID  : PANC                 HOSTNAME: remote.server.host.name
+EDUID   : 87                   EDUNAME: db2ltfm11 0
+FUNCTION: DB2 UDB, database utilities, sqluReportErrToDiag, probe:0
+DATA #1 : String, 109 bytes
+LOADID: 71.2017-02-09-19.22.49.916676.0 (2;146)
+ , -3005, (nil), Detected in file:sqlulxld_parse.C, Line:5594
+
+2017-02-09-21.30.10.306619+000 I432075350E612        LEVEL: Error
+PID     : 21775                TID : 140155469948672 PROC : db2sysc 0
+INSTANCE: db2inst1             NODE : 000            DB   : MYDATABASE
+APPHDL  : 0-365                APPID: *LOCAL.db2inst1.170209192249
+AUTHID  : PANC                 HOSTNAME: remote.server.host.name
+EDUID   : 87                   EDUNAME: db2ltfm11 0
+FUNCTION: DB2 UDB, database utilities, sqluReportErrToDiag, probe:0
+DATA #1 : String, 115 bytes
+LOADID: 71.2017-02-09-19.22.49.916676.0 (2;146)
+ , -2112552959, (nil), Detected in file:sqlulxld_parse.C, Line:5358
+
+2017-02-09-21.30.10.306861+000 I432075963E612        LEVEL: Error
+PID     : 21775                TID : 140155469948672 PROC : db2sysc 0
+INSTANCE: db2inst1             NODE : 000            DB   : MYDATABASE
+APPHDL  : 0-365                APPID: *LOCAL.db2inst1.170209192249
+AUTHID  : PANC                 HOSTNAME: remote.server.host.name
+EDUID   : 87                   EDUNAME: db2ltfm11 0
+FUNCTION: DB2 UDB, database utilities, sqluReportErrToDiag, probe:0
+DATA #1 : String, 115 bytes
+LOADID: 71.2017-02-09-19.22.49.916676.0 (2;146)
+ , -2112552959, (nil), Detected in file:sqlulxld_parse.C, Line:3249
+
+2017-02-09-21.30.10.300272+000 I432076576E619        LEVEL: Error
+PID     : 21775                TID : 140155474142976 PROC : db2sysc 0
+INSTANCE: db2inst1             NODE : 000            DB   : MYDATABASE
+APPHDL  : 0-365                APPID: *LOCAL.db2inst1.170209192249
+AUTHID  : PANC                 HOSTNAME: remote.server.host.name
+EDUID   : 86                   EDUNAME: db2ltfm10 0
+FUNCTION: DB2 UDB, database utilities, sqluReportErrToDiag, probe:0
+DATA #1 : String, 122 bytes
+LOADID: 71.2017-02-09-19.22.49.916676.0 (2;146)
+buff err , -2112552874, (nil), Detected in file:sqlulxld_parse.C, Line:322
+
+2017-02-09-21.30.10.307484+000 I432077196E606        LEVEL: Error
+PID     : 21775                TID : 140155474142976 PROC : db2sysc 0
+INSTANCE: db2inst1             NODE : 000            DB   : MYDATABASE
+APPHDL  : 0-365                APPID: *LOCAL.db2inst1.170209192249
+AUTHID  : PANC                 HOSTNAME: remote.server.host.name
+EDUID   : 86                   EDUNAME: db2ltfm10 0
+FUNCTION: DB2 UDB, database utilities, sqluReportErrToDiag, probe:0
+DATA #1 : String, 109 bytes
+LOADID: 71.2017-02-09-19.22.49.916676.0 (2;146)
+ , -3005, (nil), Detected in file:sqlulxld_parse.C, Line:5594
+
+2017-02-09-21.30.10.307852+000 I432077803E612        LEVEL: Error
+PID     : 21775                TID : 140155474142976 PROC : db2sysc 0
+INSTANCE: db2inst1             NODE : 000            DB   : MYDATABASE
+APPHDL  : 0-365                APPID: *LOCAL.db2inst1.170209192249
+AUTHID  : PANC                 HOSTNAME: remote.server.host.name
+EDUID   : 86                   EDUNAME: db2ltfm10 0
+FUNCTION: DB2 UDB, database utilities, sqluReportErrToDiag, probe:0
+DATA #1 : String, 115 bytes
+LOADID: 71.2017-02-09-19.22.49.916676.0 (2;146)
+ , -2112552959, (nil), Detected in file:sqlulxld_parse.C, Line:5358
+
+2017-02-09-21.30.10.300212+000 I432078416E618        LEVEL: Error
+PID     : 21775                TID : 140155516086016 PROC : db2sysc 0
+INSTANCE: db2inst1             NODE : 000            DB   : MYDATABASE
+APPHDL  : 0-365                APPID: *LOCAL.db2inst1.170209192249
+AUTHID  : PANC                 HOSTNAME: remote.server.host.name
+EDUID   : 76                   EDUNAME: db2ltfm0 0
+FUNCTION: DB2 UDB, database utilities, sqluReportErrToDiag, probe:0
+DATA #1 : String, 122 bytes
+LOADID: 71.2017-02-09-19.22.49.916676.0 (2;146)
+buff err , -2112552874, (nil), Detected in file:sqlulxld_parse.C, Line:322
+
+2017-02-09-21.30.10.304318+000 I432079035E611        LEVEL: Error
+PID     : 21775                TID : 140155478337280 PROC : db2sysc 0
+INSTANCE: db2inst1             NODE : 000            DB   : MYDATABASE
+APPHDL  : 0-365                APPID: *LOCAL.db2inst1.170209192249
+AUTHID  : PANC                 HOSTNAME: remote.server.host.name
+EDUID   : 85                   EDUNAME: db2ltfm9 0
+FUNCTION: DB2 UDB, database utilities, sqluReportErrToDiag, probe:0
+DATA #1 : String, 115 bytes
+LOADID: 71.2017-02-09-19.22.49.916676.0 (2;146)
+ , -2112552959, (nil), Detected in file:sqlulxld_parse.C, Line:5358
+
+2017-02-09-21.30.10.308983+000 I432079647E611        LEVEL: Error
+PID     : 21775                TID : 140155478337280 PROC : db2sysc 0
+INSTANCE: db2inst1             NODE : 000            DB   : MYDATABASE
+APPHDL  : 0-365                APPID: *LOCAL.db2inst1.170209192249
+AUTHID  : PANC                 HOSTNAME: remote.server.host.name
+EDUID   : 85                   EDUNAME: db2ltfm9 0
+FUNCTION: DB2 UDB, database utilities, sqluReportErrToDiag, probe:0
+DATA #1 : String, 115 bytes
+LOADID: 71.2017-02-09-19.22.49.916676.0 (2;146)
+ , -2112552959, (nil), Detected in file:sqlulxld_parse.C, Line:3249
+
+2017-02-09-21.30.10.300243+000 I432080259E618        LEVEL: Error
+PID     : 21775                TID : 140155495114496 PROC : db2sysc 0
+INSTANCE: db2inst1             NODE : 000            DB   : MYDATABASE
+APPHDL  : 0-365                APPID: *LOCAL.db2inst1.170209192249
+AUTHID  : PANC                 HOSTNAME: remote.server.host.name
+EDUID   : 81                   EDUNAME: db2ltfm5 0
+FUNCTION: DB2 UDB, database utilities, sqluReportErrToDiag, probe:0
+DATA #1 : String, 122 bytes
+LOADID: 71.2017-02-09-19.22.49.916676.0 (2;146)
+buff err , -2112552874, (nil), Detected in file:sqlulxld_parse.C, Line:322
+
+2017-02-09-21.30.10.303771+000 I432080878E610        LEVEL: Error
+PID     : 21775                TID : 140155507697408 PROC : db2sysc 0
+INSTANCE: db2inst1             NODE : 000            DB   : MYDATABASE
+APPHDL  : 0-365                APPID: *LOCAL.db2inst1.170209192249
+AUTHID  : PANC                 HOSTNAME: remote.server.host.name
+EDUID   : 78                   EDUNAME: db2ltfm2 0
+FUNCTION: DB2 UDB, database utilities, sqluReportErrToDiag, probe:0
+DATA #1 : String, 114 bytes
+LOADID: 71.2017-02-09-19.22.49.916676.0 (2;146)
+ , -2112552959, (nil), Detected in file:sqlulxld_parse.C, Line:788
+
+2017-02-09-21.30.10.309732+000 I432081489E692        LEVEL: Error
+PID     : 21775                TID : 140155507697408 PROC : db2sysc 0
+INSTANCE: db2inst1             NODE : 000            DB   : MYDATABASE
+APPHDL  : 0-365                APPID: *LOCAL.db2inst1.170209192249
+AUTHID  : PANC                 HOSTNAME: remote.server.host.name
+EDUID   : 78                   EDUNAME: db2ltfm2 0
+FUNCTION: DB2 UDB, database utilities, sqluLoadEDUDriver, probe:2878
+MESSAGE : ZRC=0x8015006D=-2146107283=SQLU_CA_BUILT
+          "SQLCA has already been built"
+DATA #1 : LOADID, PD_TYPE_LOADID, 47 bytes
+LOADID: 71.2017-02-09-19.22.49.916676.0 (2;146)
+DATA #2 : File name, 10 bytes
+sqluedus.C
+
+2017-02-09-21.30.10.310033+000 I432082182E746        LEVEL: Error
+PID     : 21775                TID : 140155507697408 PROC : db2sysc 0
+INSTANCE: db2inst1             NODE : 000            DB   : MYDATABASE
+APPHDL  : 0-365                APPID: *LOCAL.db2inst1.170209192249
+AUTHID  : PANC                 HOSTNAME: remote.server.host.name
+EDUID   : 78                   EDUNAME: db2ltfm2 0
+FUNCTION: DB2 UDB, database utilities, sqluCFormatter::iCleanUp, probe:1963
+MESSAGE : ZRC=0x8015006D=-2146107283=SQLU_CA_BUILT
+          "SQLCA has already been built"
+DATA #1 : LOADID, PD_TYPE_LOADID, 47 bytes
+LOADID: 71.2017-02-09-19.22.49.916676.0 (2;146)
+DATA #2 : File name, 10 bytes
+sqluldat.C
+DATA #3 : ZRC, PD_TYPE_ZRC, 4 bytes
+0x8015006D
+
+2017-02-09-21.30.10.304810+000 I432082929E611        LEVEL: Error
+PID     : 21775                TID : 140155486725888 PROC : db2sysc 0
+INSTANCE: db2inst1             NODE : 000            DB   : MYDATABASE
+APPHDL  : 0-365                APPID: *LOCAL.db2inst1.170209192249
+AUTHID  : PANC                 HOSTNAME: remote.server.host.name
+EDUID   : 83                   EDUNAME: db2ltfm7 0
+FUNCTION: DB2 UDB, database utilities, sqluReportErrToDiag, probe:0
+DATA #1 : String, 115 bytes
+LOADID: 71.2017-02-09-19.22.49.916676.0 (2;146)
+ , -2112552959, (nil), Detected in file:sqlulxld_parse.C, Line:5358
+
+2017-02-09-21.30.10.308430+000 I432083541E605        LEVEL: Error
+PID     : 21775                TID : 140155516086016 PROC : db2sysc 0
+INSTANCE: db2inst1             NODE : 000            DB   : MYDATABASE
+APPHDL  : 0-365                APPID: *LOCAL.db2inst1.170209192249
+AUTHID  : PANC                 HOSTNAME: remote.server.host.name
+EDUID   : 76                   EDUNAME: db2ltfm0 0
+FUNCTION: DB2 UDB, database utilities, sqluReportErrToDiag, probe:0
+DATA #1 : String, 109 bytes
+LOADID: 71.2017-02-09-19.22.49.916676.0 (2;146)
+ , -3005, (nil), Detected in file:sqlulxld_parse.C, Line:5594
+
+2017-02-09-21.30.10.310907+000 I432084147E611        LEVEL: Error
+PID     : 21775                TID : 140155516086016 PROC : db2sysc 0
+INSTANCE: db2inst1             NODE : 000            DB   : MYDATABASE
+APPHDL  : 0-365                APPID: *LOCAL.db2inst1.170209192249
+AUTHID  : PANC                 HOSTNAME: remote.server.host.name
+EDUID   : 76                   EDUNAME: db2ltfm0 0
+FUNCTION: DB2 UDB, database utilities, sqluReportErrToDiag, probe:0
+DATA #1 : String, 115 bytes
+LOADID: 71.2017-02-09-19.22.49.916676.0 (2;146)
+ , -2112552959, (nil), Detected in file:sqlulxld_parse.C, Line:5358
+
+2017-02-09-21.30.10.311149+000 I432084759E611        LEVEL: Error
+PID     : 21775                TID : 140155516086016 PROC : db2sysc 0
+INSTANCE: db2inst1             NODE : 000            DB   : MYDATABASE
+APPHDL  : 0-365                APPID: *LOCAL.db2inst1.170209192249
+AUTHID  : PANC                 HOSTNAME: remote.server.host.name
+EDUID   : 76                   EDUNAME: db2ltfm0 0
+FUNCTION: DB2 UDB, database utilities, sqluReportErrToDiag, probe:0
+DATA #1 : String, 115 bytes
+LOADID: 71.2017-02-09-19.22.49.916676.0 (2;146)
+ , -2112552959, (nil), Detected in file:sqlulxld_parse.C, Line:3249
+
+2017-02-09-21.30.10.311369+000 I432085371E610        LEVEL: Error
+PID     : 21775                TID : 140155516086016 PROC : db2sysc 0
+INSTANCE: db2inst1             NODE : 000            DB   : MYDATABASE
+APPHDL  : 0-365                APPID: *LOCAL.db2inst1.170209192249
+AUTHID  : PANC                 HOSTNAME: remote.server.host.name
+EDUID   : 76                   EDUNAME: db2ltfm0 0
+FUNCTION: DB2 UDB, database utilities, sqluReportErrToDiag, probe:0
+DATA #1 : String, 114 bytes
+LOADID: 71.2017-02-09-19.22.49.916676.0 (2;146)
+ , -2112552959, (nil), Detected in file:sqlulxld_parse.C, Line:788
+
+2017-02-09-21.30.10.307078+000 I432085982E611        LEVEL: Error
+PID     : 21775                TID : 140155469948672 PROC : db2sysc 0
+INSTANCE: db2inst1             NODE : 000            DB   : MYDATABASE
+APPHDL  : 0-365                APPID: *LOCAL.db2inst1.170209192249
+AUTHID  : PANC                 HOSTNAME: remote.server.host.name
+EDUID   : 87                   EDUNAME: db2ltfm11 0
+FUNCTION: DB2 UDB, database utilities, sqluReportErrToDiag, probe:0
+DATA #1 : String, 114 bytes
+LOADID: 71.2017-02-09-19.22.49.916676.0 (2;146)
+ , -2112552959, (nil), Detected in file:sqlulxld_parse.C, Line:788
+
+2017-02-09-21.30.10.300259+000 I432086594E618        LEVEL: Error
+PID     : 21775                TID : 140155482531584 PROC : db2sysc 0
+INSTANCE: db2inst1             NODE : 000            DB   : MYDATABASE
+APPHDL  : 0-365                APPID: *LOCAL.db2inst1.170209192249
+AUTHID  : PANC                 HOSTNAME: remote.server.host.name
+EDUID   : 84                   EDUNAME: db2ltfm8 0
+FUNCTION: DB2 UDB, database utilities, sqluReportErrToDiag, probe:0
+DATA #1 : String, 122 bytes
+LOADID: 71.2017-02-09-19.22.49.916676.0 (2;146)
+buff err , -2112552874, (nil), Detected in file:sqlulxld_parse.C, Line:322
+
+2017-02-09-21.30.10.312309+000 I432087213E605        LEVEL: Error
+PID     : 21775                TID : 140155482531584 PROC : db2sysc 0
+INSTANCE: db2inst1             NODE : 000            DB   : MYDATABASE
+APPHDL  : 0-365                APPID: *LOCAL.db2inst1.170209192249
+AUTHID  : PANC                 HOSTNAME: remote.server.host.name
+EDUID   : 84                   EDUNAME: db2ltfm8 0
+FUNCTION: DB2 UDB, database utilities, sqluReportErrToDiag, probe:0
+DATA #1 : String, 109 bytes
+LOADID: 71.2017-02-09-19.22.49.916676.0 (2;146)
+ , -3005, (nil), Detected in file:sqlulxld_parse.C, Line:5594
+
+2017-02-09-21.30.10.309204+000 I432087819E610        LEVEL: Error
+PID     : 21775                TID : 140155478337280 PROC : db2sysc 0
+INSTANCE: db2inst1             NODE : 000            DB   : MYDATABASE
+APPHDL  : 0-365                APPID: *LOCAL.db2inst1.170209192249
+AUTHID  : PANC                 HOSTNAME: remote.server.host.name
+EDUID   : 85                   EDUNAME: db2ltfm9 0
+FUNCTION: DB2 UDB, database utilities, sqluReportErrToDiag, probe:0
+DATA #1 : String, 114 bytes
+LOADID: 71.2017-02-09-19.22.49.916676.0 (2;146)
+ , -2112552959, (nil), Detected in file:sqlulxld_parse.C, Line:788
+
+2017-02-09-21.30.10.311640+000 I432088430E692        LEVEL: Error
+PID     : 21775                TID : 140155516086016 PROC : db2sysc 0
+INSTANCE: db2inst1             NODE : 000            DB   : MYDATABASE
+APPHDL  : 0-365                APPID: *LOCAL.db2inst1.170209192249
+AUTHID  : PANC                 HOSTNAME: remote.server.host.name
+EDUID   : 76                   EDUNAME: db2ltfm0 0
+FUNCTION: DB2 UDB, database utilities, sqluLoadEDUDriver, probe:2878
+MESSAGE : ZRC=0x8015006D=-2146107283=SQLU_CA_BUILT
+          "SQLCA has already been built"
+DATA #1 : LOADID, PD_TYPE_LOADID, 47 bytes
+LOADID: 71.2017-02-09-19.22.49.916676.0 (2;146)
+DATA #2 : File name, 10 bytes
+sqluedus.C
+
+2017-02-09-21.30.10.311885+000 I432089123E693        LEVEL: Error
+PID     : 21775                TID : 140155469948672 PROC : db2sysc 0
+INSTANCE: db2inst1             NODE : 000            DB   : MYDATABASE
+APPHDL  : 0-365                APPID: *LOCAL.db2inst1.170209192249
+AUTHID  : PANC                 HOSTNAME: remote.server.host.name
+EDUID   : 87                   EDUNAME: db2ltfm11 0
+FUNCTION: DB2 UDB, database utilities, sqluLoadEDUDriver, probe:2878
+MESSAGE : ZRC=0x8015006D=-2146107283=SQLU_CA_BUILT
+          "SQLCA has already been built"
+DATA #1 : LOADID, PD_TYPE_LOADID, 47 bytes
+LOADID: 71.2017-02-09-19.22.49.916676.0 (2;146)
+DATA #2 : File name, 10 bytes
+sqluedus.C
+
+2017-02-09-21.30.10.313425+000 I432089817E747        LEVEL: Error
+PID     : 21775                TID : 140155469948672 PROC : db2sysc 0
+INSTANCE: db2inst1             NODE : 000            DB   : MYDATABASE
+APPHDL  : 0-365                APPID: *LOCAL.db2inst1.170209192249
+AUTHID  : PANC                 HOSTNAME: remote.server.host.name
+EDUID   : 87                   EDUNAME: db2ltfm11 0
+FUNCTION: DB2 UDB, database utilities, sqluCFormatter::iCleanUp, probe:1963
+MESSAGE : ZRC=0x8015006D=-2146107283=SQLU_CA_BUILT
+          "SQLCA has already been built"
+DATA #1 : LOADID, PD_TYPE_LOADID, 47 bytes
+LOADID: 71.2017-02-09-19.22.49.916676.0 (2;146)
+DATA #2 : File name, 10 bytes
+sqluldat.C
+DATA #3 : ZRC, PD_TYPE_ZRC, 4 bytes
+0x8015006D
+
+2017-02-09-21.30.10.308165+000 I432090565E612        LEVEL: Error
+PID     : 21775                TID : 140155474142976 PROC : db2sysc 0
+INSTANCE: db2inst1             NODE : 000            DB   : MYDATABASE
+APPHDL  : 0-365                APPID: *LOCAL.db2inst1.170209192249
+AUTHID  : PANC                 HOSTNAME: remote.server.host.name
+EDUID   : 86                   EDUNAME: db2ltfm10 0
+FUNCTION: DB2 UDB, database utilities, sqluReportErrToDiag, probe:0
+DATA #1 : String, 115 bytes
+LOADID: 71.2017-02-09-19.22.49.916676.0 (2;146)
+ , -2112552959, (nil), Detected in file:sqlulxld_parse.C, Line:3249
+
+2017-02-09-21.30.10.302843+000 I432091178E605        LEVEL: Error
+PID     : 21775                TID : 140155511891712 PROC : db2sysc 0
+INSTANCE: db2inst1             NODE : 000            DB   : MYDATABASE
+APPHDL  : 0-365                APPID: *LOCAL.db2inst1.170209192249
+AUTHID  : PANC                 HOSTNAME: remote.server.host.name
+EDUID   : 77                   EDUNAME: db2ltfm1 0
+FUNCTION: DB2 UDB, database utilities, sqluReportErrToDiag, probe:0
+DATA #1 : String, 109 bytes
+LOADID: 71.2017-02-09-19.22.49.916676.0 (2;146)
+ , -3005, (nil), Detected in file:sqlulxld_parse.C, Line:5594
+
+2017-02-09-21.30.10.314431+000 I432091784E611        LEVEL: Error
+PID     : 21775                TID : 140155511891712 PROC : db2sysc 0
+INSTANCE: db2inst1             NODE : 000            DB   : MYDATABASE
+APPHDL  : 0-365                APPID: *LOCAL.db2inst1.170209192249
+AUTHID  : PANC                 HOSTNAME: remote.server.host.name
+EDUID   : 77                   EDUNAME: db2ltfm1 0
+FUNCTION: DB2 UDB, database utilities, sqluReportErrToDiag, probe:0
+DATA #1 : String, 115 bytes
+LOADID: 71.2017-02-09-19.22.49.916676.0 (2;146)
+ , -2112552959, (nil), Detected in file:sqlulxld_parse.C, Line:5358
+
+ 2017-02-09-21.30.10.314649+000 I432092396E611        LEVEL: Error
+PID     : 21775                TID : 140155511891712 PROC : db2sysc 0
+INSTANCE: db2inst1             NODE : 000            DB   : MYDATABASE
+APPHDL  : 0-365                APPID: *LOCAL.db2inst1.170209192249
+AUTHID  : PANC                 HOSTNAME: remote.server.host.name
+EDUID   : 77                   EDUNAME: db2ltfm1 0
+FUNCTION: DB2 UDB, database utilities, sqluReportErrToDiag, probe:0
+DATA #1 : String, 115 bytes
+LOADID: 71.2017-02-09-19.22.49.916676.0 (2;146)
+ , -2112552959, (nil), Detected in file:sqlulxld_parse.C, Line:3249
+
+2017-02-09-21.30.10.306116+000 I432093008E617        LEVEL: Error
+PID     : 21775                TID : 140155465754368 PROC : db2sysc 0
+INSTANCE: db2inst1             NODE : 000
+HOSTNAME: remote.server.host.name
+EDUID   : 88                   EDUNAME: db2ltfm12 0
+FUNCTION: DB2 UDB, database utilities, sqluLoadEDUDriver, probe:2885
+MESSAGE : ZRC=0x8015006D=-2146107283=SQLU_CA_BUILT
+          "SQLCA has already been built"
+DATA #1 : LOADID, PD_TYPE_LOADID, 47 bytes
+LOADID: 71.2017-02-09-19.22.49.916676.0 (2;146)
+DATA #2 : File name, 10 bytes
+sqluedus.C
+DATA #3 : ZRC, PD_TYPE_ZRC, 4 bytes
+0x8015006D
+
+2017-02-09-21.30.10.313108+000 I432093626E746        LEVEL: Error
+PID     : 21775                TID : 140155516086016 PROC : db2sysc 0
+INSTANCE: db2inst1             NODE : 000            DB   : MYDATABASE
+APPHDL  : 0-365                APPID: *LOCAL.db2inst1.170209192249
+AUTHID  : PANC                 HOSTNAME: remote.server.host.name
+EDUID   : 76                   EDUNAME: db2ltfm0 0
+FUNCTION: DB2 UDB, database utilities, sqluCFormatter::iCleanUp, probe:1963
+MESSAGE : ZRC=0x8015006D=-2146107283=SQLU_CA_BUILT
+          "SQLCA has already been built"
+DATA #1 : LOADID, PD_TYPE_LOADID, 47 bytes
+LOADID: 71.2017-02-09-19.22.49.916676.0 (2;146)
+DATA #2 : File name, 10 bytes
+sqluldat.C
+DATA #3 : ZRC, PD_TYPE_ZRC, 4 bytes
+0x8015006D
+
+2017-02-09-21.30.10.315776+000 I432094373E623        LEVEL: Error
+PID     : 21775                TID : 140155516086016 PROC : db2sysc 0
+INSTANCE: db2inst1             NODE : 000
+HOSTNAME: remote.server.host.name
+EDUID   : 76                   EDUNAME: db2ltfm0 0
+FUNCTION: DB2 UDB, database utilities, sqluCFormatter::iCleanUp, probe:1982
+MESSAGE : ZRC=0x8015006D=-2146107283=SQLU_CA_BUILT
+          "SQLCA has already been built"
+DATA #1 : LOADID, PD_TYPE_LOADID, 47 bytes
+LOADID: 71.2017-02-09-19.22.49.916676.0 (2;146)
+DATA #2 : File name, 10 bytes
+sqluldat.C
+DATA #3 : ZRC, PD_TYPE_ZRC, 4 bytes
+0x8015006D
+
+2017-02-09-21.30.10.313809+000 I432094997E624        LEVEL: Error
+PID     : 21775                TID : 140155469948672 PROC : db2sysc 0
+INSTANCE: db2inst1             NODE : 000
+HOSTNAME: remote.server.host.name
+EDUID   : 87                   EDUNAME: db2ltfm11 0
+FUNCTION: DB2 UDB, database utilities, sqluCFormatter::iCleanUp, probe:1982
+MESSAGE : ZRC=0x8015006D=-2146107283=SQLU_CA_BUILT
+          "SQLCA has already been built"
+DATA #1 : LOADID, PD_TYPE_LOADID, 47 bytes
+LOADID: 71.2017-02-09-19.22.49.916676.0 (2;146)
+DATA #2 : File name, 10 bytes
+sqluldat.C
+DATA #3 : ZRC, PD_TYPE_ZRC, 4 bytes
+0x8015006D
+
+2017-02-09-21.30.10.312532+000 I432095622E611        LEVEL: Error
+PID     : 21775                TID : 140155482531584 PROC : db2sysc 0
+2017-02-09-21.30.10.312532+000 I432095622E611        LEVEL: Error
+PID     : 21775                TID : 140155482531584 PROC : db2sysc 0
+INSTANCE: db2inst1             NODE : 000            DB   : MYDATABASE
+APPHDL  : 0-365                APPID: *LOCAL.db2inst1.170209192249
+AUTHID  : PANC                 HOSTNAME: remote.server.host.name
+EDUID   : 84                   EDUNAME: db2ltfm8 0
+FUNCTION: DB2 UDB, database utilities, sqluReportErrToDiag, probe:0
+DATA #1 : String, 115 bytes
+LOADID: 71.2017-02-09-19.22.49.916676.0 (2;146)
+ , -2112552959, (nil), Detected in file:sqlulxld_parse.C, Line:5358
+
+2017-02-09-21.30.10.300235+000 I432096234E618        LEVEL: Error
+PID     : 21775                TID : 140155499308800 PROC : db2sysc 0
+INSTANCE: db2inst1             NODE : 000            DB   : MYDATABASE
+APPHDL  : 0-365                APPID: *LOCAL.db2inst1.170209192249
+AUTHID  : PANC                 HOSTNAME: remote.server.host.name
+EDUID   : 80                   EDUNAME: db2ltfm4 0
+FUNCTION: DB2 UDB, database utilities, sqluReportErrToDiag, probe:0
+DATA #1 : String, 122 bytes
+LOADID: 71.2017-02-09-19.22.49.916676.0 (2;146)
+buff err , -2112552874, (nil), Detected in file:sqlulxld_parse.C, Line:322
+
+2017-02-09-21.30.10.310663+000 I432096853E611        LEVEL: Error
+PID     : 21775                TID : 140155486725888 PROC : db2sysc 0
+INSTANCE: db2inst1             NODE : 000            DB   : MYDATABASE
+APPHDL  : 0-365                APPID: *LOCAL.db2inst1.170209192249
+AUTHID  : PANC                 HOSTNAME: remote.server.host.name
+EDUID   : 83                   EDUNAME: db2ltfm7 0
+FUNCTION: DB2 UDB, database utilities, sqluReportErrToDiag, probe:0
+DATA #1 : String, 115 bytes
+LOADID: 71.2017-02-09-19.22.49.916676.0 (2;146)
+ , -2112552959, (nil), Detected in file:sqlulxld_parse.C, Line:3249
+
+2017-02-09-21.30.10.317734+000 I432097465E610        LEVEL: Error
+PID     : 21775                TID : 140155486725888 PROC : db2sysc 0
+INSTANCE: db2inst1             NODE : 000            DB   : MYDATABASE
+APPHDL  : 0-365                APPID: *LOCAL.db2inst1.170209192249
+AUTHID  : PANC                 HOSTNAME: remote.server.host.name
+EDUID   : 83                   EDUNAME: db2ltfm7 0
+FUNCTION: DB2 UDB, database utilities, sqluReportErrToDiag, probe:0
+DATA #1 : String, 114 bytes
+LOADID: 71.2017-02-09-19.22.49.916676.0 (2;146)
+ , -2112552959, (nil), Detected in file:sqlulxld_parse.C, Line:788
+
+2017-02-09-21.30.10.317974+000 I432098076E692        LEVEL: Error
+PID     : 21775                TID : 140155486725888 PROC : db2sysc 0
+INSTANCE: db2inst1             NODE : 000            DB   : MYDATABASE
+APPHDL  : 0-365                APPID: *LOCAL.db2inst1.170209192249
+AUTHID  : PANC                 HOSTNAME: remote.server.host.name
+EDUID   : 83                   EDUNAME: db2ltfm7 0
+FUNCTION: DB2 UDB, database utilities, sqluLoadEDUDriver, probe:2878
+MESSAGE : ZRC=0x8015006D=-2146107283=SQLU_CA_BUILT
+          "SQLCA has already been built"
+DATA #1 : LOADID, PD_TYPE_LOADID, 47 bytes
+LOADID: 71.2017-02-09-19.22.49.916676.0 (2;146)
+DATA #2 : File name, 10 bytes
+sqluedus.C
+
+2017-02-09-21.30.10.316061+000 I432098769E623        LEVEL: Error
+PID     : 21775                TID : 140155516086016 PROC : db2sysc 0
+INSTANCE: db2inst1             NODE : 000
+HOSTNAME: remote.server.host.name
+EDUID   : 76                   EDUNAME: db2ltfm0 0
+FUNCTION: DB2 UDB, database utilities, sqluCFormatter::iCleanUp, probe:1985
+MESSAGE : ZRC=0x8015006D=-2146107283=SQLU_CA_BUILT
+          "SQLCA has already been built"
+DATA #1 : LOADID, PD_TYPE_LOADID, 47 bytes
+LOADID: 71.2017-02-09-19.22.49.916676.0 (2;146)
+DATA #2 : File name, 10 bytes
+sqluldat.C
+DATA #3 : ZRC, PD_TYPE_ZRC, 4 bytes
+0x8015006D
+
+2017-02-09-21.30.10.316364+000 I432099393E624        LEVEL: Error
+PID     : 21775                TID : 140155469948672 PROC : db2sysc 0
+INSTANCE: db2inst1             NODE : 000
+HOSTNAME: remote.server.host.name
+EDUID   : 87                   EDUNAME: db2ltfm11 0
+FUNCTION: DB2 UDB, database utilities, sqluCFormatter::iCleanUp, probe:1985
+MESSAGE : ZRC=0x8015006D=-2146107283=SQLU_CA_BUILT
+          "SQLCA has already been built"
+DATA #1 : LOADID, PD_TYPE_LOADID, 47 bytes
+LOADID: 71.2017-02-09-19.22.49.916676.0 (2;146)
+DATA #2 : File name, 10 bytes
+sqluldat.C
+DATA #3 : ZRC, PD_TYPE_ZRC, 4 bytes
+0x8015006D
+
+2017-02-09-21.30.10.318917+000 I432100018E617        LEVEL: Error
+PID     : 21775                TID : 140155469948672 PROC : db2sysc 0
+INSTANCE: db2inst1             NODE : 000
+HOSTNAME: remote.server.host.name
+EDUID   : 87                   EDUNAME: db2ltfm11 0
+FUNCTION: DB2 UDB, database utilities, sqluLoadEDUDriver, probe:2885
+MESSAGE : ZRC=0x8015006D=-2146107283=SQLU_CA_BUILT
+          "SQLCA has already been built"
+DATA #1 : LOADID, PD_TYPE_LOADID, 47 bytes
+LOADID: 71.2017-02-09-19.22.49.916676.0 (2;146)
+DATA #2 : File name, 10 bytes
+sqluedus.C
+DATA #3 : ZRC, PD_TYPE_ZRC, 4 bytes
+0x8015006D
+
+2017-02-09-21.30.10.300253+000 I432100636E618        LEVEL: Error
+PID     : 21775                TID : 140155490920192 PROC : db2sysc 0
+INSTANCE: db2inst1             NODE : 000            DB   : MYDATABASE
+APPHDL  : 0-365                APPID: *LOCAL.db2inst1.170209192249
+AUTHID  : PANC                 HOSTNAME: remote.server.host.name
+EDUID   : 82                   EDUNAME: db2ltfm6 0
+FUNCTION: DB2 UDB, database utilities, sqluReportErrToDiag, probe:0
+DATA #1 : String, 122 bytes
+LOADID: 71.2017-02-09-19.22.49.916676.0 (2;146)
+buff err , -2112552874, (nil), Detected in file:sqlulxld_parse.C, Line:322
+
+2017-02-09-21.30.10.317495+000 I432101255E605        LEVEL: Error
+PID     : 21775                TID : 140155499308800 PROC : db2sysc 0
+INSTANCE: db2inst1             NODE : 000            DB   : MYDATABASE
+APPHDL  : 0-365                APPID: *LOCAL.db2inst1.170209192249
+AUTHID  : PANC                 HOSTNAME: remote.server.host.name
+EDUID   : 80                   EDUNAME: db2ltfm4 0
+FUNCTION: DB2 UDB, database utilities, sqluReportErrToDiag, probe:0
+DATA #1 : String, 109 bytes
+LOADID: 71.2017-02-09-19.22.49.916676.0 (2;146)
+ , -3005, (nil), Detected in file:sqlulxld_parse.C, Line:5594
+
+2017-02-09-21.30.10.320049+000 I432101861E611        LEVEL: Error
+PID     : 21775                TID : 140155499308800 PROC : db2sysc 0
+INSTANCE: db2inst1             NODE : 000            DB   : MYDATABASE
+APPHDL  : 0-365                APPID: *LOCAL.db2inst1.170209192249
+AUTHID  : PANC                 HOSTNAME: remote.server.host.name
+EDUID   : 80                   EDUNAME: db2ltfm4 0
+FUNCTION: DB2 UDB, database utilities, sqluReportErrToDiag, probe:0
+DATA #1 : String, 115 bytes
+LOADID: 71.2017-02-09-19.22.49.916676.0 (2;146)
+ , -2112552959, (nil), Detected in file:sqlulxld_parse.C, Line:5358
+
+2017-02-09-21.30.10.320269+000 I432102473E611        LEVEL: Error
+PID     : 21775                TID : 140155499308800 PROC : db2sysc 0
+INSTANCE: db2inst1             NODE : 000            DB   : MYDATABASE
+APPHDL  : 0-365                APPID: *LOCAL.db2inst1.170209192249
+AUTHID  : PANC                 HOSTNAME: remote.server.host.name
+EDUID   : 80                   EDUNAME: db2ltfm4 0
+FUNCTION: DB2 UDB, database utilities, sqluReportErrToDiag, probe:0
+DATA #1 : String, 115 bytes
+LOADID: 71.2017-02-09-19.22.49.916676.0 (2;146)
+ , -2112552959, (nil), Detected in file:sqlulxld_parse.C, Line:3249
+
+2017-02-09-21.30.10.320514+000 I432103085E610        LEVEL: Error
+PID     : 21775                TID : 140155499308800 PROC : db2sysc 0
+INSTANCE: db2inst1             NODE : 000            DB   : MYDATABASE
+APPHDL  : 0-365                APPID: *LOCAL.db2inst1.170209192249
+AUTHID  : PANC                 HOSTNAME: remote.server.host.name
+EDUID   : 80                   EDUNAME: db2ltfm4 0
+FUNCTION: DB2 UDB, database utilities, sqluReportErrToDiag, probe:0
+DATA #1 : String, 114 bytes
+LOADID: 71.2017-02-09-19.22.49.916676.0 (2;146)
+ , -2112552959, (nil), Detected in file:sqlulxld_parse.C, Line:788
+
+2017-02-09-21.30.10.310414+000 I432103696E623        LEVEL: Error
+PID     : 21775                TID : 140155507697408 PROC : db2sysc 0
+INSTANCE: db2inst1             NODE : 000
+HOSTNAME: remote.server.host.name
+EDUID   : 78                   EDUNAME: db2ltfm2 0
+FUNCTION: DB2 UDB, database utilities, sqluCFormatter::iCleanUp, probe:1982
+MESSAGE : ZRC=0x8015006D=-2146107283=SQLU_CA_BUILT
+          "SQLCA has already been built"
+DATA #1 : LOADID, PD_TYPE_LOADID, 47 bytes
+LOADID: 71.2017-02-09-19.22.49.916676.0 (2;146)
+DATA #2 : File name, 10 bytes
+sqluldat.C
+DATA #3 : ZRC, PD_TYPE_ZRC, 4 bytes
+0x8015006D
+
+2017-02-09-21.30.10.319825+000 I432104320E605        LEVEL: Error
+PID     : 21775                TID : 140155490920192 PROC : db2sysc 0
+INSTANCE: db2inst1             NODE : 000            DB   : MYDATABASE
+APPHDL  : 0-365                APPID: *LOCAL.db2inst1.170209192249
+AUTHID  : PANC                 HOSTNAME: remote.server.host.name
+EDUID   : 82                   EDUNAME: db2ltfm6 0
+FUNCTION: DB2 UDB, database utilities, sqluReportErrToDiag, probe:0
+DATA #1 : String, 109 bytes
+LOADID: 71.2017-02-09-19.22.49.916676.0 (2;146)
+ , -3005, (nil), Detected in file:sqlulxld_parse.C, Line:5594
+
+2017-02-09-21.30.10.321258+000 I432104926E611        LEVEL: Error
+PID     : 21775                TID : 140155490920192 PROC : db2sysc 0
+INSTANCE: db2inst1             NODE : 000            DB   : MYDATABASE
+APPHDL  : 0-365                APPID: *LOCAL.db2inst1.170209192249
+AUTHID  : PANC                 HOSTNAME: remote.server.host.name
+EDUID   : 82                   EDUNAME: db2ltfm6 0
+FUNCTION: DB2 UDB, database utilities, sqluReportErrToDiag, probe:0
+DATA #1 : String, 115 bytes
+LOADID: 71.2017-02-09-19.22.49.916676.0 (2;146)
+ , -2112552959, (nil), Detected in file:sqlulxld_parse.C, Line:5358
+
+2017-02-09-21.30.10.321494+000 I432105538E611        LEVEL: Error
+PID     : 21775                TID : 140155490920192 PROC : db2sysc 0
+INSTANCE: db2inst1             NODE : 000            DB   : MYDATABASE
+APPHDL  : 0-365                APPID: *LOCAL.db2inst1.170209192249
+AUTHID  : PANC                 HOSTNAME: remote.server.host.name
+EDUID   : 82                   EDUNAME: db2ltfm6 0
+FUNCTION: DB2 UDB, database utilities, sqluReportErrToDiag, probe:0
+DATA #1 : String, 115 bytes
+LOADID: 71.2017-02-09-19.22.49.916676.0 (2;146)
+ , -2112552959, (nil), Detected in file:sqlulxld_parse.C, Line:3249
+
+2017-02-09-21.30.10.321735+000 I432106150E610        LEVEL: Error
+PID     : 21775                TID : 140155490920192 PROC : db2sysc 0
+INSTANCE: db2inst1             NODE : 000            DB   : MYDATABASE
+APPHDL  : 0-365                APPID: *LOCAL.db2inst1.170209192249
+AUTHID  : PANC                 HOSTNAME: remote.server.host.name
+EDUID   : 82                   EDUNAME: db2ltfm6 0
+FUNCTION: DB2 UDB, database utilities, sqluReportErrToDiag, probe:0
+DATA #1 : String, 114 bytes
+LOADID: 71.2017-02-09-19.22.49.916676.0 (2;146)
+ , -2112552959, (nil), Detected in file:sqlulxld_parse.C, Line:788
+
+ 2017-02-09-21.30.10.309473+000 I432106761E605        LEVEL: Error
+PID     : 21775                TID : 140155495114496 PROC : db2sysc 0
+INSTANCE: db2inst1             NODE : 000            DB   : MYDATABASE
+APPHDL  : 0-365                APPID: *LOCAL.db2inst1.170209192249
+AUTHID  : PANC                 HOSTNAME: remote.server.host.name
+EDUID   : 81                   EDUNAME: db2ltfm5 0
+FUNCTION: DB2 UDB, database utilities, sqluReportErrToDiag, probe:0
+DATA #1 : String, 109 bytes
+LOADID: 71.2017-02-09-19.22.49.916676.0 (2;146)
+ , -3005, (nil), Detected in file:sqlulxld_parse.C, Line:5594
+
+2017-02-09-21.30.10.322299+000 I432107367E611        LEVEL: Error
+PID     : 21775                TID : 140155495114496 PROC : db2sysc 0
+INSTANCE: db2inst1             NODE : 000            DB   : MYDATABASE
+APPHDL  : 0-365                APPID: *LOCAL.db2inst1.170209192249
+AUTHID  : PANC                 HOSTNAME: remote.server.host.name
+EDUID   : 81                   EDUNAME: db2ltfm5 0
+FUNCTION: DB2 UDB, database utilities, sqluReportErrToDiag, probe:0
+DATA #1 : String, 115 bytes
+LOADID: 71.2017-02-09-19.22.49.916676.0 (2;146)
+ , -2112552959, (nil), Detected in file:sqlulxld_parse.C, Line:5358
+
+2017-02-09-21.30.10.322522+000 I432107979E611        LEVEL: Error
+PID     : 21775                TID : 140155495114496 PROC : db2sysc 0
+INSTANCE: db2inst1             NODE : 000            DB   : MYDATABASE
+APPHDL  : 0-365                APPID: *LOCAL.db2inst1.170209192249
+AUTHID  : PANC                 HOSTNAME: remote.server.host.name
+EDUID   : 81                   EDUNAME: db2ltfm5 0
+FUNCTION: DB2 UDB, database utilities, sqluReportErrToDiag, probe:0
+DATA #1 : String, 115 bytes
+LOADID: 71.2017-02-09-19.22.49.916676.0 (2;146)
+ , -2112552959, (nil), Detected in file:sqlulxld_parse.C, Line:3249
+
+2017-02-09-21.30.10.318281+000 I432108591E746        LEVEL: Error
+PID     : 21775                TID : 140155486725888 PROC : db2sysc 0
+INSTANCE: db2inst1             NODE : 000            DB   : MYDATABASE
+APPHDL  : 0-365                APPID: *LOCAL.db2inst1.170209192249
+AUTHID  : PANC                 HOSTNAME: remote.server.host.name
+EDUID   : 83                   EDUNAME: db2ltfm7 0
+FUNCTION: DB2 UDB, database utilities, sqluCFormatter::iCleanUp, probe:1963
+MESSAGE : ZRC=0x8015006D=-2146107283=SQLU_CA_BUILT
+          "SQLCA has already been built"
+DATA #1 : LOADID, PD_TYPE_LOADID, 47 bytes
+LOADID: 71.2017-02-09-19.22.49.916676.0 (2;146)
+DATA #2 : File name, 10 bytes
+sqluldat.C
+DATA #3 : ZRC, PD_TYPE_ZRC, 4 bytes
+0x8015006D
+
+2017-02-09-21.30.10.318586+000 I432109338E616        LEVEL: Error
+PID     : 21775                TID : 140155516086016 PROC : db2sysc 0
+INSTANCE: db2inst1             NODE : 000
+HOSTNAME: remote.server.host.name
+EDUID   : 76                   EDUNAME: db2ltfm0 0
+FUNCTION: DB2 UDB, database utilities, sqluLoadEDUDriver, probe:2885
+MESSAGE : ZRC=0x8015006D=-2146107283=SQLU_CA_BUILT
+          "SQLCA has already been built"
+DATA #1 : LOADID, PD_TYPE_LOADID, 47 bytes
+LOADID: 71.2017-02-09-19.22.49.916676.0 (2;146)
+DATA #2 : File name, 10 bytes
+sqluedus.C
+DATA #3 : ZRC, PD_TYPE_ZRC, 4 bytes
+0x8015006D
+
+2017-02-09-21.30.10.314921+000 I432109955E610        LEVEL: Error
+PID     : 21775                TID : 140155511891712 PROC : db2sysc 0
+INSTANCE: db2inst1             NODE : 000            DB   : MYDATABASE
+APPHDL  : 0-365                APPID: *LOCAL.db2inst1.170209192249
+AUTHID  : PANC                 HOSTNAME: remote.server.host.name
+EDUID   : 77                   EDUNAME: db2ltfm1 0
+FUNCTION: DB2 UDB, database utilities, sqluReportErrToDiag, probe:0
+DATA #1 : String, 114 bytes
+LOADID: 71.2017-02-09-19.22.49.916676.0 (2;146)
+ , -2112552959, (nil), Detected in file:sqlulxld_parse.C, Line:788
+
+2017-02-09-21.30.10.324010+000 I432110566E692        LEVEL: Error
+PID     : 21775                TID : 140155511891712 PROC : db2sysc 0
+INSTANCE: db2inst1             NODE : 000            DB   : MYDATABASE
+APPHDL  : 0-365                APPID: *LOCAL.db2inst1.170209192249
+AUTHID  : PANC                 HOSTNAME: remote.server.host.name
+EDUID   : 77                   EDUNAME: db2ltfm1 0
+FUNCTION: DB2 UDB, database utilities, sqluLoadEDUDriver, probe:2878
+MESSAGE : ZRC=0x8015006D=-2146107283=SQLU_CA_BUILT
+          "SQLCA has already been built"
+DATA #1 : LOADID, PD_TYPE_LOADID, 47 bytes
+LOADID: 71.2017-02-09-19.22.49.916676.0 (2;146)
+DATA #2 : File name, 10 bytes
+sqluedus.C
+
+2017-02-09-21.30.10.322077+000 I432111259E692        LEVEL: Error
+PID     : 21775                TID : 140155490920192 PROC : db2sysc 0
+INSTANCE: db2inst1             NODE : 000            DB   : MYDATABASE
+APPHDL  : 0-365                APPID: *LOCAL.db2inst1.170209192249
+AUTHID  : PANC                 HOSTNAME: remote.server.host.name
+EDUID   : 82                   EDUNAME: db2ltfm6 0
+FUNCTION: DB2 UDB, database utilities, sqluLoadEDUDriver, probe:2878
+MESSAGE : ZRC=0x8015006D=-2146107283=SQLU_CA_BUILT
+          "SQLCA has already been built"
+DATA #1 : LOADID, PD_TYPE_LOADID, 47 bytes
+LOADID: 71.2017-02-09-19.22.49.916676.0 (2;146)
+DATA #2 : File name, 10 bytes
+sqluedus.C
+
+2017-02-09-21.30.10.324669+000 I432111952E746        LEVEL: Error
+PID     : 21775                TID : 140155490920192 PROC : db2sysc 0
+INSTANCE: db2inst1             NODE : 000            DB   : MYDATABASE
+APPHDL  : 0-365                APPID: *LOCAL.db2inst1.170209192249
+AUTHID  : PANC                 HOSTNAME: remote.server.host.name
+EDUID   : 82                   EDUNAME: db2ltfm6 0
+FUNCTION: DB2 UDB, database utilities, sqluCFormatter::iCleanUp, probe:1963
+MESSAGE : ZRC=0x8015006D=-2146107283=SQLU_CA_BUILT
+          "SQLCA has already been built"
+DATA #1 : LOADID, PD_TYPE_LOADID, 47 bytes
+LOADID: 71.2017-02-09-19.22.49.916676.0 (2;146)
+DATA #2 : File name, 10 bytes
+sqluldat.C
+DATA #3 : ZRC, PD_TYPE_ZRC, 4 bytes
+0x8015006D
+
+2017-02-09-21.30.10.322787+000 I432112699E610        LEVEL: Error
+PID     : 21775                TID : 140155495114496 PROC : db2sysc 0
+INSTANCE: db2inst1             NODE : 000            DB   : MYDATABASE
+APPHDL  : 0-365                APPID: *LOCAL.db2inst1.170209192249
+AUTHID  : PANC                 HOSTNAME: remote.server.host.name
+EDUID   : 81                   EDUNAME: db2ltfm5 0
+FUNCTION: DB2 UDB, database utilities, sqluReportErrToDiag, probe:0
+DATA #1 : String, 114 bytes
+LOADID: 71.2017-02-09-19.22.49.916676.0 (2;146)
+ , -2112552959, (nil), Detected in file:sqlulxld_parse.C, Line:788
+
+2017-02-09-21.30.10.325258+000 I432113310E692        LEVEL: Error
+PID     : 21775                TID : 140155495114496 PROC : db2sysc 0
+INSTANCE: db2inst1             NODE : 000            DB   : MYDATABASE
+APPHDL  : 0-365                APPID: *LOCAL.db2inst1.170209192249
+AUTHID  : PANC                 HOSTNAME: remote.server.host.name
+EDUID   : 81                   EDUNAME: db2ltfm5 0
+FUNCTION: DB2 UDB, database utilities, sqluLoadEDUDriver, probe:2878
+MESSAGE : ZRC=0x8015006D=-2146107283=SQLU_CA_BUILT
+          "SQLCA has already been built"
+DATA #1 : LOADID, PD_TYPE_LOADID, 47 bytes
+LOADID: 71.2017-02-09-19.22.49.916676.0 (2;146)
+DATA #2 : File name, 10 bytes
+sqluedus.C
+
+2017-02-09-21.30.10.325570+000 I432114003E746        LEVEL: Error
+PID     : 21775                TID : 140155495114496 PROC : db2sysc 0
+INSTANCE: db2inst1             NODE : 000            DB   : MYDATABASE
+APPHDL  : 0-365                APPID: *LOCAL.db2inst1.170209192249
+AUTHID  : PANC                 HOSTNAME: remote.server.host.name
+EDUID   : 81                   EDUNAME: db2ltfm5 0
+FUNCTION: DB2 UDB, database utilities, sqluCFormatter::iCleanUp, probe:1963
+MESSAGE : ZRC=0x8015006D=-2146107283=SQLU_CA_BUILT
+          "SQLCA has already been built"
+DATA #1 : LOADID, PD_TYPE_LOADID, 47 bytes
+LOADID: 71.2017-02-09-19.22.49.916676.0 (2;146)
+DATA #2 : File name, 10 bytes
+sqluldat.C
+DATA #3 : ZRC, PD_TYPE_ZRC, 4 bytes
+0x8015006D
+
+2017-02-09-21.30.10.301431+000 I432114750E692        LEVEL: Error
+PID     : 21775                TID : 140155503503104 PROC : db2sysc 0
+INSTANCE: db2inst1             NODE : 000            DB   : MYDATABASE
+APPHDL  : 0-365                APPID: *LOCAL.db2inst1.170209192249
+AUTHID  : PANC                 HOSTNAME: remote.server.host.name
+EDUID   : 79                   EDUNAME: db2ltfm3 0
+FUNCTION: DB2 UDB, database utilities, sqluLoadEDUDriver, probe:2878
+MESSAGE : ZRC=0x8015006D=-2146107283=SQLU_CA_BUILT
+          "SQLCA has already been built"
+DATA #1 : LOADID, PD_TYPE_LOADID, 47 bytes
+LOADID: 71.2017-02-09-19.22.49.916676.0 (2;146)
+DATA #2 : File name, 10 bytes
+sqluedus.C
+
+2017-02-09-21.30.10.320750+000 I432115443E692        LEVEL: Error
+PID     : 21775                TID : 140155499308800 PROC : db2sysc 0
+INSTANCE: db2inst1             NODE : 000            DB   : MYDATABASE
+APPHDL  : 0-365                APPID: *LOCAL.db2inst1.170209192249
+AUTHID  : PANC                 HOSTNAME: remote.server.host.name
+EDUID   : 80                   EDUNAME: db2ltfm4 0
+FUNCTION: DB2 UDB, database utilities, sqluLoadEDUDriver, probe:2878
+MESSAGE : ZRC=0x8015006D=-2146107283=SQLU_CA_BUILT
+          "SQLCA has already been built"
+DATA #1 : LOADID, PD_TYPE_LOADID, 47 bytes
+LOADID: 71.2017-02-09-19.22.49.916676.0 (2;146)
+DATA #2 : File name, 10 bytes
+sqluedus.C
+
+2017-02-09-21.30.10.326562+000 I432116136E746        LEVEL: Error
+PID     : 21775                TID : 140155499308800 PROC : db2sysc 0
+INSTANCE: db2inst1             NODE : 000            DB   : MYDATABASE
+APPHDL  : 0-365                APPID: *LOCAL.db2inst1.170209192249
+AUTHID  : PANC                 HOSTNAME: remote.server.host.name
+EDUID   : 80                   EDUNAME: db2ltfm4 0
+FUNCTION: DB2 UDB, database utilities, sqluCFormatter::iCleanUp, probe:1963
+MESSAGE : ZRC=0x8015006D=-2146107283=SQLU_CA_BUILT
+          "SQLCA has already been built"
+DATA #1 : LOADID, PD_TYPE_LOADID, 47 bytes
+LOADID: 71.2017-02-09-19.22.49.916676.0 (2;146)
+DATA #2 : File name, 10 bytes
+sqluldat.C
+DATA #3 : ZRC, PD_TYPE_ZRC, 4 bytes
+0x8015006D
+
+2017-02-09-21.30.10.326957+000 I432116883E623        LEVEL: Error
+PID     : 21775                TID : 140155499308800 PROC : db2sysc 0
+INSTANCE: db2inst1             NODE : 000
+HOSTNAME: remote.server.host.name
+EDUID   : 80                   EDUNAME: db2ltfm4 0
+FUNCTION: DB2 UDB, database utilities, sqluCFormatter::iCleanUp, probe:1982
+MESSAGE : ZRC=0x8015006D=-2146107283=SQLU_CA_BUILT
+          "SQLCA has already been built"
+DATA #1 : LOADID, PD_TYPE_LOADID, 47 bytes
+LOADID: 71.2017-02-09-19.22.49.916676.0 (2;146)
+DATA #2 : File name, 10 bytes
+sqluldat.C
+DATA #3 : ZRC, PD_TYPE_ZRC, 4 bytes
+0x8015006D
+
+2017-02-09-21.30.10.327235+000 I432117507E623        LEVEL: Error
+PID     : 21775                TID : 140155499308800 PROC : db2sysc 0
+INSTANCE: db2inst1             NODE : 000
+HOSTNAME: remote.server.host.name
+EDUID   : 80                   EDUNAME: db2ltfm4 0
+FUNCTION: DB2 UDB, database utilities, sqluCFormatter::iCleanUp, probe:1985
+MESSAGE : ZRC=0x8015006D=-2146107283=SQLU_CA_BUILT
+          "SQLCA has already been built"
+DATA #1 : LOADID, PD_TYPE_LOADID, 47 bytes
+LOADID: 71.2017-02-09-19.22.49.916676.0 (2;146)
+DATA #2 : File name, 10 bytes
+sqluldat.C
+DATA #3 : ZRC, PD_TYPE_ZRC, 4 bytes
+0x8015006D
+
+2017-02-09-21.30.10.327501+000 I432118131E616        LEVEL: Error
+PID     : 21775                TID : 140155499308800 PROC : db2sysc 0
+INSTANCE: db2inst1             NODE : 000
+HOSTNAME: remote.server.host.name
+EDUID   : 80                   EDUNAME: db2ltfm4 0
+FUNCTION: DB2 UDB, database utilities, sqluLoadEDUDriver, probe:2885
+MESSAGE : ZRC=0x8015006D=-2146107283=SQLU_CA_BUILT
+          "SQLCA has already been built"
+DATA #1 : LOADID, PD_TYPE_LOADID, 47 bytes
+LOADID: 71.2017-02-09-19.22.49.916676.0 (2;146)
+DATA #2 : File name, 10 bytes
+sqluedus.C
+DATA #3 : ZRC, PD_TYPE_ZRC, 4 bytes
+0x8015006D
+
+2017-02-09-21.30.10.323241+000 I432118748E623        LEVEL: Error
+PID     : 21775                TID : 140155486725888 PROC : db2sysc 0
+INSTANCE: db2inst1             NODE : 000
+HOSTNAME: remote.server.host.name
+EDUID   : 83                   EDUNAME: db2ltfm7 0
+FUNCTION: DB2 UDB, database utilities, sqluCFormatter::iCleanUp, probe:1982
+MESSAGE : ZRC=0x8015006D=-2146107283=SQLU_CA_BUILT
+          "SQLCA has already been built"
+DATA #1 : LOADID, PD_TYPE_LOADID, 47 bytes
+LOADID: 71.2017-02-09-19.22.49.916676.0 (2;146)
+DATA #2 : File name, 10 bytes
+sqluldat.C
+DATA #3 : ZRC, PD_TYPE_ZRC, 4 bytes
+0x8015006D
+
+2017-02-09-21.30.10.325058+000 I432119372E623        LEVEL: Error
+PID     : 21775                TID : 140155490920192 PROC : db2sysc 0
+INSTANCE: db2inst1             NODE : 000
+HOSTNAME: remote.server.host.name
+EDUID   : 82                   EDUNAME: db2ltfm6 0
+FUNCTION: DB2 UDB, database utilities, sqluCFormatter::iCleanUp, probe:1982
+MESSAGE : ZRC=0x8015006D=-2146107283=SQLU_CA_BUILT
+          "SQLCA has already been built"
+DATA #1 : LOADID, PD_TYPE_LOADID, 47 bytes
+LOADID: 71.2017-02-09-19.22.49.916676.0 (2;146)
+DATA #2 : File name, 10 bytes
+sqluldat.C
+DATA #3 : ZRC, PD_TYPE_ZRC, 4 bytes
+0x8015006D
+
+2017-02-09-21.30.10.321011+000 I432119996E623        LEVEL: Error
+PID     : 21775                TID : 140155507697408 PROC : db2sysc 0
+INSTANCE: db2inst1             NODE : 000
+HOSTNAME: remote.server.host.name
+EDUID   : 78                   EDUNAME: db2ltfm2 0
+FUNCTION: DB2 UDB, database utilities, sqluCFormatter::iCleanUp, probe:1985
+MESSAGE : ZRC=0x8015006D=-2146107283=SQLU_CA_BUILT
+          "SQLCA has already been built"
+DATA #1 : LOADID, PD_TYPE_LOADID, 47 bytes
+LOADID: 71.2017-02-09-19.22.49.916676.0 (2;146)
+DATA #2 : File name, 10 bytes
+sqluldat.C
+DATA #3 : ZRC, PD_TYPE_ZRC, 4 bytes
+0x8015006D
+
+2017-02-09-21.30.10.328953+000 I432120620E616        LEVEL: Error
+PID     : 21775                TID : 140155507697408 PROC : db2sysc 0
+INSTANCE: db2inst1             NODE : 000
+HOSTNAME: remote.server.host.name
+EDUID   : 78                   EDUNAME: db2ltfm2 0
+FUNCTION: DB2 UDB, database utilities, sqluLoadEDUDriver, probe:2885
+MESSAGE : ZRC=0x8015006D=-2146107283=SQLU_CA_BUILT
+          "SQLCA has already been built"
+DATA #1 : LOADID, PD_TYPE_LOADID, 47 bytes
+LOADID: 71.2017-02-09-19.22.49.916676.0 (2;146)
+DATA #2 : File name, 10 bytes
+sqluedus.C
+DATA #3 : ZRC, PD_TYPE_ZRC, 4 bytes
+0x8015006D
+
+2017-02-09-21.30.10.328374+000 I432121237E623        LEVEL: Error
+PID     : 21775                TID : 140155486725888 PROC : db2sysc 0
+INSTANCE: db2inst1             NODE : 000
+HOSTNAME: remote.server.host.name
+EDUID   : 83                   EDUNAME: db2ltfm7 0
+FUNCTION: DB2 UDB, database utilities, sqluCFormatter::iCleanUp, probe:1985
+MESSAGE : ZRC=0x8015006D=-2146107283=SQLU_CA_BUILT
+          "SQLCA has already been built"
+DATA #1 : LOADID, PD_TYPE_LOADID, 47 bytes
+LOADID: 71.2017-02-09-19.22.49.916676.0 (2;146)
+DATA #2 : File name, 10 bytes
+sqluldat.C
+DATA #3 : ZRC, PD_TYPE_ZRC, 4 bytes
+0x8015006D
+
+2017-02-09-21.30.10.328675+000 I432121861E623        LEVEL: Error
+PID     : 21775                TID : 140155490920192 PROC : db2sysc 0
+INSTANCE: db2inst1             NODE : 000
+HOSTNAME: remote.server.host.name
+EDUID   : 82                   EDUNAME: db2ltfm6 0
+FUNCTION: DB2 UDB, database utilities, sqluCFormatter::iCleanUp, probe:1985
+MESSAGE : ZRC=0x8015006D=-2146107283=SQLU_CA_BUILT
+          "SQLCA has already been built"
+DATA #1 : LOADID, PD_TYPE_LOADID, 47 bytes
+LOADID: 71.2017-02-09-19.22.49.916676.0 (2;146)
+DATA #2 : File name, 10 bytes
+sqluldat.C
+DATA #3 : ZRC, PD_TYPE_ZRC, 4 bytes
+0x8015006D
+
+2017-02-09-21.30.10.330126+000 I432122485E616        LEVEL: Error
+PID     : 21775                TID : 140155490920192 PROC : db2sysc 0
+INSTANCE: db2inst1             NODE : 000
+HOSTNAME: remote.server.host.name
+EDUID   : 82                   EDUNAME: db2ltfm6 0
+FUNCTION: DB2 UDB, database utilities, sqluLoadEDUDriver, probe:2885
+MESSAGE : ZRC=0x8015006D=-2146107283=SQLU_CA_BUILT
+          "SQLCA has already been built"
+DATA #1 : LOADID, PD_TYPE_LOADID, 47 bytes
+LOADID: 71.2017-02-09-19.22.49.916676.0 (2;146)
+DATA #2 : File name, 10 bytes
+sqluedus.C
+DATA #3 : ZRC, PD_TYPE_ZRC, 4 bytes
+0x8015006D
+
+2017-02-09-21.30.10.326255+000 I432123102E746        LEVEL: Error
+PID     : 21775                TID : 140155503503104 PROC : db2sysc 0
+INSTANCE: db2inst1             NODE : 000            DB   : MYDATABASE
+APPHDL  : 0-365                APPID: *LOCAL.db2inst1.170209192249
+AUTHID  : PANC                 HOSTNAME: remote.server.host.name
+EDUID   : 79                   EDUNAME: db2ltfm3 0
+FUNCTION: DB2 UDB, database utilities, sqluCFormatter::iCleanUp, probe:1963
+MESSAGE : ZRC=0x8015006D=-2146107283=SQLU_CA_BUILT
+          "SQLCA has already been built"
+DATA #1 : LOADID, PD_TYPE_LOADID, 47 bytes
+LOADID: 71.2017-02-09-19.22.49.916676.0 (2;146)
+DATA #2 : File name, 10 bytes
+sqluldat.C
+DATA #3 : ZRC, PD_TYPE_ZRC, 4 bytes
+0x8015006D
+
+2017-02-09-21.30.10.324344+000 I432123849E746        LEVEL: Error
+PID     : 21775                TID : 140155511891712 PROC : db2sysc 0
+INSTANCE: db2inst1             NODE : 000            DB   : MYDATABASE
+APPHDL  : 0-365                APPID: *LOCAL.db2inst1.170209192249
+AUTHID  : PANC                 HOSTNAME: remote.server.host.name
+EDUID   : 77                   EDUNAME: db2ltfm1 0
+FUNCTION: DB2 UDB, database utilities, sqluCFormatter::iCleanUp, probe:1963
+MESSAGE : ZRC=0x8015006D=-2146107283=SQLU_CA_BUILT
+          "SQLCA has already been built"
+DATA #1 : LOADID, PD_TYPE_LOADID, 47 bytes
+LOADID: 71.2017-02-09-19.22.49.916676.0 (2;146)
+DATA #2 : File name, 10 bytes
+sqluldat.C
+DATA #3 : ZRC, PD_TYPE_ZRC, 4 bytes
+0x8015006D
+
+2017-02-09-21.30.10.325940+000 I432124596E623        LEVEL: Error
+PID     : 21775                TID : 140155495114496 PROC : db2sysc 0
+INSTANCE: db2inst1             NODE : 000
+HOSTNAME: remote.server.host.name
+EDUID   : 81                   EDUNAME: db2ltfm5 0
+FUNCTION: DB2 UDB, database utilities, sqluCFormatter::iCleanUp, probe:1982
+MESSAGE : ZRC=0x8015006D=-2146107283=SQLU_CA_BUILT
+          "SQLCA has already been built"
+DATA #1 : LOADID, PD_TYPE_LOADID, 47 bytes
+LOADID: 71.2017-02-09-19.22.49.916676.0 (2;146)
+DATA #2 : File name, 10 bytes
+sqluldat.C
+DATA #3 : ZRC, PD_TYPE_ZRC, 4 bytes
+0x8015006D
+
+2017-02-09-21.30.10.331713+000 I432125220E623        LEVEL: Error
+PID     : 21775                TID : 140155495114496 PROC : db2sysc 0
+INSTANCE: db2inst1             NODE : 000
+HOSTNAME: remote.server.host.name
+EDUID   : 81                   EDUNAME: db2ltfm5 0
+FUNCTION: DB2 UDB, database utilities, sqluCFormatter::iCleanUp, probe:1985
+MESSAGE : ZRC=0x8015006D=-2146107283=SQLU_CA_BUILT
+          "SQLCA has already been built"
+DATA #1 : LOADID, PD_TYPE_LOADID, 47 bytes
+LOADID: 71.2017-02-09-19.22.49.916676.0 (2;146)
+DATA #2 : File name, 10 bytes
+sqluldat.C
+DATA #3 : ZRC, PD_TYPE_ZRC, 4 bytes
+0x8015006D
+
+2017-02-09-21.30.10.332014+000 I432125844E616        LEVEL: Error
+PID     : 21775                TID : 140155495114496 PROC : db2sysc 0
+INSTANCE: db2inst1             NODE : 000
+HOSTNAME: remote.server.host.name
+EDUID   : 81                   EDUNAME: db2ltfm5 0
+FUNCTION: DB2 UDB, database utilities, sqluLoadEDUDriver, probe:2885
+MESSAGE : ZRC=0x8015006D=-2146107283=SQLU_CA_BUILT
+          "SQLCA has already been built"
+DATA #1 : LOADID, PD_TYPE_LOADID, 47 bytes
+LOADID: 71.2017-02-09-19.22.49.916676.0 (2;146)
+DATA #2 : File name, 10 bytes
+sqluedus.C
+DATA #3 : ZRC, PD_TYPE_ZRC, 4 bytes
+0x8015006D
+
+2017-02-09-21.30.10.332634+000 I432126461E623        LEVEL: Error
+PID     : 21775                TID : 140155511891712 PROC : db2sysc 0
+INSTANCE: db2inst1             NODE : 000
+HOSTNAME: remote.server.host.name
+EDUID   : 77                   EDUNAME: db2ltfm1 0
+FUNCTION: DB2 UDB, database utilities, sqluCFormatter::iCleanUp, probe:1982
+MESSAGE : ZRC=0x8015006D=-2146107283=SQLU_CA_BUILT
+          "SQLCA has already been built"
+DATA #1 : LOADID, PD_TYPE_LOADID, 47 bytes
+LOADID: 71.2017-02-09-19.22.49.916676.0 (2;146)
+DATA #2 : File name, 10 bytes
+sqluldat.C
+DATA #3 : ZRC, PD_TYPE_ZRC, 4 bytes
+0x8015006D
+
+2017-02-09-21.30.10.314024+000 I432127085E611        LEVEL: Error
+PID     : 21775                TID : 140155474142976 PROC : db2sysc 0
+INSTANCE: db2inst1             NODE : 000            DB   : MYDATABASE
+APPHDL  : 0-365                APPID: *LOCAL.db2inst1.170209192249
+AUTHID  : PANC                 HOSTNAME: remote.server.host.name
+EDUID   : 86                   EDUNAME: db2ltfm10 0
+FUNCTION: DB2 UDB, database utilities, sqluReportErrToDiag, probe:0
+DATA #1 : String, 114 bytes
+LOADID: 71.2017-02-09-19.22.49.916676.0 (2;146)
+ , -2112552959, (nil), Detected in file:sqlulxld_parse.C, Line:788
+
+2017-02-09-21.30.10.329833+000 I432127697E616        LEVEL: Error
+PID     : 21775                TID : 140155486725888 PROC : db2sysc 0
+INSTANCE: db2inst1             NODE : 000
+HOSTNAME: remote.server.host.name
+EDUID   : 83                   EDUNAME: db2ltfm7 0
+FUNCTION: DB2 UDB, database utilities, sqluLoadEDUDriver, probe:2885
+MESSAGE : ZRC=0x8015006D=-2146107283=SQLU_CA_BUILT
+          "SQLCA has already been built"
+DATA #1 : LOADID, PD_TYPE_LOADID, 47 bytes
+LOADID: 71.2017-02-09-19.22.49.916676.0 (2;146)
+DATA #2 : File name, 10 bytes
+sqluedus.C
+DATA #3 : ZRC, PD_TYPE_ZRC, 4 bytes
+0x8015006D
+
+2017-02-09-21.30.10.317251+000 I432128314E611        LEVEL: Error
+PID     : 21775                TID : 140155482531584 PROC : db2sysc 0
+INSTANCE: db2inst1             NODE : 000            DB   : MYDATABASE
+APPHDL  : 0-365                APPID: *LOCAL.db2inst1.170209192249
+AUTHID  : PANC                 HOSTNAME: remote.server.host.name
+EDUID   : 84                   EDUNAME: db2ltfm8 0
+FUNCTION: DB2 UDB, database utilities, sqluReportErrToDiag, probe:0
+DATA #1 : String, 115 bytes
+LOADID: 71.2017-02-09-19.22.49.916676.0 (2;146)
+ , -2112552959, (nil), Detected in file:sqlulxld_parse.C, Line:3249
+
+2017-02-09-21.30.10.312802+000 I432128926E692        LEVEL: Error
+PID     : 21775                TID : 140155478337280 PROC : db2sysc 0
+INSTANCE: db2inst1             NODE : 000            DB   : MYDATABASE
+APPHDL  : 0-365                APPID: *LOCAL.db2inst1.170209192249
+AUTHID  : PANC                 HOSTNAME: remote.server.host.name
+EDUID   : 85                   EDUNAME: db2ltfm9 0
+FUNCTION: DB2 UDB, database utilities, sqluLoadEDUDriver, probe:2878
+MESSAGE : ZRC=0x8015006D=-2146107283=SQLU_CA_BUILT
+          "SQLCA has already been built"
+DATA #1 : LOADID, PD_TYPE_LOADID, 47 bytes
+LOADID: 71.2017-02-09-19.22.49.916676.0 (2;146)
+DATA #2 : File name, 10 bytes
+sqluedus.C
+
+2017-02-09-21.30.10.333178+000 I432129619E693        LEVEL: Error
+PID     : 21775                TID : 140155474142976 PROC : db2sysc 0
+INSTANCE: db2inst1             NODE : 000            DB   : MYDATABASE
+APPHDL  : 0-365                APPID: *LOCAL.db2inst1.170209192249
+AUTHID  : PANC                 HOSTNAME: remote.server.host.name
+EDUID   : 86                   EDUNAME: db2ltfm10 0
+FUNCTION: DB2 UDB, database utilities, sqluLoadEDUDriver, probe:2878
+MESSAGE : ZRC=0x8015006D=-2146107283=SQLU_CA_BUILT
+          "SQLCA has already been built"
+DATA #1 : LOADID, PD_TYPE_LOADID, 47 bytes
+LOADID: 71.2017-02-09-19.22.49.916676.0 (2;146)
+DATA #2 : File name, 10 bytes
+sqluedus.C
+
+2017-02-09-21.30.10.334656+000 I432130313E747        LEVEL: Error
+PID     : 21775                TID : 140155474142976 PROC : db2sysc 0
+INSTANCE: db2inst1             NODE : 000            DB   : MYDATABASE
+APPHDL  : 0-365                APPID: *LOCAL.db2inst1.170209192249
+AUTHID  : PANC                 HOSTNAME: remote.server.host.name
+EDUID   : 86                   EDUNAME: db2ltfm10 0
+FUNCTION: DB2 UDB, database utilities, sqluCFormatter::iCleanUp, probe:1963
+MESSAGE : ZRC=0x8015006D=-2146107283=SQLU_CA_BUILT
+          "SQLCA has already been built"
+DATA #1 : LOADID, PD_TYPE_LOADID, 47 bytes
+LOADID: 71.2017-02-09-19.22.49.916676.0 (2;146)
+DATA #2 : File name, 10 bytes
+sqluldat.C
+DATA #3 : ZRC, PD_TYPE_ZRC, 4 bytes
+0x8015006D
+
+2017-02-09-21.30.10.335058+000 I432131061E624        LEVEL: Error
+PID     : 21775                TID : 140155474142976 PROC : db2sysc 0
+INSTANCE: db2inst1             NODE : 000
+HOSTNAME: remote.server.host.name
+EDUID   : 86                   EDUNAME: db2ltfm10 0
+FUNCTION: DB2 UDB, database utilities, sqluCFormatter::iCleanUp, probe:1982
+MESSAGE : ZRC=0x8015006D=-2146107283=SQLU_CA_BUILT
+          "SQLCA has already been built"
+DATA #1 : LOADID, PD_TYPE_LOADID, 47 bytes
+LOADID: 71.2017-02-09-19.22.49.916676.0 (2;146)
+DATA #2 : File name, 10 bytes
+sqluldat.C
+DATA #3 : ZRC, PD_TYPE_ZRC, 4 bytes
+0x8015006D
+
+2017-02-09-21.30.10.335339+000 I432131686E624        LEVEL: Error
+PID     : 21775                TID : 140155474142976 PROC : db2sysc 0
+INSTANCE: db2inst1             NODE : 000
+HOSTNAME: remote.server.host.name
+EDUID   : 86                   EDUNAME: db2ltfm10 0
+FUNCTION: DB2 UDB, database utilities, sqluCFormatter::iCleanUp, probe:1985
+MESSAGE : ZRC=0x8015006D=-2146107283=SQLU_CA_BUILT
+          "SQLCA has already been built"
+DATA #1 : LOADID, PD_TYPE_LOADID, 47 bytes
+LOADID: 71.2017-02-09-19.22.49.916676.0 (2;146)
+DATA #2 : File name, 10 bytes
+sqluldat.C
+DATA #3 : ZRC, PD_TYPE_ZRC, 4 bytes
+0x8015006D
+
+2017-02-09-21.30.10.335604+000 I432132311E617        LEVEL: Error
+PID     : 21775                TID : 140155474142976 PROC : db2sysc 0
+INSTANCE: db2inst1             NODE : 000
+HOSTNAME: remote.server.host.name
+EDUID   : 86                   EDUNAME: db2ltfm10 0
+FUNCTION: DB2 UDB, database utilities, sqluLoadEDUDriver, probe:2885
+MESSAGE : ZRC=0x8015006D=-2146107283=SQLU_CA_BUILT
+          "SQLCA has already been built"
+DATA #1 : LOADID, PD_TYPE_LOADID, 47 bytes
+LOADID: 71.2017-02-09-19.22.49.916676.0 (2;146)
+DATA #2 : File name, 10 bytes
+sqluedus.C
+DATA #3 : ZRC, PD_TYPE_ZRC, 4 bytes
+0x8015006D
+
+2017-02-09-21.30.10.332910+000 I432132929E623        LEVEL: Error
+PID     : 21775                TID : 140155511891712 PROC : db2sysc 0
+INSTANCE: db2inst1             NODE : 000
+HOSTNAME: remote.server.host.name
+EDUID   : 77                   EDUNAME: db2ltfm1 0
+FUNCTION: DB2 UDB, database utilities, sqluCFormatter::iCleanUp, probe:1985
+MESSAGE : ZRC=0x8015006D=-2146107283=SQLU_CA_BUILT
+          "SQLCA has already been built"
+DATA #1 : LOADID, PD_TYPE_LOADID, 47 bytes
+LOADID: 71.2017-02-09-19.22.49.916676.0 (2;146)
+DATA #2 : File name, 10 bytes
+sqluldat.C
+DATA #3 : ZRC, PD_TYPE_ZRC, 4 bytes
+0x8015006D
+
+2017-02-09-21.30.10.336495+000 I432133553E616        LEVEL: Error
+PID     : 21775                TID : 140155511891712 PROC : db2sysc 0
+INSTANCE: db2inst1             NODE : 000
+HOSTNAME: remote.server.host.name
+EDUID   : 77                   EDUNAME: db2ltfm1 0
+FUNCTION: DB2 UDB, database utilities, sqluLoadEDUDriver, probe:2885
+MESSAGE : ZRC=0x8015006D=-2146107283=SQLU_CA_BUILT
+          "SQLCA has already been built"
+DATA #1 : LOADID, PD_TYPE_LOADID, 47 bytes
+LOADID: 71.2017-02-09-19.22.49.916676.0 (2;146)
+DATA #2 : File name, 10 bytes
+sqluedus.C
+DATA #3 : ZRC, PD_TYPE_ZRC, 4 bytes
+0x8015006D
+
+2017-02-09-21.30.10.334023+000 I432134170E610        LEVEL: Error
+PID     : 21775                TID : 140155482531584 PROC : db2sysc 0
+INSTANCE: db2inst1             NODE : 000            DB   : MYDATABASE
+APPHDL  : 0-365                APPID: *LOCAL.db2inst1.170209192249
+AUTHID  : PANC                 HOSTNAME: remote.server.host.name
+EDUID   : 84                   EDUNAME: db2ltfm8 0
+FUNCTION: DB2 UDB, database utilities, sqluReportErrToDiag, probe:0
+DATA #1 : String, 114 bytes
+LOADID: 71.2017-02-09-19.22.49.916676.0 (2;146)
+ , -2112552959, (nil), Detected in file:sqlulxld_parse.C, Line:788
+
+2017-02-09-21.30.10.337609+000 I432134781E692        LEVEL: Error
+PID     : 21775                TID : 140155482531584 PROC : db2sysc 0
+INSTANCE: db2inst1             NODE : 000            DB   : MYDATABASE
+APPHDL  : 0-365                APPID: *LOCAL.db2inst1.170209192249
+AUTHID  : PANC                 HOSTNAME: remote.server.host.name
+EDUID   : 84                   EDUNAME: db2ltfm8 0
+FUNCTION: DB2 UDB, database utilities, sqluLoadEDUDriver, probe:2878
+MESSAGE : ZRC=0x8015006D=-2146107283=SQLU_CA_BUILT
+          "SQLCA has already been built"
+DATA #1 : LOADID, PD_TYPE_LOADID, 47 bytes
+LOADID: 71.2017-02-09-19.22.49.916676.0 (2;146)
+DATA #2 : File name, 10 bytes
+sqluedus.C
+
+2017-02-09-21.30.10.337923+000 I432135474E746        LEVEL: Error
+PID     : 21775                TID : 140155482531584 PROC : db2sysc 0
+INSTANCE: db2inst1             NODE : 000            DB   : MYDATABASE
+APPHDL  : 0-365                APPID: *LOCAL.db2inst1.170209192249
+AUTHID  : PANC                 HOSTNAME: remote.server.host.name
+EDUID   : 84                   EDUNAME: db2ltfm8 0
+FUNCTION: DB2 UDB, database utilities, sqluCFormatter::iCleanUp, probe:1963
+MESSAGE : ZRC=0x8015006D=-2146107283=SQLU_CA_BUILT
+          "SQLCA has already been built"
+DATA #1 : LOADID, PD_TYPE_LOADID, 47 bytes
+LOADID: 71.2017-02-09-19.22.49.916676.0 (2;146)
+DATA #2 : File name, 10 bytes
+sqluldat.C
+DATA #3 : ZRC, PD_TYPE_ZRC, 4 bytes
+0x8015006D
+
+2017-02-09-21.30.10.338295+000 I432136221E623        LEVEL: Error
+PID     : 21775                TID : 140155482531584 PROC : db2sysc 0
+INSTANCE: db2inst1             NODE : 000
+HOSTNAME: remote.server.host.name
+EDUID   : 84                   EDUNAME: db2ltfm8 0
+FUNCTION: DB2 UDB, database utilities, sqluCFormatter::iCleanUp, probe:1982
+MESSAGE : ZRC=0x8015006D=-2146107283=SQLU_CA_BUILT
+          "SQLCA has already been built"
+DATA #1 : LOADID, PD_TYPE_LOADID, 47 bytes
+LOADID: 71.2017-02-09-19.22.49.916676.0 (2;146)
+DATA #2 : File name, 10 bytes
+sqluldat.C
+DATA #3 : ZRC, PD_TYPE_ZRC, 4 bytes
+0x8015006D
+
+2017-02-09-21.30.10.338558+000 I432136845E623        LEVEL: Error
+PID     : 21775                TID : 140155482531584 PROC : db2sysc 0
+INSTANCE: db2inst1             NODE : 000
+HOSTNAME: remote.server.host.name
+EDUID   : 84                   EDUNAME: db2ltfm8 0
+FUNCTION: DB2 UDB, database utilities, sqluCFormatter::iCleanUp, probe:1985
+MESSAGE : ZRC=0x8015006D=-2146107283=SQLU_CA_BUILT
+          "SQLCA has already been built"
+DATA #1 : LOADID, PD_TYPE_LOADID, 47 bytes
+LOADID: 71.2017-02-09-19.22.49.916676.0 (2;146)
+DATA #2 : File name, 10 bytes
+sqluldat.C
+DATA #3 : ZRC, PD_TYPE_ZRC, 4 bytes
+0x8015006D
+
+2017-02-09-21.30.10.331097+000 I432137469E623        LEVEL: Error
+PID     : 21775                TID : 140155503503104 PROC : db2sysc 0
+INSTANCE: db2inst1             NODE : 000
+HOSTNAME: remote.server.host.name
+EDUID   : 79                   EDUNAME: db2ltfm3 0
+FUNCTION: DB2 UDB, database utilities, sqluCFormatter::iCleanUp, probe:1982
+MESSAGE : ZRC=0x8015006D=-2146107283=SQLU_CA_BUILT
+          "SQLCA has already been built"
+DATA #1 : LOADID, PD_TYPE_LOADID, 47 bytes
+LOADID: 71.2017-02-09-19.22.49.916676.0 (2;146)
+DATA #2 : File name, 10 bytes
+sqluldat.C
+DATA #3 : ZRC, PD_TYPE_ZRC, 4 bytes
+0x8015006D
+
+2017-02-09-21.30.10.339120+000 I432138093E623        LEVEL: Error
+PID     : 21775                TID : 140155503503104 PROC : db2sysc 0
+INSTANCE: db2inst1             NODE : 000
+HOSTNAME: remote.server.host.name
+EDUID   : 79                   EDUNAME: db2ltfm3 0
+FUNCTION: DB2 UDB, database utilities, sqluCFormatter::iCleanUp, probe:1985
+MESSAGE : ZRC=0x8015006D=-2146107283=SQLU_CA_BUILT
+          "SQLCA has already been built"
+DATA #1 : LOADID, PD_TYPE_LOADID, 47 bytes
+LOADID: 71.2017-02-09-19.22.49.916676.0 (2;146)
+DATA #2 : File name, 10 bytes
+sqluldat.C
+DATA #3 : ZRC, PD_TYPE_ZRC, 4 bytes
+0x8015006D
+
+2017-02-09-21.30.10.339380+000 I432138717E616        LEVEL: Error
+PID     : 21775                TID : 140155503503104 PROC : db2sysc 0
+INSTANCE: db2inst1             NODE : 000
+HOSTNAME: remote.server.host.name
+EDUID   : 79                   EDUNAME: db2ltfm3 0
+FUNCTION: DB2 UDB, database utilities, sqluLoadEDUDriver, probe:2885
+MESSAGE : ZRC=0x8015006D=-2146107283=SQLU_CA_BUILT
+          "SQLCA has already been built"
+DATA #1 : LOADID, PD_TYPE_LOADID, 47 bytes
+LOADID: 71.2017-02-09-19.22.49.916676.0 (2;146)
+DATA #2 : File name, 10 bytes
+sqluedus.C
+DATA #3 : ZRC, PD_TYPE_ZRC, 4 bytes
+0x8015006D
+
+2017-02-09-21.30.10.334329+000 I432139334E746        LEVEL: Error
+PID     : 21775                TID : 140155478337280 PROC : db2sysc 0
+INSTANCE: db2inst1             NODE : 000            DB   : MYDATABASE
+APPHDL  : 0-365                APPID: *LOCAL.db2inst1.170209192249
+AUTHID  : PANC                 HOSTNAME: remote.server.host.name
+EDUID   : 85                   EDUNAME: db2ltfm9 0
+FUNCTION: DB2 UDB, database utilities, sqluCFormatter::iCleanUp, probe:1963
+MESSAGE : ZRC=0x8015006D=-2146107283=SQLU_CA_BUILT
+          "SQLCA has already been built"
+DATA #1 : LOADID, PD_TYPE_LOADID, 47 bytes
+LOADID: 71.2017-02-09-19.22.49.916676.0 (2;146)
+DATA #2 : File name, 10 bytes
+sqluldat.C
+DATA #3 : ZRC, PD_TYPE_ZRC, 4 bytes
+0x8015006D
+
+2017-02-09-21.30.10.340288+000 I432140081E623        LEVEL: Error
+PID     : 21775                TID : 140155478337280 PROC : db2sysc 0
+INSTANCE: db2inst1             NODE : 000
+HOSTNAME: remote.server.host.name
+EDUID   : 85                   EDUNAME: db2ltfm9 0
+FUNCTION: DB2 UDB, database utilities, sqluCFormatter::iCleanUp, probe:1982
+MESSAGE : ZRC=0x8015006D=-2146107283=SQLU_CA_BUILT
+          "SQLCA has already been built"
+DATA #1 : LOADID, PD_TYPE_LOADID, 47 bytes
+LOADID: 71.2017-02-09-19.22.49.916676.0 (2;146)
+DATA #2 : File name, 10 bytes
+sqluldat.C
+DATA #3 : ZRC, PD_TYPE_ZRC, 4 bytes
+0x8015006D
+
+2017-02-09-21.30.10.340563+000 I432140705E623        LEVEL: Error
+PID     : 21775                TID : 140155478337280 PROC : db2sysc 0
+INSTANCE: db2inst1             NODE : 000
+HOSTNAME: remote.server.host.name
+EDUID   : 85                   EDUNAME: db2ltfm9 0
+FUNCTION: DB2 UDB, database utilities, sqluCFormatter::iCleanUp, probe:1985
+MESSAGE : ZRC=0x8015006D=-2146107283=SQLU_CA_BUILT
+          "SQLCA has already been built"
+DATA #1 : LOADID, PD_TYPE_LOADID, 47 bytes
+LOADID: 71.2017-02-09-19.22.49.916676.0 (2;146)
+DATA #2 : File name, 10 bytes
+sqluldat.C
+DATA #3 : ZRC, PD_TYPE_ZRC, 4 bytes
+0x8015006D
+
+2017-02-09-21.30.10.340831+000 I432141329E616        LEVEL: Error
+PID     : 21775                TID : 140155478337280 PROC : db2sysc 0
+INSTANCE: db2inst1             NODE : 000
+HOSTNAME: remote.server.host.name
+EDUID   : 85                   EDUNAME: db2ltfm9 0
+FUNCTION: DB2 UDB, database utilities, sqluLoadEDUDriver, probe:2885
+MESSAGE : ZRC=0x8015006D=-2146107283=SQLU_CA_BUILT
+          "SQLCA has already been built"
+DATA #1 : LOADID, PD_TYPE_LOADID, 47 bytes
+LOADID: 71.2017-02-09-19.22.49.916676.0 (2;146)
+DATA #2 : File name, 10 bytes
+sqluedus.C
+DATA #3 : ZRC, PD_TYPE_ZRC, 4 bytes
+0x8015006D
+
+2017-02-09-21.30.10.338850+000 I432141946E616        LEVEL: Error
+PID     : 21775                TID : 140155482531584 PROC : db2sysc 0
+INSTANCE: db2inst1             NODE : 000
+HOSTNAME: remote.server.host.name
+EDUID   : 84                   EDUNAME: db2ltfm8 0
+FUNCTION: DB2 UDB, database utilities, sqluLoadEDUDriver, probe:2885
+MESSAGE : ZRC=0x8015006D=-2146107283=SQLU_CA_BUILT
+          "SQLCA has already been built"
+DATA #1 : LOADID, PD_TYPE_LOADID, 47 bytes
+LOADID: 71.2017-02-09-19.22.49.916676.0 (2;146)
+DATA #2 : File name, 10 bytes
+sqluedus.C
+DATA #3 : ZRC, PD_TYPE_ZRC, 4 bytes
+0x8015006D
+
+2017-02-09-21.30.10.343427+000 I432142563E627        LEVEL: Error
+PID     : 21775                TID : 140155457365760 PROC : db2sysc 0
+INSTANCE: db2inst1             NODE : 000            DB   : MYDATABASE
+APPHDL  : 0-365                APPID: *LOCAL.db2inst1.170209192249
+AUTHID  : PANC                 HOSTNAME: remote.server.host.name
+EDUID   : 90                   EDUNAME: db2lcfm0 0
+FUNCTION: DB2 UDB, database utilities, sqluReportErrToDiag, probe:0
+DATA #1 : String, 131 bytes
+LOADID: 71.2017-02-09-19.22.49.916676.0 (2;146)
+Column formatter error , -2112552874, (nil), Detected in file:sqlulrid.C, Line:1750
+
+2017-02-09-21.30.10.343669+000 I432143191E622        LEVEL: Error
+PID     : 21775                TID : 140155457365760 PROC : db2sysc 0
+INSTANCE: db2inst1             NODE : 000            DB   : MYDATABASE
+APPHDL  : 0-365                APPID: *LOCAL.db2inst1.170209192249
+AUTHID  : PANC                 HOSTNAME: remote.server.host.name
+EDUID   : 90                   EDUNAME: db2lcfm0 0
+FUNCTION: DB2 UDB, database utilities, sqluReportErrToDiag, probe:0
+DATA #1 : String, 126 bytes
+LOADID: 71.2017-02-09-19.22.49.916676.0 (2;146)
+sqluGetDMRecLists , -2112552874, (nil), Detected in file:sqlulrid.C, Line:1064
+
+2017-02-09-21.30.10.343889+000 I432143814E698        LEVEL: Error
+PID     : 21775                TID : 140155457365760 PROC : db2sysc 0
+INSTANCE: db2inst1             NODE : 000            DB   : MYDATABASE
+APPHDL  : 0-365                APPID: *LOCAL.db2inst1.170209192249
+AUTHID  : PANC                 HOSTNAME: remote.server.host.name
+EDUID   : 90                   EDUNAME: db2lcfm0 0
+FUNCTION: DB2 UDB, database utilities, sqluLoadEDUDriver, probe:2878
+MESSAGE : ZRC=0x82150056=-2112552874=SQLU_TERM_DIE_NOW
+          "Load EDU termination requested"
+DATA #1 : LOADID, PD_TYPE_LOADID, 47 bytes
+LOADID: 71.2017-02-09-19.22.49.916676.0 (2;146)
+DATA #2 : File name, 10 bytes
+sqluedus.C
+
+2017-02-09-21.30.10.344189+000 I432144513E749        LEVEL: Error
+PID     : 21775                TID : 140155457365760 PROC : db2sysc 0
+INSTANCE: db2inst1             NODE : 000            DB   : MYDATABASE
+APPHDL  : 0-365                APPID: *LOCAL.db2inst1.170209192249
+AUTHID  : PANC                 HOSTNAME: remote.server.host.name
+EDUID   : 90                   EDUNAME: db2lcfm0 0
+FUNCTION: DB2 UDB, database utilities, sqluCRidder::iCleanUp, probe:1173
+MESSAGE : ZRC=0x82150056=-2112552874=SQLU_TERM_DIE_NOW
+          "Load EDU termination requested"
+DATA #1 : LOADID, PD_TYPE_LOADID, 47 bytes
+LOADID: 71.2017-02-09-19.22.49.916676.0 (2;146)
+DATA #2 : File name, 10 bytes
+sqlulrid.C
+DATA #3 : ZRC, PD_TYPE_ZRC, 4 bytes
+0x82150056
+
+2017-02-09-21.30.10.342837+000 I432145263E648        LEVEL: Error
+PID     : 21775                TID : 140155453171456 PROC : db2sysc 0
+INSTANCE: db2inst1             NODE : 000            DB   : MYDATABASE
+APPHDL  : 0-365                APPID: *LOCAL.db2inst1.170209192249
+AUTHID  : PANC                 HOSTNAME: remote.server.host.name
+EDUID   : 91                   EDUNAME: db2lcfm1 0
+FUNCTION: DB2 UDB, database utilities, sqluReportErrToDiag, probe:0
+DATA #1 : String, 152 bytes
+LOADID: 71.2017-02-09-19.22.49.916676.0 (2;146)
+Failed to get new transfer buffer , -2112552874, (nil), Detected in file:LoadTableAccessor.cpp, Line:746
+
+2017-02-09-21.30.10.347534+000 I432145912E662        LEVEL: Error
+PID     : 21775                TID : 140155453171456 PROC : db2sysc 0
+INSTANCE: db2inst1             NODE : 000            DB   : MYDATABASE
+APPHDL  : 0-365                APPID: *LOCAL.db2inst1.170209192249
+AUTHID  : PANC                 HOSTNAME: remote.server.host.name
+EDUID   : 91                   EDUNAME: db2lcfm1 0
+FUNCTION: DB2 UDB, database utilities, sqluReportErrToDiag, probe:0
+DATA #1 : String, 166 bytes
+LOADID: 71.2017-02-09-19.22.49.916676.0 (2;146)
+LoadTableAccessor::writePage encountered an error , -2112552874, 0x8, Detected in file:LoadTableAccessor.cpp, Line:763
+
+2017-02-09-21.30.10.347899+000 I432146575E650        LEVEL: Error
+PID     : 21775                TID : 140155453171456 PROC : db2sysc 0
+INSTANCE: db2inst1             NODE : 000            DB   : MYDATABASE
+APPHDL  : 0-365                APPID: *LOCAL.db2inst1.170209192249
+AUTHID  : PANC                 HOSTNAME: remote.server.host.name
+EDUID   : 91                   EDUNAME: db2lcfm1 0
+FUNCTION: DB2 UDB, database utilities, sqluReportErrToDiag, probe:0
+DATA #1 : String, 154 bytes
+LOADID: 71.2017-02-09-19.22.49.916676.0 (2;146)
+sqluWriteCDETuplets: addColumnGroupTuplets , 8, 0xffffffff82150056, Detected in file:sqlu_cfmt.C, Line:476
+
+2017-02-09-21.30.10.348129+000 I432147226E625        LEVEL: Error
+PID     : 21775                TID : 140155453171456 PROC : db2sysc 0
+INSTANCE: db2inst1             NODE : 000            DB   : MYDATABASE
+APPHDL  : 0-365                APPID: *LOCAL.db2inst1.170209192249
+AUTHID  : PANC                 HOSTNAME: remote.server.host.name
+EDUID   : 91                   EDUNAME: db2lcfm1 0
+FUNCTION: DB2 UDB, database utilities, sqluReportErrToDiag, probe:0
+DATA #1 : String, 129 bytes
+LOADID: 71.2017-02-09-19.22.49.916676.0 (2;146)
+Processing assignment , -2112552874, 0x2, Detected in file:sqlu_cfmt.C, Line:1876
+
+2017-02-09-21.30.10.348347+000 I432147852E638        LEVEL: Error
+PID     : 21775                TID : 140155453171456 PROC : db2sysc 0
+INSTANCE: db2inst1             NODE : 000            DB   : MYDATABASE
+APPHDL  : 0-365                APPID: *LOCAL.db2inst1.170209192249
+AUTHID  : PANC                 HOSTNAME: remote.server.host.name
+EDUID   : 91                   EDUNAME: db2lcfm1 0
+FUNCTION: DB2 UDB, database utilities, sqluReportErrToDiag, probe:0
+DATA #1 : String, 142 bytes
+LOADID: 71.2017-02-09-19.22.49.916676.0 (2;146)
+sqluRunCDESecondaryColumnFormatter , -2112552874, (nil), Detected in file:sqlulrid.C, Line:916
+
+2017-02-09-21.30.10.348570+000 I432148491E698        LEVEL: Error
+PID     : 21775                TID : 140155453171456 PROC : db2sysc 0
+INSTANCE: db2inst1             NODE : 000            DB   : MYDATABASE
+APPHDL  : 0-365                APPID: *LOCAL.db2inst1.170209192249
+AUTHID  : PANC                 HOSTNAME: remote.server.host.name
+EDUID   : 91                   EDUNAME: db2lcfm1 0
+FUNCTION: DB2 UDB, database utilities, sqluLoadEDUDriver, probe:2878
+MESSAGE : ZRC=0x82150056=-2112552874=SQLU_TERM_DIE_NOW
+          "Load EDU termination requested"
+DATA #1 : LOADID, PD_TYPE_LOADID, 47 bytes
+LOADID: 71.2017-02-09-19.22.49.916676.0 (2;146)
+DATA #2 : File name, 10 bytes
+sqluedus.C
+
+2017-02-09-21.30.10.348862+000 I432149190E749        LEVEL: Error
+PID     : 21775                TID : 140155453171456 PROC : db2sysc 0
+INSTANCE: db2inst1             NODE : 000            DB   : MYDATABASE
+APPHDL  : 0-365                APPID: *LOCAL.db2inst1.170209192249
+AUTHID  : PANC                 HOSTNAME: remote.server.host.name
+EDUID   : 91                   EDUNAME: db2lcfm1 0
+FUNCTION: DB2 UDB, database utilities, sqluCRidder::iCleanUp, probe:1173
+MESSAGE : ZRC=0x82150056=-2112552874=SQLU_TERM_DIE_NOW
+          "Load EDU termination requested"
+DATA #1 : LOADID, PD_TYPE_LOADID, 47 bytes
+LOADID: 71.2017-02-09-19.22.49.916676.0 (2;146)
+DATA #2 : File name, 10 bytes
+sqlulrid.C
+DATA #3 : ZRC, PD_TYPE_ZRC, 4 bytes
+0x82150056
+
+2017-02-09-21.30.10.349254+000 I432149940E1056       LEVEL: Error
+PID     : 21775                TID : 140155453171456 PROC : db2sysc 0
+INSTANCE: db2inst1             NODE : 000
+HOSTNAME: remote.server.host.name
+EDUID   : 91                   EDUNAME: db2lcfm1 0
+FUNCTION: DB2 UDB, database utilities, sqluTermRidder, probe:3730
+MESSAGE : ZRC=0x8015006D=-2146107283=SQLU_CA_BUILT
+          "SQLCA has already been built"
+DATA #1 : LOADID, PD_TYPE_LOADID, 47 bytes
+LOADID: 71.2017-02-09-19.22.49.916676.0 (2;146)
+DATA #2 : String, 84 bytes
+Error detected, but we were not originator so not sending it back to the coordinator
+DATA #3 : SQLCA, PD_DB2_TYPE_SQLCA, 136 bytes
+ sqlcaid : SQLCA     sqlcabc: 136   sqlcode: -3005   sqlerrml: 0
+ sqlerrmc:
+ sqlerrp : SQLCD418
+ sqlerrd : (1) 0x82150056      (2) 0x00000056      (3) 0x00000000
+           (4) 0x00000000      (5) 0x00000000      (6) 0x00000000
+ sqlwarn : (1)      (2)      (3)      (4)        (5)       (6)
+           (7)      (8)      (9)      (10)        (11)
+ sqlstate:
+
+2017-02-09-21.30.10.349494+000 I432150997E620        LEVEL: Error
+PID     : 21775                TID : 140155453171456 PROC : db2sysc 0
+INSTANCE: db2inst1             NODE : 000
+HOSTNAME: remote.server.host.name
+EDUID   : 91                   EDUNAME: db2lcfm1 0
+FUNCTION: DB2 UDB, database utilities, sqluCRidder::iCleanUp, probe:1184
+MESSAGE : ZRC=0x8015006D=-2146107283=SQLU_CA_BUILT
+          "SQLCA has already been built"
+DATA #1 : LOADID, PD_TYPE_LOADID, 47 bytes
+LOADID: 71.2017-02-09-19.22.49.916676.0 (2;146)
+DATA #2 : File name, 10 bytes
+sqlulrid.C
+DATA #3 : ZRC, PD_TYPE_ZRC, 4 bytes
+0x8015006D
+
+2017-02-09-21.30.10.349756+000 I432151618E620        LEVEL: Error
+PID     : 21775                TID : 140155453171456 PROC : db2sysc 0
+INSTANCE: db2inst1             NODE : 000
+HOSTNAME: remote.server.host.name
+EDUID   : 91                   EDUNAME: db2lcfm1 0
+FUNCTION: DB2 UDB, database utilities, sqluCRidder::iCleanUp, probe:1187
+MESSAGE : ZRC=0x8015006D=-2146107283=SQLU_CA_BUILT
+          "SQLCA has already been built"
+DATA #1 : LOADID, PD_TYPE_LOADID, 47 bytes
+LOADID: 71.2017-02-09-19.22.49.916676.0 (2;146)
+DATA #2 : File name, 10 bytes
+sqlulrid.C
+DATA #3 : ZRC, PD_TYPE_ZRC, 4 bytes
+0x8015006D
+
+2017-02-09-21.30.10.350011+000 I432152239E616        LEVEL: Error
+PID     : 21775                TID : 140155453171456 PROC : db2sysc 0
+INSTANCE: db2inst1             NODE : 000
+HOSTNAME: remote.server.host.name
+EDUID   : 91                   EDUNAME: db2lcfm1 0
+FUNCTION: DB2 UDB, database utilities, sqluLoadEDUDriver, probe:2885
+MESSAGE : ZRC=0x8015006D=-2146107283=SQLU_CA_BUILT
+          "SQLCA has already been built"
+DATA #1 : LOADID, PD_TYPE_LOADID, 47 bytes
+LOADID: 71.2017-02-09-19.22.49.916676.0 (2;146)
+DATA #2 : File name, 10 bytes
+sqluedus.C
+DATA #3 : ZRC, PD_TYPE_ZRC, 4 bytes
+0x82150056
+
+2017-02-09-21.30.10.347927+000 I432152856E662        LEVEL: Error
+PID     : 21775                TID : 140155436394240 PROC : db2sysc 0
+INSTANCE: db2inst1             NODE : 000            DB   : MYDATABASE
+APPHDL  : 0-365                APPID: *LOCAL.db2inst1.170209192249
+AUTHID  : PANC                 HOSTNAME: remote.server.host.name
+EDUID   : 95                   EDUNAME: db2lcfm5 0
+FUNCTION: DB2 UDB, database utilities, sqluReportErrToDiag, probe:0
+DATA #1 : String, 166 bytes
+LOADID: 71.2017-02-09-19.22.49.916676.0 (2;146)
+LoadTableAccessor::writePage encountered an error , -2112552874, 0x4, Detected in file:LoadTableAccessor.cpp, Line:763
+
+2017-02-09-21.30.10.351684+000 I432153519E650        LEVEL: Error
+PID     : 21775                TID : 140155436394240 PROC : db2sysc 0
+INSTANCE: db2inst1             NODE : 000            DB   : MYDATABASE
+APPHDL  : 0-365                APPID: *LOCAL.db2inst1.170209192249
+AUTHID  : PANC                 HOSTNAME: remote.server.host.name
+EDUID   : 95                   EDUNAME: db2lcfm5 0
+FUNCTION: DB2 UDB, database utilities, sqluReportErrToDiag, probe:0
+DATA #1 : String, 154 bytes
+LOADID: 71.2017-02-09-19.22.49.916676.0 (2;146)
+sqluWriteCDETuplets: addColumnGroupTuplets , 4, 0xffffffff82150056, Detected in file:sqlu_cfmt.C, Line:476
+
+2017-02-09-21.30.10.351920+000 I432154170E625        LEVEL: Error
+PID     : 21775                TID : 140155436394240 PROC : db2sysc 0
+INSTANCE: db2inst1             NODE : 000            DB   : MYDATABASE
+APPHDL  : 0-365                APPID: *LOCAL.db2inst1.170209192249
+AUTHID  : PANC                 HOSTNAME: remote.server.host.name
+EDUID   : 95                   EDUNAME: db2lcfm5 0
+FUNCTION: DB2 UDB, database utilities, sqluReportErrToDiag, probe:0
+DATA #1 : String, 129 bytes
+LOADID: 71.2017-02-09-19.22.49.916676.0 (2;146)
+Processing assignment , -2112552874, 0x2, Detected in file:sqlu_cfmt.C, Line:1876
+
+2017-02-09-21.30.10.352139+000 I432154796E638        LEVEL: Error
+PID     : 21775                TID : 140155436394240 PROC : db2sysc 0
+INSTANCE: db2inst1             NODE : 000            DB   : MYDATABASE
+APPHDL  : 0-365                APPID: *LOCAL.db2inst1.170209192249
+AUTHID  : PANC                 HOSTNAME: remote.server.host.name
+EDUID   : 95                   EDUNAME: db2lcfm5 0
+FUNCTION: DB2 UDB, database utilities, sqluReportErrToDiag, probe:0
+DATA #1 : String, 142 bytes
+LOADID: 71.2017-02-09-19.22.49.916676.0 (2;146)
+sqluRunCDESecondaryColumnFormatter , -2112552874, (nil), Detected in file:sqlulrid.C, Line:916
+
+2017-02-09-21.30.10.352353+000 I432155435E698        LEVEL: Error
+PID     : 21775                TID : 140155436394240 PROC : db2sysc 0
+INSTANCE: db2inst1             NODE : 000            DB   : MYDATABASE
+APPHDL  : 0-365                APPID: *LOCAL.db2inst1.170209192249
+AUTHID  : PANC                 HOSTNAME: remote.server.host.name
+EDUID   : 95                   EDUNAME: db2lcfm5 0
+FUNCTION: DB2 UDB, database utilities, sqluLoadEDUDriver, probe:2878
+MESSAGE : ZRC=0x82150056=-2112552874=SQLU_TERM_DIE_NOW
+          "Load EDU termination requested"
+DATA #1 : LOADID, PD_TYPE_LOADID, 47 bytes
+LOADID: 71.2017-02-09-19.22.49.916676.0 (2;146)
+DATA #2 : File name, 10 bytes
+sqluedus.C
+
+2017-02-09-21.30.10.352645+000 I432156134E749        LEVEL: Error
+PID     : 21775                TID : 140155436394240 PROC : db2sysc 0
+INSTANCE: db2inst1             NODE : 000            DB   : MYDATABASE
+APPHDL  : 0-365                APPID: *LOCAL.db2inst1.170209192249
+AUTHID  : PANC                 HOSTNAME: remote.server.host.name
+EDUID   : 95                   EDUNAME: db2lcfm5 0
+FUNCTION: DB2 UDB, database utilities, sqluCRidder::iCleanUp, probe:1173
+MESSAGE : ZRC=0x82150056=-2112552874=SQLU_TERM_DIE_NOW
+          "Load EDU termination requested"
+DATA #1 : LOADID, PD_TYPE_LOADID, 47 bytes
+LOADID: 71.2017-02-09-19.22.49.916676.0 (2;146)
+DATA #2 : File name, 10 bytes
+sqlulrid.C
+DATA #3 : ZRC, PD_TYPE_ZRC, 4 bytes
+0x82150056
+
+2017-02-09-21.30.10.353032+000 I432156884E1056       LEVEL: Error
+PID     : 21775                TID : 140155436394240 PROC : db2sysc 0
+INSTANCE: db2inst1             NODE : 000
+HOSTNAME: remote.server.host.name
+EDUID   : 95                   EDUNAME: db2lcfm5 0
+FUNCTION: DB2 UDB, database utilities, sqluTermRidder, probe:3730
+MESSAGE : ZRC=0x8015006D=-2146107283=SQLU_CA_BUILT
+          "SQLCA has already been built"
+DATA #1 : LOADID, PD_TYPE_LOADID, 47 bytes
+LOADID: 71.2017-02-09-19.22.49.916676.0 (2;146)
+DATA #2 : String, 84 bytes
+Error detected, but we were not originator so not sending it back to the coordinator
+DATA #3 : SQLCA, PD_DB2_TYPE_SQLCA, 136 bytes
+ sqlcaid : SQLCA     sqlcabc: 136   sqlcode: -3005   sqlerrml: 0
+ sqlerrmc:
+ sqlerrp : SQLCD418
+ sqlerrd : (1) 0x82150056      (2) 0x00000056      (3) 0x00000000
+           (4) 0x00000000      (5) 0x00000000      (6) 0x00000000
+ sqlwarn : (1)      (2)      (3)      (4)        (5)       (6)
+           (7)      (8)      (9)      (10)        (11)
+ sqlstate:
+
+2017-02-09-21.30.10.353271+000 I432157941E620        LEVEL: Error
+PID     : 21775                TID : 140155436394240 PROC : db2sysc 0
+INSTANCE: db2inst1             NODE : 000
+HOSTNAME: remote.server.host.name
+EDUID   : 95                   EDUNAME: db2lcfm5 0
+FUNCTION: DB2 UDB, database utilities, sqluCRidder::iCleanUp, probe:1184
+MESSAGE : ZRC=0x8015006D=-2146107283=SQLU_CA_BUILT
+          "SQLCA has already been built"
+DATA #1 : LOADID, PD_TYPE_LOADID, 47 bytes
+LOADID: 71.2017-02-09-19.22.49.916676.0 (2;146)
+DATA #2 : File name, 10 bytes
+sqlulrid.C
+DATA #3 : ZRC, PD_TYPE_ZRC, 4 bytes
+0x8015006D
+
+2017-02-09-21.30.10.353527+000 I432158562E620        LEVEL: Error
+PID     : 21775                TID : 140155436394240 PROC : db2sysc 0
+INSTANCE: db2inst1             NODE : 000
+HOSTNAME: remote.server.host.name
+EDUID   : 95                   EDUNAME: db2lcfm5 0
+FUNCTION: DB2 UDB, database utilities, sqluCRidder::iCleanUp, probe:1187
+MESSAGE : ZRC=0x8015006D=-2146107283=SQLU_CA_BUILT
+          "SQLCA has already been built"
+DATA #1 : LOADID, PD_TYPE_LOADID, 47 bytes
+LOADID: 71.2017-02-09-19.22.49.916676.0 (2;146)
+DATA #2 : File name, 10 bytes
+sqlulrid.C
+DATA #3 : ZRC, PD_TYPE_ZRC, 4 bytes
+0x8015006D
+
+2017-02-09-21.30.10.353780+000 I432159183E616        LEVEL: Error
+PID     : 21775                TID : 140155436394240 PROC : db2sysc 0
+INSTANCE: db2inst1             NODE : 000
+HOSTNAME: remote.server.host.name
+EDUID   : 95                   EDUNAME: db2lcfm5 0
+FUNCTION: DB2 UDB, database utilities, sqluLoadEDUDriver, probe:2885
+MESSAGE : ZRC=0x8015006D=-2146107283=SQLU_CA_BUILT
+          "SQLCA has already been built"
+DATA #1 : LOADID, PD_TYPE_LOADID, 47 bytes
+LOADID: 71.2017-02-09-19.22.49.916676.0 (2;146)
+DATA #2 : File name, 10 bytes
+sqluedus.C
+DATA #3 : ZRC, PD_TYPE_ZRC, 4 bytes
+0x82150056
+
+2017-02-09-21.30.10.444784+000 I432159800E1056       LEVEL: Error
+PID     : 21775                TID : 140155457365760 PROC : db2sysc 0
+INSTANCE: db2inst1             NODE : 000
+HOSTNAME: remote.server.host.name
+EDUID   : 90                   EDUNAME: db2lcfm0 0
+FUNCTION: DB2 UDB, database utilities, sqluTermRidder, probe:3730
+MESSAGE : ZRC=0x8015006D=-2146107283=SQLU_CA_BUILT
+          "SQLCA has already been built"
+DATA #1 : LOADID, PD_TYPE_LOADID, 47 bytes
+LOADID: 71.2017-02-09-19.22.49.916676.0 (2;146)
+DATA #2 : String, 84 bytes
+Error detected, but we were not originator so not sending it back to the coordinator
+DATA #3 : SQLCA, PD_DB2_TYPE_SQLCA, 136 bytes
+ sqlcaid : SQLCA     sqlcabc: 136   sqlcode: -3005   sqlerrml: 0
+ sqlerrmc:
+ sqlerrp : SQLULRID
+ sqlerrd : (1) 0x82150056      (2) 0x00000056      (3) 0x00000000
+           (4) 0x00000000      (5) 0x00000000      (6) 0x00000000
+ sqlwarn : (1)      (2)      (3)      (4)        (5)       (6)
+           (7)      (8)      (9)      (10)        (11)
+ sqlstate:
+
+2017-02-09-21.30.10.445074+000 I432160857E620        LEVEL: Error
+PID     : 21775                TID : 140155457365760 PROC : db2sysc 0
+INSTANCE: db2inst1             NODE : 000
+HOSTNAME: remote.server.host.name
+EDUID   : 90                   EDUNAME: db2lcfm0 0
+FUNCTION: DB2 UDB, database utilities, sqluCRidder::iCleanUp, probe:1184
+MESSAGE : ZRC=0x8015006D=-2146107283=SQLU_CA_BUILT
+          "SQLCA has already been built"
+DATA #1 : LOADID, PD_TYPE_LOADID, 47 bytes
+LOADID: 71.2017-02-09-19.22.49.916676.0 (2;146)
+DATA #2 : File name, 10 bytes
+sqlulrid.C
+DATA #3 : ZRC, PD_TYPE_ZRC, 4 bytes
+0x82150056
+
+2017-02-09-21.30.10.445339+000 I432161478E626        LEVEL: Error
+PID     : 21775                TID : 140155457365760 PROC : db2sysc 0
+INSTANCE: db2inst1             NODE : 000
+HOSTNAME: remote.server.host.name
+EDUID   : 90                   EDUNAME: db2lcfm0 0
+FUNCTION: DB2 UDB, database utilities, sqluCRidder::iCleanUp, probe:1187
+MESSAGE : ZRC=0x82150056=-2112552874=SQLU_TERM_DIE_NOW
+          "Load EDU termination requested"
+DATA #1 : LOADID, PD_TYPE_LOADID, 47 bytes
+LOADID: 71.2017-02-09-19.22.49.916676.0 (2;146)
+DATA #2 : File name, 10 bytes
+sqlulrid.C
+DATA #3 : ZRC, PD_TYPE_ZRC, 4 bytes
+0x82150056
+
+2017-02-09-21.30.10.445596+000 I432162105E622        LEVEL: Error
+PID     : 21775                TID : 140155457365760 PROC : db2sysc 0
+INSTANCE: db2inst1             NODE : 000
+HOSTNAME: remote.server.host.name
+EDUID   : 90                   EDUNAME: db2lcfm0 0
+FUNCTION: DB2 UDB, database utilities, sqluLoadEDUDriver, probe:2885
+MESSAGE : ZRC=0x82150056=-2112552874=SQLU_TERM_DIE_NOW
+          "Load EDU termination requested"
+DATA #1 : LOADID, PD_TYPE_LOADID, 47 bytes
+LOADID: 71.2017-02-09-19.22.49.916676.0 (2;146)
+DATA #2 : File name, 10 bytes
+sqluedus.C
+DATA #3 : ZRC, PD_TYPE_ZRC, 4 bytes
+0x82150056
+
+2017-02-09-21.30.11.495787+000 I432162728E591        LEVEL: Severe
+PID     : 21775                TID : 140195424888576 PROC : db2sysc 0
+INSTANCE: db2inst1             NODE : 000            DB   : MYDATABASE
+APPHDL  : 0-365                APPID: *LOCAL.db2inst1.170209192249
+AUTHID  : PANC                 HOSTNAME: remote.server.host.name
+EDUID   : 71                   EDUNAME: db2agent (MYDATABASE) 0
+FUNCTION: DB2 UDB, database utilities, call_sqluvload, probe:1832
+MESSAGE : Load Error: Load failed for table
+          DIABETES_V3_2.COMM_OUTPATIENT_SERVICES_T2DM in tablespace 2.
+
+2017-02-09-21.30.11.496066+000 I432163320E638        LEVEL: Error
+PID     : 21775                TID : 140195424888576 PROC : db2sysc 0
+INSTANCE: db2inst1             NODE : 000            DB   : MYDATABASE
+APPHDL  : 0-365                APPID: *LOCAL.db2inst1.170209192249
+AUTHID  : PANC                 HOSTNAME: remote.server.host.name
+EDUID   : 71                   EDUNAME: db2agent (MYDATABASE) 0
+FUNCTION: DB2 UDB, database utilities, sqluReportErrToDiag, probe:0
+DATA #1 : String, 133 bytes
+LOADID: 71.2017-02-09-19.22.49.916676.0 (2;146)
+Error loading partition. , -2146107283, (nil), Detected in file:sqluvtld.C, Line:4240
+
+2017-02-09-21.30.11.496294+000 I432163959E525        LEVEL: Severe
+PID     : 21775                TID : 140195424888576 PROC : db2sysc 0
+INSTANCE: db2inst1             NODE : 000            DB   : MYDATABASE
+APPHDL  : 0-365                APPID: *LOCAL.db2inst1.170209192249
+AUTHID  : PANC                 HOSTNAME: remote.server.host.name
+EDUID   : 71                   EDUNAME: db2agent (MYDATABASE) 0
+FUNCTION: DB2 UDB, database utilities, sqluLoadPartition, probe:4235
+MESSAGE : Load Error: Error loading partition.
+
+2017-02-09-21.30.11.496482+000 I432164485E638        LEVEL: Error
+PID     : 21775                TID : 140195424888576 PROC : db2sysc 0
+INSTANCE: db2inst1             NODE : 000            DB   : MYDATABASE
+APPHDL  : 0-365                APPID: *LOCAL.db2inst1.170209192249
+AUTHID  : PANC                 HOSTNAME: remote.server.host.name
+EDUID   : 71                   EDUNAME: db2agent (MYDATABASE) 0
+FUNCTION: DB2 UDB, database utilities, sqluReportErrToDiag, probe:0
+DATA #1 : String, 133 bytes
+LOADID: 71.2017-02-09-19.22.49.916676.0 (2;146)
+Error loading partition. , -2146107283, (nil), Detected in file:sqluvtld.C, Line:1215
+
+2017-02-09-21.30.11.517014+000 I432165124E524        LEVEL: Warning
+PID     : 21775                TID : 140195424888576 PROC : db2sysc 0
+INSTANCE: db2inst1             NODE : 000            DB   : MYDATABASE
+APPHDL  : 0-365                APPID: *LOCAL.db2inst1.170209192249
+AUTHID  : PANC                 HOSTNAME: remote.server.host.name
+EDUID   : 71                   EDUNAME: db2agent (MYDATABASE) 0
+FUNCTION: DB2 UDB, relation data serv, sqlrrbck, probe:100
+MESSAGE : SQLEU_FLAG1_FORCE_RBK is set, doing rollback
+
+2017-02-09-21.30.13.131867+000 I432165649E616        LEVEL: Error
+PID     : 21775                TID : 140195424888576 PROC : db2sysc 0
+INSTANCE: db2inst1             NODE : 000            DB   : MYDATABASE
+APPHDL  : 0-365                APPID: *LOCAL.db2inst1.170209192249
+AUTHID  : PANC                 HOSTNAME: remote.server.host.name
+EDUID   : 71                   EDUNAME: db2agent (MYDATABASE) 0
+FUNCTION: DB2 UDB, database utilities, sqluReportErrToDiag, probe:0
+DATA #1 : String, 111 bytes
+LOADID: 71.2017-02-09-19.22.49.916676.0 (2;146)
+sqluv_rollback , 0, 0x93, Detected in file:sqluvutl.C, Line:971
+
+2017-02-09-21.30.13.132381+000 I432166266E532        LEVEL: Severe
+PID     : 21775                TID : 140195424888576 PROC : db2sysc 0
+INSTANCE: db2inst1             NODE : 000            DB   : MYDATABASE
+APPHDL  : 0-365                APPID: *LOCAL.db2inst1.170209192249
+AUTHID  : PANC                 HOSTNAME: remote.server.host.name
+EDUID   : 71                   EDUNAME: db2agent (MYDATABASE) 0
+FUNCTION: DB2 UDB, database utilities, sqlu_register_table_load, probe:1211
+MESSAGE : Load Error: Error loading partition.
+
+2017-02-09-21.30.13.132618+000 I432166799E623        LEVEL: Warning
+PID     : 21775                TID : 140195424888576 PROC : db2sysc 0
+INSTANCE: db2inst1             NODE : 000            DB   : MYDATABASE
+APPHDL  : 0-365                APPID: *LOCAL.db2inst1.170209192249
+AUTHID  : PANC                 HOSTNAME: remote.server.host.name
+EDUID   : 71                   EDUNAME: db2agent (MYDATABASE) 0
+FUNCTION: DB2 UDB, database utilities, sqluvtld_route_in, probe:1399
+DATA #1 : LOADID, PD_TYPE_LOADID, 47 bytes
+LOADID: 71.2017-02-09-19.22.49.916676.0 (2;146)
+DATA #2 : String, 25 bytes
+Completed LOAD operation.
+
+2017-02-09-21.30.17.639820+000 I432167423E372        LEVEL: Event
+PID     : 21848                TID : 140574446913280 PROC : db2acd 0
+INSTANCE: db2inst1             NODE : 000
+HOSTNAME: remote.server.host.name
+FUNCTION: DB2 UDB, Health Monitor, db2HmonEvalReorg, probe:1230
+STOP    : Automatic reorg evaluation has finished successfully on database MYDATABASE
+
+2017-02-09-21.30.18.352489+000 E432167796E612        LEVEL: Info
+PID     : 21775                TID : 140195424888576 PROC : db2sysc 0
+INSTANCE: db2inst1             NODE : 000            DB   : MYDATABASE
+APPHDL  : 0-365                APPID: *LOCAL.db2inst1.170209192249
+AUTHID  : PANC                 HOSTNAME: remote.server.host.name
+EDUID   : 71                   EDUNAME: db2agent (MYDATABASE) 0
+FUNCTION: DB2 UDB, buffer pool services, sqlbCleanupBeforeTerm, probe:8024
+DATA #1 : SQLP_LSN8, PD_TYPE_SQLP_LSN8, 8 bytes
+00000000D472725C
+DATA #2 : SQLP_LSN8, PD_TYPE_SQLP_LSN8, 8 bytes
+00000000D472725C
+
+2017-02-09-21.30.18.417204+000 E432168409E992        LEVEL: Info
+PID     : 21775                TID : 140195605243648 PROC : db2sysc 0
+INSTANCE: db2inst1             NODE : 000            DB   : MYDATABASE
+HOSTNAME: remote.server.host.name
+EDUID   : 28                   EDUNAME: db2loggr (MYDATABASE) 0
+FUNCTION: DB2 UDB, data protection services, sqlpghck, probe:2820
+DATA #1 : <preformatted>
+Log stream 0 has been marked consistent.
+                 Head Extent ID: 0
+           Group Head Extent ID: 0
+                    Startup LSO: 0
+                       Base LSO: 2876610783169
+            Last Log Record LSO: 2876605280769
+            Last Log Record LSN: 00000000D472725B
+                       Next LSN: 00000000D472725C
+                    Lowtran LSN: 00000000D472725C
+                    Minbuff LSN: 00000000D472725C
+                       Head LSN: 00000000D472725C
+                 Group Head LSN: 00000000D472725C
+              Group Minbuff LSN: 00000000D472725C
+
+2017-02-09-21.30.18.425514+000 E432169402E478        LEVEL: Info
+PID     : 21775                TID : 140195605243648 PROC : db2sysc 0
+INSTANCE: db2inst1             NODE : 000            DB   : MYDATABASE
+HOSTNAME: remote.server.host.name
+EDUID   : 28                   EDUNAME: db2loggr (MYDATABASE) 0
+FUNCTION: DB2 UDB, data protection services, sqlpghck, probe:2889
+DATA #1 : <preformatted>
+Database has been marked consistent.
+                  Log File Size: 20000
+
+2017-02-09-21.30.21.834290+000 E432169881E549        LEVEL: Event
+PID     : 21775                TID : 140195424888576 PROC : db2sysc 0
+INSTANCE: db2inst1             NODE : 000            DB   : MYDATABASE
+APPHDL  : 0-365                APPID: *LOCAL.db2inst1.170209192249
+AUTHID  : PANC                 HOSTNAME: remote.server.host.name
+EDUID   : 71                   EDUNAME: db2agent (idle) 0
+FUNCTION: DB2 UDB, base sys utilities, sqeLocalDatabase::FreeResourcesOnDBShutdown, probe:15912
+STOP    : DATABASE: MYDATABASE   : DEACTIVATED: NO
+
+2017-02-09-23.15.53.474104+000 I432170431E704        LEVEL: Event
+PID     : 21775                TID : 140195424888576 PROC : db2sysc 0
+INSTANCE: db2inst1             NODE : 000            DB   : MYDATABASE
+APPHDL  : 0-545                APPID: 9.80.196.58.62516.170209231553
+AUTHID  : MADURIC              HOSTNAME: remote.server.host.name
+EDUID   : 71                   EDUNAME: db2agent (MYDATABASE) 0
+FUNCTION: DB2 UDB, base sys utilities, sqleCalculateDbHeaps, probe:70
+MESSAGE :  RLMS - DB Memory Set for Resident Member
+DATA #1 : String, 10 bytes
+totalBytes
+DATA #2 : unsigned integer, 8 bytes
+33643102208
+DATA #3 : String, 11 bytes
+dbHeapBytes
+DATA #4 : unsigned integer, 8 bytes
+159842304
+
+2017-02-09-23.15.53.499916+000 I432171136E578        LEVEL: Event
+PID     : 21775                TID : 140195424888576 PROC : db2sysc 0
+INSTANCE: db2inst1             NODE : 000            DB   : MYDATABASE
+APPHDL  : 0-545                APPID: 9.80.196.58.62516.170209231553
+AUTHID  : MADURIC              HOSTNAME: remote.server.host.name
+EDUID   : 71                   EDUNAME: db2agent (MYDATABASE) 0
+FUNCTION: DB2 UDB, config/install, sqlfLogUpdateCfgParam, probe:20
+CHANGE  : CFG DB MYDATABASE  : "Database_memory" From: "9128213" <automatic>  To: "9035024" <automatic>
+
+2017-02-09-23.15.54.193803+000 E432171715E801        LEVEL: Info
+PID     : 21775                TID : 140195424888576 PROC : db2sysc 0
+INSTANCE: db2inst1             NODE : 000            DB   : MYDATABASE
+APPHDL  : 0-545                APPID: 9.80.196.58.62516.170209231553
+AUTHID  : MADURIC              HOSTNAME: remote.server.host.name
+EDUID   : 71                   EDUNAME: db2agent (MYDATABASE) 0
+FUNCTION: DB2 UDB, data protection services, sqlpinit, probe:1500
+DATA #1 : <preformatted>
+Database is starting up with the following values:
+                 Head Extent ID: 0
+                  Log File Size: 20000
+                    Startup Lso: 0
+                       Base Lso: 2876610783169
+            Last Log Record Lso: 2876605280769
+ Current Write Log Extent Limit: 2876692303169
+
+2017-02-09-23.16.02.465028+000 I432172517E553        LEVEL: Event
+PID     : 21775                TID : 140195424888576 PROC : db2sysc 0
+INSTANCE: db2inst1             NODE : 000            DB   : MYDATABASE
+APPHDL  : 0-545                APPID: 9.80.196.58.62516.170209231553
+AUTHID  : MADURIC              HOSTNAME: remote.server.host.name
+EDUID   : 71                   EDUNAME: db2agent (MYDATABASE) 0
+FUNCTION: DB2 UDB, catcache support, sqlrlc_catcache_init, probe:260
+MESSAGE : Catalog cache size:
+DATA #1 : unsigned integer, 8 bytes
+1507328
+
+2017-02-09-23.16.02.534637+000 E432173071E537        LEVEL: Event
+PID     : 21775                TID : 140195424888576 PROC : db2sysc 0
+INSTANCE: db2inst1             NODE : 000            DB   : MYDATABASE
+APPHDL  : 0-545                APPID: 9.80.196.58.62516.170209231553
+AUTHID  : MADURIC              HOSTNAME: remote.server.host.name
+EDUID   : 71                   EDUNAME: db2agent (MYDATABASE) 0
+FUNCTION: DB2 UDB, base sys utilities, sqeLocalDatabase::FirstConnect, probe:1000
+START   : DATABASE: MYDATABASE   : ACTIVATED: NO
+
+2017-02-09-23.16.04.826150+000 I432173609E586        LEVEL: Warning
+PID     : 21775                TID : 140195424888576 PROC : db2sysc 0
+INSTANCE: db2inst1             NODE : 000            DB   : MYDATABASE
+APPHDL  : 0-545                APPID: 9.80.196.58.62516.170209231553
+AUTHID  : MADURIC              HOSTNAME: remote.server.host.name
+EDUID   : 71                   EDUNAME: db2agent (MYDATABASE) 0
+FUNCTION: DB2 UDB, base sys utilities, sqeLocalDatabase::StartBackgroundAgents, probe:17758
+DATA #1 : <preformatted>
+Perform ABP Start and cat_nodenum is 0, my node num is 0
+
+2017-02-09-23.16.04.885233+000 I432174196E497        LEVEL: Severe
+PID     : 21775                TID : 140195424888576 PROC : db2sysc 0
+INSTANCE: db2inst1             NODE : 000            DB   : MYDATABASE
+APPHDL  : 0-545                APPID: 9.80.196.58.62516.170209231553
+AUTHID  : MADURIC              HOSTNAME: remote.server.host.name
+EDUID   : 71                   EDUNAME: db2agent (MYDATABASE) 0
+FUNCTION: DB2 UDB, data protection services, sqlpCTSDaemonStartIfNecessary, probe:488
+
+2017-02-09-23.17.04.859725+000 I432174694E575        LEVEL: Event
+PID     : 21775                TID : 140155256039168 PROC : db2sysc 0
+INSTANCE: db2inst1             NODE : 000            DB   : MYDATABASE
+APPHDL  : 0-546                APPID: *LOCAL.DB2.170209231604
+AUTHID  : MADURIC              HOSTNAME: remote.server.host.name
+EDUID   : 74                   EDUNAME: db2stmm (MYDATABASE) 0
+FUNCTION: DB2 UDB, config/install, sqlfLogUpdateCfgParam, probe:20
+CHANGE  : STMM CFG DB MYDATABASE  : "Database_memory" From: "9035024" <automatic>  To: "9128213" <automatic>
+
+2017-02-10-01.10.36.677268+000 I432175270E356        LEVEL: Event
+PID     : 21848                TID : 140574427899648 PROC : db2acd 0
+INSTANCE: db2inst1             NODE : 000
+HOSTNAME: remote.server.host.name
+FUNCTION: DB2 UDB, Health Monitor, db2HmonEvalReorg, probe:10
+START   : Automatic reorg evaluation has started on database MYDATABASE
+
+2017-02-10-01.10.44.590576+000 I432175627E372        LEVEL: Event
+PID     : 21848                TID : 140574427899648 PROC : db2acd 0
+INSTANCE: db2inst1             NODE : 000
+HOSTNAME: remote.server.host.name
+FUNCTION: DB2 UDB, Health Monitor, db2HmonEvalReorg, probe:1230
+STOP    : Automatic reorg evaluation has finished successfully on database MYDATABASE
